@@ -1,0 +1,290 @@
+/* =========================================================
+   STYLE.CSS - PLK UNY MENGABDI / KKN WEBSITE
+   Theme: Modern Forest Green & Soft Sage (Mockup Aligned)
+   Features: High-aesthetic Hero, Clean Cards, Carousel, Modal
+   ========================================================= */
+
+:root {
+  --color-forest: #162F24;
+  --color-forest-dark: #0F231A;
+  --color-forest-hover: #10241B;
+  --color-forest-light: #254F3B;
+  --color-sage: #EBF1EC;
+  --color-sage-light: #F4F7F5;
+  --color-sage-border: #D3DFD6;
+  --color-surface: #FFFFFF;
+  --color-canvas: #F7FAF8;
+  --color-ink: #111827;
+  --color-muted: #4B5563;
+  --color-subtle: #6B7280;
+}
+
+/* Seleksi Teks dengan Aksen Forest Green */
+::selection {
+  background-color: #162F24;
+  color: #FFFFFF;
+}
+
+/* =========================================================
+   1. HERO BANNER WITH OVERLAY
+   ========================================================= */
+.hero-mockup-bg {
+  background-image: linear-gradient(
+      90deg,
+      rgba(15, 31, 23, 0.94) 0%,
+      rgba(15, 31, 23, 0.88) 36%,
+      rgba(15, 31, 23, 0.45) 70%,
+      rgba(15, 31, 23, 0.1) 100%
+    ),
+    url('assets/images/hero.jpg');
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .hero-mockup-bg {
+    background-image: linear-gradient(
+        180deg,
+        rgba(15, 31, 23, 0.92) 0%,
+        rgba(15, 31, 23, 0.88) 60%,
+        rgba(15, 31, 23, 0.6) 100%
+      ),
+      url('assets/images/hero.jpg');
+    background-position: center;
+  }
+}
+
+/* =========================================================
+   2. GLASSMORPHISM CARDS & CAROUSEL SHADOWS
+   ========================================================= */
+/* Universal Glassmorphism Card Style */
+.glass-card {
+  background: rgba(255, 255, 255, 0.82) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.85) !important;
+  box-shadow: 0 12px 32px -8px rgba(15, 31, 23, 0.08),
+              0 2px 6px 0 rgba(22, 47, 36, 0.04) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(22, 47, 36, 0.25) !important;
+  box-shadow: 0 20px 40px -10px rgba(15, 31, 23, 0.16),
+              0 4px 12px 0 rgba(22, 47, 36, 0.06) !important;
+}
+
+/* Glassmorphism khusus pilar/sektor yang ada di canvas */
+.glass-card-subtle {
+  background: rgba(255, 255, 255, 0.75) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(22, 47, 36, 0.12) !important;
+  box-shadow: 0 10px 24px -8px rgba(15, 31, 23, 0.06) !important;
+  transition: all 0.3s ease;
+}
+
+.glass-card-subtle:hover {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-color: var(--color-forest) !important;
+  box-shadow: 0 16px 32px -8px rgba(15, 31, 23, 0.12) !important;
+  transform: translateY(-2px);
+}
+
+/* Kartu Profil Tim & Galeri Kegiatan Carousel 3D */
+.card-glass-tim {
+  width: 270px !important;
+  max-width: 270px !important;
+  height: 390px !important;
+  flex-shrink: 0 !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(22, 47, 36, 0.15) !important;
+  border-radius: 1.25rem !important;
+  box-shadow: 0 12px 28px -8px rgba(15, 31, 23, 0.10),
+              0 2px 6px 0 rgba(22, 47, 36, 0.04) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transform-origin: center center;
+  will-change: transform, opacity;
+}
+
+@media (min-width: 640px) {
+  .card-glass-tim {
+    width: 285px !important;
+    max-width: 285px !important;
+    height: 405px !important;
+  }
+}
+
+.card-glass-tim.is-center-card {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border-color: rgba(22, 47, 36, 0.38) !important;
+  box-shadow: 0 24px 48px -12px rgba(15, 31, 23, 0.22),
+              0 6px 18px -2px rgba(22, 47, 36, 0.12) !important;
+}
+
+.card-glass-tim:hover {
+  background: #FFFFFF !important;
+  border-color: var(--color-forest) !important;
+  box-shadow: 0 22px 44px -10px rgba(22, 47, 36, 0.24) !important;
+}
+
+.card-glass-tim:focus-visible {
+  outline: 2px solid var(--color-forest) !important;
+  outline-offset: 2px;
+}
+
+.card-glass-tim .foto-box-glass {
+  background: rgba(244, 247, 245, 0.85);
+  border: 1px solid rgba(22, 47, 36, 0.1);
+  border-radius: 0.875rem !important;
+}
+
+/* Kartu Galeri Carousel */
+.card-gallery-item {
+  width: 300px;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 30px -8px rgba(15, 31, 23, 0.1),
+              0 2px 6px 0 rgba(22, 47, 36, 0.05);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .card-gallery-item {
+    width: 340px;
+  }
+}
+
+.card-gallery-item:hover {
+  transform: translateY(-6px);
+  background: #FFFFFF;
+  border-color: rgba(22, 47, 36, 0.3);
+  box-shadow: 0 24px 44px -12px rgba(15, 31, 23, 0.22);
+}
+
+/* =========================================================
+   3. FIX SHADOW CLIPPING DI CAROUSEL WRAPPER & CONTAINER
+   ========================================================= */
+.carousel-viewport-fix {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  margin-top: -1.5rem;
+  margin-bottom: -2rem;
+  overflow: hidden;
+}
+
+/* Gradient blur tepi carousel */
+.carousel-edge-fade-left {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.98) 0%,
+    rgba(255, 255, 255, 0.8) 35%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  pointer-events: none;
+}
+
+.carousel-edge-fade-right {
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.98) 0%,
+    rgba(255, 255, 255, 0.8) 35%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  pointer-events: none;
+}
+
+/* Sisi carousel pada background canvas tim */
+.carousel-edge-tim-left {
+  background: linear-gradient(
+    to right,
+    rgba(247, 250, 248, 0.98) 0%,
+    rgba(247, 250, 248, 0.8) 35%,
+    rgba(247, 250, 248, 0) 100%
+  );
+  pointer-events: none;
+}
+
+.carousel-edge-tim-right {
+  background: linear-gradient(
+    to left,
+    rgba(247, 250, 248, 0.98) 0%,
+    rgba(247, 250, 248, 0.8) 35%,
+    rgba(247, 250, 248, 0) 100%
+  );
+  pointer-events: none;
+}
+
+/* =========================================================
+   4. KONTROL TOMBOL BULAT CAROUSEL (GLASSMORPHISM)
+   ========================================================= */
+#carousel-prev,
+#carousel-next,
+#gallery-carousel-prev,
+#gallery-carousel-next {
+  border-radius: 9999px !important;
+  width: 48px !important;
+  height: 48px !important;
+  background: rgba(255, 255, 255, 0.88) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(22, 47, 36, 0.18) !important;
+  color: var(--color-forest) !important;
+  box-shadow: 0 10px 24px -4px rgba(15, 31, 23, 0.15) !important;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+#carousel-prev:hover,
+#carousel-next:hover,
+#gallery-carousel-prev:hover,
+#gallery-carousel-next:hover {
+  background: #FFFFFF !important;
+  border-color: var(--color-forest) !important;
+  color: var(--color-forest) !important;
+  transform: translateY(-50%) scale(1.08) !important;
+  box-shadow: 0 16px 32px -4px rgba(22, 47, 36, 0.25) !important;
+}
+
+/* =========================================================
+   5. MODAL DIALOG DETAIL
+   ========================================================= */
+#modal-box {
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 1.5rem !important;
+  box-shadow: 0 25px 60px -15px rgba(15, 31, 23, 0.35);
+}
+
+#modal-scroll-area::-webkit-scrollbar {
+  width: 6px;
+}
+#modal-scroll-area::-webkit-scrollbar-track {
+  background: transparent;
+}
+#modal-scroll-area::-webkit-scrollbar-thumb {
+  background: #D3DFD6;
+  border-radius: 3px;
+}
+#modal-scroll-area::-webkit-scrollbar-thumb:hover {
+  background: var(--color-forest);
+}
+
+/* =========================================================
+   6. PENGATURAN FOCUS OUTLINES
+   ========================================================= */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-forest);
+  outline-offset: 2px;
+}

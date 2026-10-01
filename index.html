@@ -1,0 +1,2528 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>PLK UNY Mengabdi | Kalurahan [Nama Desa/Mitra]</title>
+
+  <meta name="description"
+    content="Dokumentasi program dan luaran kerja 10 mahasiswa tim Pengabdian Luar Kampus (PLK) Universitas Negeri Yogyakarta di Kalurahan [Nama Desa/Mitra].">
+  <meta name="theme-color" content="#0D2038">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PLK UNY Mengabdi | Kalurahan [Nama Desa/Mitra]">
+  <meta property="og:description"
+    content="Portofolio 272 jam pengabdian terpadu: sistem informasi desa, literasi media, pendampingan sosial, dan publikasi potensi lokal.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://[domain-website-kelompok]">
+
+  <!-- Google Fonts: Newsreader (Editorial Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- File CSS Tambahan (Aksen Navy & Hijau Army, Glassmorphism, Floating Cards) -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              forest: '#162F24',
+              forestDark: '#0F231A',
+              forestHover: '#10241B',
+              forestLight: '#254F3B',
+              sage: '#EBF1EC',
+              sageLight: '#F4F7F5',
+              sageDark: '#D3DFD6',
+              navy: '#162F24',
+              navyDark: '#0F231A',
+              navyLight: '#254F3B',
+              emerald: '#254F3B',
+              emeraldDark: '#162F24',
+              emeraldLight: '#EBF1EC',
+              army: '#254F3B',
+              armyDark: '#162F24',
+              armyLight: '#EBF1EC',
+              canvas: '#F7FAF8',
+              surface: '#FFFFFF',
+              border: '#E2E8E4',
+              borderDark: '#CBD7CE',
+              ink: '#111827',
+              muted: '#4B5563',
+              subtle: '#6B7280'
+            },
+            prodi: {
+              tiBg: '#EDF4FC',
+              tiText: '#184C85',
+              tiBorder: '#C9DEF4',
+              ptiBg: '#E9F5F1',
+              ptiText: '#0D685C',
+              ptiBorder: '#C2E5DC',
+              bkBg: '#F8EFE9',
+              bkText: '#874321',
+              bkBorder: '#ECCDBF',
+              pbiBg: '#EFF5EC',
+              pbiText: '#3B6828',
+              pbiBorder: '#D0E3C8'
+            }
+          },
+          fontFamily: {
+            serif: ['"Plus Jakarta Sans"', 'Newsreader', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Reset & Accessibility defaults */
+    html {
+      font-size: 16px;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background-color: #F7F8F9;
+      color: #111827;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Editorial typography rhythm */
+    .font-editorial {
+      font-family: 'Newsreader', Georgia, serif;
+      letter-spacing: -0.015em;
+    }
+
+    /* Touch target guarantee for mobile */
+    .touch-target {
+      min-height: 44px;
+      min-width: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Subtle deliberate stamp/docket detail */
+    .docket-stamp {
+      transform: rotate(-0.5deg);
+    }
+
+    /* Smooth focus outlines */
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid #0A7B54;
+      outline-offset: 2px;
+    }
+
+    /* Line clamp fallback */
+    .line-clamp-3 {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Modal transitions */
+    .modal-backdrop-transition {
+      transition: opacity 180ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .modal-box-transition {
+      transition: opacity 180ms cubic-bezier(0.16, 1, 0.3, 1), transform 180ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Hide scrollbars for clean track view */
+    #carousel-container::-webkit-scrollbar,
+    #gallery-carousel-container::-webkit-scrollbar {
+      display: none;
+    }
+
+    #carousel-container,
+    #gallery-carousel-container {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      overflow: hidden;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto !important;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+
+      .modal-backdrop-transition,
+      .modal-box-transition {
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="relative selection:bg-brand-emeraldLight selection:text-brand-emeraldDark">
+
+  <!-- =========================================================
+       1. STICKY NAVBAR (Sesuai Mockup)
+       Bersih, minimalis, logo daun/sprout + brand, menu presisi
+       ========================================================= -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-brand-border">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+
+      <!-- Logo Sesuai Mockup -->
+      <a href="#beranda" class="group flex items-center gap-2.5 touch-target text-left">
+        <div class="w-8 h-8 rounded-lg bg-brand-forest flex items-center justify-center text-white shadow-xs">
+          <i data-lucide="sprout" class="w-4 h-4 text-emerald-300"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-sm font-bold tracking-tight text-brand-forest">PLK UNY Mengabdi</span>
+          <span class="text-[10px] text-brand-subtle leading-none">Kalurahan [Nama Desa/Mitra]</span>
+        </div>
+      </a>
+
+      <!-- Nav Desktop Sesuai Mockup -->
+      <nav class="hidden md:flex items-center gap-7 text-xs font-semibold text-brand-muted" aria-label="Navigasi Utama">
+        <a href="#beranda" class="text-brand-forest border-b-2 border-brand-forest pb-0.5 transition-colors">Beranda</a>
+        <a href="#profil-desa" class="hover:text-brand-forest transition-colors py-1">Tentang</a>
+        <a href="#program-kerja" class="hover:text-brand-forest transition-colors py-1">Kegiatan</a>
+        <a href="#dokumentasi" class="hover:text-brand-forest transition-colors py-1">Dokumentasi</a>
+        <a href="#tim" class="hover:text-brand-forest transition-colors py-1">Tim</a>
+      </nav>
+
+      <!-- Tombol Aksi Kanan (Pill Button Sesuai Mockup) -->
+      <div class="flex items-center gap-3">
+        <a href="#kontak"
+          class="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold tracking-wide text-white bg-brand-forest hover:bg-brand-forestDark px-5 py-2 rounded-full transition-all shadow-sm">
+          <span>PLK 2025</span>
+        </a>
+
+        <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"
+          class="md:hidden touch-target p-2 text-brand-forest hover:bg-brand-sage/50 rounded-xl"
+          aria-label="Buka menu navigasi">
+          <i data-lucide="menu" id="menu-icon" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-nav" class="hidden md:hidden border-t border-brand-border bg-white px-4 py-4 shadow-xl">
+      <nav class="flex flex-col space-y-1 text-sm font-semibold text-brand-ink" aria-label="Navigasi Mobile">
+        <a href="#beranda"
+          class="mobile-nav-link touch-target justify-start px-3 py-2 rounded-xl hover:bg-brand-sage/50">Beranda</a>
+        <a href="#profil-desa"
+          class="mobile-nav-link touch-target justify-start px-3 py-2 rounded-xl hover:bg-brand-sage/50">Tentang</a>
+        <a href="#program-kerja"
+          class="mobile-nav-link touch-target justify-start px-3 py-2 rounded-xl hover:bg-brand-sage/50">Kegiatan</a>
+        <a href="#dokumentasi"
+          class="mobile-nav-link touch-target justify-start px-3 py-2 rounded-xl hover:bg-brand-sage/50">Dokumentasi</a>
+        <a href="#dampak"
+          class="mobile-nav-link touch-target justify-start px-3 py-2 rounded-xl hover:bg-brand-sage/50">Dampak</a>
+        <a href="#tim"
+          class="mobile-nav-link touch-target justify-start px-3 py-2 rounded-xl hover:bg-brand-sage/50">Anggota Tim</a>
+        <a href="#kontak"
+          class="mobile-nav-link touch-target justify-start px-3 py-2 rounded-xl hover:bg-brand-sage/50">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         2. HERO SECTION (Sesuai Mockup)
+         Background foto panorama desa & gunung + mahasiswa,
+         gradient overlay gelap di kiri, tipografi tegas putih,
+         tanpa lembar data kegiatan
+         ========================================================= -->
+    <section id="beranda"
+      class="hero-mockup-bg relative min-h-[580px] lg:min-h-[640px] flex items-center border-b border-brand-border py-16 lg:py-24">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 w-full">
+        <div class="max-w-xl text-left">
+
+          <!-- Subtitle Atas KKN -->
+          <span class="text-xs font-bold tracking-widest text-emerald-300 uppercase block mb-3 drop-shadow-xs">
+            KULIAH KERJA NYATA &bull; PLK UNY
+          </span>
+
+          <!-- Judul Utama Bold Putih -->
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1] mb-4">
+            PLK UNY Mengabdi
+          </h1>
+
+          <!-- Subhead Sesuai Mockup -->
+          <p class="text-base sm:text-lg lg:text-xl font-semibold text-emerald-100/95 leading-snug mb-4">
+            Bersama Membangun Desa, Menciptakan Perubahan Nyata
+          </p>
+
+          <!-- Deskripsi Ringkas Sesuai Mockup -->
+          <p class="text-xs sm:text-sm text-gray-200/90 leading-relaxed mb-8 max-w-lg">
+            PLK UNY Mengabdi adalah program pengabdian kepada masyarakat yang dijalankan oleh mahasiswa untuk memberikan
+            kontribusi nyata melalui ilmu, teknologi, dan kreativitas terpadu di Kalurahan [Nama Desa/Mitra].
+          </p>
+
+          <!-- Tombol Putih Bulat Sesuai Mockup -->
+          <div>
+            <a href="#program-kerja"
+              class="inline-flex items-center gap-2 bg-white text-brand-forest hover:bg-gray-100 text-xs sm:text-sm font-bold px-6 py-3 rounded-full shadow-lg transition-all transform hover:-translate-y-0.5">
+              <span>Lihat Kegiatan</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 text-brand-forest"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. SECTION TENTANG KAMI / PROFIL DESA (Sesuai Mockup)
+         Background putih bersih (warna sama dengan background lain),
+         Foto interaksi hangat warga di kanan,
+         3 pilar ikon (Kolaboratif, Inovatif, Berdampak) di kiri,
+         dilengkapi drawer detail parameter desa
+         ========================================================= -->
+    <section id="profil-desa" class="scroll-mt-16 py-16 lg:py-24 border-b border-brand-border bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+
+          <!-- Kolom Kiri: Teks & 3 Ikon (Sesuai Mockup) -->
+          <div class="lg:col-span-6">
+            <span class="text-xs font-bold tracking-widest text-brand-forest uppercase block mb-2">TENTANG KAMI</span>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-ink leading-tight mb-4">
+              Apa itu PLK UNY Mengabdi?
+            </h2>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed mb-8">
+              PLK UNY Mengabdi adalah program Kuliah Kerja Nyata yang mengusung semangat kolaborasi, inovasi, dan
+              kreativitas. Kami hadir untuk memberdayakan masyarakat desa melalui kegiatan yang berfokus pada
+              pendidikan, lingkungan, teknologi, dan pemberdayaan ekonomi di Kalurahan [Nama Desa/Mitra].
+            </p>
+
+
+
+            <!-- Tombol Dropdown / Toggle Detail Data Wilayah (Data Desa Asli Tetap Aman) -->
+            <div>
+              <button id="toggle-data-desa-btn" type="button"
+                onclick="document.getElementById('detail-parameter-desa').classList.toggle('hidden');"
+                class="inline-flex items-center gap-2 text-xs font-semibold text-brand-forest hover:text-brand-forestDark bg-brand-sage/60 hover:bg-brand-sage px-4 py-2 rounded-full border border-brand-border transition-all">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-brand-forest"></i>
+                <span>Parameter Wilayah & Potensi Sektor Desa</span>
+                <i data-lucide="chevron-down" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: Foto Interaksi Desa Sesuai Mockup -->
+          <div class="lg:col-span-6">
+            <div
+              class="rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border border-brand-border h-[280px] sm:h-[360px] w-full group relative">
+              <img src="assets/images/profil_desa.jpg" alt="Interaksi Mahasiswa dan Warga Desa Kalurahan"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Panel Detail Parameter Kalurahan & Sektor (Dapat Dibuka Pengguna) -->
+        <div id="detail-parameter-desa" class="hidden mt-10 pt-8 border-t border-brand-border">
+          <div class="mb-6 glass-card-subtle p-5 sm:p-6 rounded-2xl">
+            <div class="text-xs font-bold uppercase tracking-wider text-brand-forest mb-4 flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-emerald-600"></i>
+              <span>Parameter Geospasial Wilayah Kalurahan</span>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+              <div class="border-l-2 border-brand-forest pl-3">
+                <span class="block text-xs text-brand-subtle uppercase">Kapanewon</span>
+                <strong class="text-brand-ink font-semibold">[Kapanewon]</strong>
+              </div>
+              <div class="border-l-2 border-brand-forest pl-3">
+                <span class="block text-xs text-brand-subtle uppercase">Kabupaten</span>
+                <strong class="text-brand-ink font-semibold">[Kabupaten]</strong>
+              </div>
+              <div class="border-l-2 border-emerald-600 pl-3">
+                <span class="block text-xs text-brand-subtle uppercase">Perkiraan Penduduk</span>
+                <strong class="text-brand-ink font-semibold">[Jumlah penduduk] Jiwa</strong>
+              </div>
+              <div class="border-l-2 border-emerald-600 pl-3">
+                <span class="block text-xs text-brand-subtle uppercase">Luas Wilayah</span>
+                <strong class="text-brand-ink font-semibold">[Luas wilayah] km²</strong>
+              </div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-brand-border text-xs text-brand-muted">
+              <span class="font-semibold text-brand-ink">Batas Wilayah:</span> Utara: [Batas Utara], Timur: [Batas
+              Timur], Selatan: [Batas Selatan], Barat: [Batas Barat].
+            </div>
+          </div>
+
+          <!-- Tiga Sektor Potensi Desa -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="glass-card-subtle p-5 rounded-2xl">
+              <span class="text-[11px] font-mono text-emerald-700 font-semibold uppercase">Sektor 01</span>
+              <h4 class="text-sm font-bold text-brand-ink mt-1 mb-2">Pertanian & Ketahanan Pangan</h4>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Petak sawah irigasi dan tegalan palawija komoditas unggulan desa yang dikelola bersama Gapoktan.
+              </p>
+            </div>
+            <div class="glass-card-subtle p-5 rounded-2xl">
+              <span class="text-[11px] font-mono text-emerald-700 font-semibold uppercase">Sektor 02</span>
+              <h4 class="text-sm font-bold text-brand-ink mt-1 mb-2">UMKM & Ekonomi Kreatif</h4>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Olahan pangan tradisional dan kerajinan lokal dengan pendampingan kemasan dan titik Google Maps.
+              </p>
+            </div>
+            <div class="glass-card-subtle p-5 rounded-2xl">
+              <span class="text-[11px] font-mono text-emerald-700 font-semibold uppercase">Sektor 03</span>
+              <h4 class="text-sm font-bold text-brand-ink mt-1 mb-2">Pelayanan Publik & Pemuda</h4>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Aktivitas balai kalurahan melayani kependudukan serta forum Karang Taruna dan Posyandu.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. SECTION KEGIATAN / PROGRAM KERJA (Sesuai Mockup)
+         Background soft sage green (#EBF1EC),
+         Kiri: Judul & deskripsi,
+         Kanan: 4 kartu vertikal glassmorphism dengan foto proker
+         ========================================================= -->
+    <section id="program-kerja" class="scroll-mt-16 py-16 lg:py-24 border-b border-brand-border bg-brand-sage">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-6">
+
+          <!-- Kolom Kiri: Header -->
+          <div class="lg:col-span-4">
+            <span class="text-xs font-bold tracking-widest text-brand-forest uppercase block mb-2">KEGIATAN</span>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-ink leading-tight mb-3">
+              Program Kerja
+            </h2>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed max-w-sm">
+              Berbagai kegiatan telah kami laksanakan selama program pengabdian, yang meliputi:
+            </p>
+          </div>
+
+          <!-- Kolom Kanan: 4 Kartu Program Kerja Glassmorphism -->
+          <div class="lg:col-span-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+
+              <!-- Kartu 1: Pendidikan -->
+              <div
+                class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+                <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100">
+                  <img src="assets/images/proker_pendidikan.jpg" alt="Pendidikan"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-sm font-bold text-brand-ink mb-1.5">Pendidikan</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed">
+                      Pelatihan dan pendampingan untuk meningkatkan kapasitas masyarakat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Kartu 2: Lingkungan -->
+              <div
+                class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+                <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100">
+                  <img src="assets/images/proker_lingkungan.jpg" alt="Lingkungan"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-sm font-bold text-brand-ink mb-1.5">Lingkungan</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed">
+                      Gerakan penghijauan dan pengelolaan sampah berbasis masyarakat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Kartu 3: Teknologi -->
+              <div
+                class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+                <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100">
+                  <img src="assets/images/proker_teknologi.jpg" alt="Teknologi"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-sm font-bold text-brand-ink mb-1.5">Teknologi</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed">
+                      Pengenalan teknologi tepat guna untuk mendukung aktivitas warga.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Kartu 4: Ekonomi -->
+              <div
+                class="glass-card rounded-2xl overflow-hidden flex flex-col group">
+                <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100">
+                  <img src="assets/images/proker_ekonomi.jpg" alt="Ekonomi"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-sm font-bold text-brand-ink mb-1.5">Ekonomi</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed">
+                      Pelatihan UMKM dan pengembangan potensi lokal desa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. SECTION DOKUMENTASI / GALERI KEGIATAN (Sesuai Mockup)
+         Background putih bersih, Header judul + tombol Lihat Galeri,
+         4 foto grid landscape sejajar
+         ========================================================= -->
+    <section id="dokumentasi" class="scroll-mt-16 py-16 lg:py-24 border-b border-brand-border bg-white overflow-hidden">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+        <div class="mb-8">
+          <span class="text-xs font-bold tracking-widest text-brand-forest uppercase block mb-1">DOKUMENTASI</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-brand-ink leading-tight">Galeri Kegiatan</h2>
+          <p class="text-xs sm:text-sm text-brand-muted mt-1">
+            Momen interaksi, pengabdian, dan implementasi program di Kalurahan [Nama Desa/Mitra].
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Lintasan Carousel Galeri (Identik 3D dengan Carousel Tim) -->
+      <div class="relative w-full overflow-hidden">
+        <div class="carousel-edge-fade-left absolute left-0 top-0 bottom-0 w-24 sm:w-44 z-20 pointer-events-none"></div>
+        <div class="carousel-edge-fade-right absolute right-0 top-0 bottom-0 w-24 sm:w-44 z-20 pointer-events-none"></div>
+
+        <button id="gallery-carousel-prev" type="button"
+          class="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-30 touch-target w-12 h-12 rounded-full border border-brand-border bg-white text-brand-forest hover:bg-brand-sage shadow-md transition-all flex items-center justify-center"
+          aria-label="Geser ke dokumentasi sebelumnya">
+          <i data-lucide="chevron-left" class="w-5 h-5"></i>
+        </button>
+
+        <div id="gallery-carousel-container"
+          class="w-full carousel-viewport-fix select-none cursor-grab active:cursor-grabbing focus-visible:outline-none"
+          tabindex="0" aria-label="Daftar putar foto galeri kegiatan PLK Mengabdi"
+          style="touch-action: pan-y; perspective: 1200px;">
+          <div id="gallery-carousel-track"
+            class="flex gap-6 will-change-transform pt-10 pb-16 sm:pt-12 sm:pb-20 pl-4 sm:pl-6 lg:pl-8 items-center"
+            style="transform-style: preserve-3d;">
+          </div>
+        </div>
+
+        <button id="gallery-carousel-next" type="button"
+          class="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-30 touch-target w-12 h-12 rounded-full border border-brand-border bg-white text-brand-forest hover:bg-brand-sage shadow-md transition-all flex items-center justify-center"
+          aria-label="Geser ke dokumentasi berikutnya">
+          <i data-lucide="chevron-right" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Dokumentasi Audio Visual (Langsung Ditampilkan Tanpa Tombol) -->
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 mt-14 pt-10 border-t border-brand-border/70">
+        <div class="glass-card p-6 sm:p-8 rounded-3xl">
+          <div class="max-w-2xl mb-5">
+            <span class="text-xs font-bold tracking-widest text-emerald-800 uppercase block mb-1">DOKUMENTASI AUDIO VISUAL</span>
+            <h3 class="text-xl sm:text-2xl font-bold text-brand-ink">Cuplikan Kegiatan dan Kesaksian Lapangan</h3>
+            <p class="text-xs sm:text-sm text-brand-muted mt-1">Dokumentasi video resmi pelaksanaan 272 jam pengabdian dan kesaksian warga Kalurahan [Nama Desa/Mitra].</p>
+          </div>
+          <div
+            class="w-full aspect-video bg-white/70 backdrop-blur-md border border-brand-border/80 rounded-2xl flex flex-col items-center justify-center p-6 text-center relative overflow-hidden group shadow-inner">
+            <div
+              class="w-16 h-16 rounded-full bg-brand-forest text-white flex items-center justify-center shadow-xl mb-3.5 group-hover:scale-110 transition-transform duration-300">
+              <i data-lucide="play" class="w-6 h-6 ml-0.5 text-emerald-300"></i>
+            </div>
+            <span class="text-sm font-bold text-brand-ink">[Penampung Video Rekapitulasi PLK]</span>
+            <p class="text-xs text-brand-subtle mt-1.5 max-w-md">Sematkan iframe YouTube resmi atau video player di sini saat video final selesai diproduksi.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- =========================================================
+         7. SECTION PROFIL TIM (10 KARTU ANGGOTA)
+         Carousel interaktif 3D & modal popup
+         ========================================================= -->
+    <section id="tim" class="scroll-mt-16 py-16 lg:py-24 border-b border-brand-border bg-brand-canvas overflow-hidden">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+        <div class="mb-10 text-center">
+          <span class="text-xs font-bold tracking-widest text-brand-forest uppercase block mb-1">TIM PENGABDI</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-brand-ink leading-tight">
+            Sepuluh Mahasiswa Pengabdi
+          </h2>
+          <p class="text-xs sm:text-sm text-brand-muted mt-1 max-w-lg mx-auto">
+            Kolaborasi lintas 4 disiplin ilmu Universitas Negeri Yogyakarta untuk Kalurahan [Nama Desa/Mitra]
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Lintasan Carousel Tim (Shadow clipping diperbaiki dengan viewport-fix dan edge-tim) -->
+      <div class="relative w-full overflow-hidden">
+        <div class="carousel-edge-tim-left absolute left-0 top-0 bottom-0 w-24 sm:w-44 z-20 pointer-events-none"></div>
+        <div class="carousel-edge-tim-right absolute right-0 top-0 bottom-0 w-24 sm:w-44 z-20 pointer-events-none">
+        </div>
+
+        <button id="carousel-prev" type="button"
+          class="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-30 touch-target w-12 h-12 rounded-full border border-brand-border bg-white text-brand-forest hover:bg-brand-sage shadow-md transition-all flex items-center justify-center"
+          aria-label="Geser ke anggota sebelumnya">
+          <i data-lucide="chevron-left" class="w-5 h-5"></i>
+        </button>
+
+        <div id="carousel-container"
+          class="w-full carousel-viewport-fix select-none cursor-grab active:cursor-grabbing focus-visible:outline-none"
+          tabindex="0" aria-label="Daftar putar profil anggota tim PLK Mengabdi"
+          style="touch-action: pan-y; perspective: 1200px;">
+          <div id="carousel-track"
+            class="flex gap-6 will-change-transform pt-10 pb-16 sm:pt-12 sm:pb-20 pl-4 sm:pl-6 lg:pl-8 items-center"
+            style="transform-style: preserve-3d;">
+          </div>
+        </div>
+
+        <button id="carousel-next" type="button"
+          class="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-30 touch-target w-12 h-12 rounded-full border border-brand-border bg-white text-brand-forest hover:bg-brand-sage shadow-md transition-all flex items-center justify-center"
+          aria-label="Geser ke anggota berikutnya">
+          <i data-lucide="chevron-right" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       8. FOOTER (Sesuai Mockup)
+       Deep Dark Forest Green (#0F231A),
+       Kiri: Logo + Brand, Tengah: Tagline, Kanan: Ikon Sosial
+       ========================================================= -->
+  <footer id="kontak" class="bg-brand-forestDark text-white py-10 border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+      <div
+        class="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+
+        <!-- Kiri: Logo Mockup Style -->
+        <div class="flex items-center gap-2.5">
+          <div class="w-7 h-7 rounded-lg bg-emerald-700/80 flex items-center justify-center text-white">
+            <i data-lucide="sprout" class="w-4 h-4 text-emerald-200"></i>
+          </div>
+          <span class="text-sm font-bold tracking-tight text-white">PLK UNY Mengabdi</span>
+        </div>
+
+        <!-- Tengah: Tagline Mockup -->
+        <p class="text-xs text-gray-300 font-medium">
+          Bersama Membangun Desa, Menciptakan Perubahan Nyata
+        </p>
+
+        <!-- Kanan: Social Icons Sesuai Mockup -->
+        <div class="flex items-center gap-4 text-gray-300">
+          <a href="https://instagram.com/[akun-instagram-kelompok]" target="_blank" rel="noopener noreferrer"
+            class="hover:text-white transition-colors" aria-label="Instagram">
+            <i data-lucide="instagram" class="w-4 h-4"></i>
+          </a>
+          <a href="https://youtube.com/@[akun-youtube-kelompok]" target="_blank" rel="noopener noreferrer"
+            class="hover:text-white transition-colors" aria-label="YouTube">
+            <i data-lucide="youtube" class="w-4 h-4"></i>
+          </a>
+          <a href="mailto:[alamat-email-kelompok@uny.ac.id]" class="hover:text-white transition-colors"
+            aria-label="Email">
+            <i data-lucide="mail" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Modal Detail Program Kerja Lengkap -->
+  <div id="modal-proker-detail"
+    class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/60 backdrop-blur-sm" role="dialog"
+    aria-modal="true">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col overflow-hidden shadow-2xl">
+      <div class="px-6 py-4 border-b border-brand-border flex items-center justify-between bg-brand-sage/50">
+        <h3 class="text-base font-bold text-brand-forest">Rencana Aksi Lengkap 4 Pilar Program Kerja</h3>
+        <button type="button"
+          onclick="document.getElementById('modal-proker-detail').classList.add('hidden'); document.getElementById('modal-proker-detail').classList.remove('flex');"
+          class="w-8 h-8 rounded-full flex items-center justify-center hover:bg-gray-200 text-gray-700 transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div class="p-6 overflow-y-auto space-y-4 text-xs sm:text-sm text-brand-muted">
+        <div class="p-4 rounded-xl border border-brand-border bg-brand-canvas">
+          <span class="text-[11px] font-bold text-brand-forest uppercase block mb-1">Pilar 01 &bull; Teknologi Informasi
+            (TI & PTI)</span>
+          <h4 class="font-bold text-brand-ink text-sm mb-1">Transformasi Digital dan Sistem Informasi Kalurahan</h4>
+          <p class="mb-2">Pemutakhiran basis data kependudukan dan penataan arsip berbasis komputasi lokal.</p>
+          <div class="text-[11px] text-brand-forest font-semibold">Aksi: Validasi berkas profil desa & pelatihan
+            pemeliharaan sistem.</div>
+        </div>
+        <div class="p-4 rounded-xl border border-brand-border bg-brand-canvas">
+          <span class="text-[11px] font-bold text-brand-forest uppercase block mb-1">Pilar 02 &bull; Pendidikan Teknik
+            Informatika (PTI)</span>
+          <h4 class="font-bold text-brand-ink text-sm mb-1">Literasi Teknologi dan Media Pembelajaran Interaktif</h4>
+          <p class="mb-2">Pelatihan praktis komputer dan aplikasi perkantoran bagi perangkat dan Karang Taruna.</p>
+          <div class="text-[11px] text-brand-forest font-semibold">Aksi: Modul visual praktis & sesi aplikasi
+            perkantoran terarah.</div>
+        </div>
+        <div class="p-4 rounded-xl border border-brand-border bg-brand-canvas">
+          <span class="text-[11px] font-bold text-brand-forest uppercase block mb-1">Pilar 03 &bull; Bimbingan dan
+            Konseling (BK)</span>
+          <h4 class="font-bold text-brand-ink text-sm mb-1">Pendampingan Sosial dan Penguatan Ketahanan Keluarga</h4>
+          <p class="mb-2">Bimbingan motivasi kelanjutan studi pemuda dan diskusi pola asuh ramah anak bersama PKK.</p>
+          <div class="text-[11px] text-brand-forest font-semibold">Aksi: Pemetaan minat karir remaja & forum komunikasi
+            keluarga sehat.</div>
+        </div>
+        <div class="p-4 rounded-xl border border-brand-border bg-brand-canvas">
+          <span class="text-[11px] font-bold text-brand-forest uppercase block mb-1">Pilar 04 &bull; Pendidikan Bahasa
+            Inggris (PBI)</span>
+          <h4 class="font-bold text-brand-ink text-sm mb-1">Komunikasi Global dan Dokumentasi Narasi Potensi Lokal</h4>
+          <p class="mb-2">Penyusunan profil dwibahasa untuk promosi potensi dan pelatihan percakapan komunikatif.</p>
+          <div class="text-[11px] text-brand-forest font-semibold">Aksi: Narasi dwibahasa produk desa & kelas percakapan
+            praktis.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       MODAL DETAIL DOKUMENTASI GALERI (POPUP / BOTTOM SHEET)
+       ========================================================= -->
+  <div id="modal-galeri" class="fixed inset-0 z-50 hidden" role="dialog" aria-modal="true"
+    aria-labelledby="modal-galeri-judul" aria-describedby="modal-galeri-deskripsi">
+    <!-- Latar Gelap -->
+    <div id="modal-galeri-backdrop" class="fixed inset-0 bg-[#081424]/60 modal-backdrop-transition opacity-0"></div>
+
+    <div id="modal-galeri-wrapper"
+      class="fixed inset-0 z-10 flex items-end sm:items-center justify-center p-0 sm:p-4 pointer-events-none">
+      <div id="modal-galeri-box"
+        class="pointer-events-auto w-full sm:max-w-2xl bg-brand-surface border border-brand-border rounded-t-2xl sm:rounded-2xl shadow-2xl max-h-[90dvh] flex flex-col modal-box-transition translate-y-4 opacity-0 overflow-hidden">
+
+        <!-- Bilah Atas Modal -->
+        <div class="flex items-center justify-between px-5 py-3.5 border-b border-brand-border bg-brand-canvas shrink-0">
+          <div class="flex items-center gap-2">
+            <span id="modal-galeri-counter" class="text-xs font-mono font-semibold tracking-wider text-brand-subtle uppercase">
+              Dokumentasi 01 / 08
+            </span>
+          </div>
+
+          <div class="flex items-center gap-1.5">
+            <button id="modal-galeri-prev-btn" type="button"
+              class="touch-target px-3 py-1.5 text-xs font-medium text-brand-muted hover:text-brand-forest hover:bg-brand-surface rounded-full transition-colors flex items-center gap-1 focus-visible:outline-none border border-transparent"
+              aria-label="Lihat dokumentasi sebelumnya">
+              <i data-lucide="chevron-left" class="w-4 h-4"></i>
+              <span class="hidden sm:inline">Sebelumnya</span>
+            </button>
+            <button id="modal-galeri-next-btn" type="button"
+              class="touch-target px-3 py-1.5 text-xs font-medium text-brand-muted hover:text-brand-forest hover:bg-brand-surface rounded-full transition-colors flex items-center gap-1 focus-visible:outline-none border border-transparent"
+              aria-label="Lihat dokumentasi berikutnya">
+              <span class="hidden sm:inline">Berikutnya</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </button>
+
+            <button id="modal-galeri-close-btn" type="button"
+              class="touch-target w-10 h-10 p-2 text-brand-forest hover:text-brand-ink hover:bg-brand-surface rounded-full border border-transparent hover:border-brand-border transition-colors ml-1 flex items-center justify-center"
+              aria-label="Tutup detail dokumentasi">
+              <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Area Isi Modal -->
+        <div id="modal-galeri-scroll-area" class="overflow-y-auto p-5 sm:p-6 space-y-5 text-sm text-brand-ink">
+          <!-- Foto Preview Besar -->
+          <div class="w-full aspect-[16/10] sm:aspect-[16/9] rounded-xl overflow-hidden bg-brand-canvas border border-brand-border shadow-xs relative">
+            <img id="modal-galeri-img" src="" alt="" class="w-full h-full object-cover">
+          </div>
+
+          <div class="space-y-2.5">
+            <div class="flex flex-wrap items-center gap-2">
+              <span id="modal-galeri-kategori" class="text-xs px-3 py-1 rounded-full font-medium border bg-emerald-50 text-emerald-800 border-emerald-200"></span>
+              <span id="modal-galeri-waktu" class="text-xs font-mono text-brand-subtle"></span>
+            </div>
+            <h3 id="modal-galeri-judul" class="text-xl sm:text-2xl font-bold text-brand-forest leading-tight"></h3>
+            <p class="text-xs text-brand-muted flex items-center gap-1.5">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-emerald-600"></i>
+              <span id="modal-galeri-lokasi"></span>
+            </p>
+          </div>
+
+          <!-- Deskripsi Lengkap -->
+          <div>
+            <h4 class="text-xs font-bold tracking-widest text-brand-forest uppercase mb-1.5">Deskripsi Kegiatan</h4>
+            <p id="modal-galeri-deskripsi" class="text-sm text-brand-muted leading-relaxed"></p>
+          </div>
+
+          <!-- Poin Capaian -->
+          <div>
+            <h4 class="text-xs font-bold tracking-widest text-brand-forest uppercase mb-2">Sorotan & Capaian Pelaksanaan</h4>
+            <ul id="modal-galeri-poin-list" class="space-y-2 text-sm text-brand-muted">
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       MODAL DETAIL ANGGOTA TIM (POPUP / BOTTOM SHEET)
+       Aksesibilitas penuh: role dialog, focus trap, kunci scroll tanpa lonjakan
+       ========================================================= -->
+  <div id="modal-anggota" class="fixed inset-0 z-50 hidden" role="dialog" aria-modal="true"
+    aria-labelledby="modal-nama-anggota" aria-describedby="modal-ringkasan-anggota">
+    <!-- Latar Gelap (Biru tua kehitaman 60%, tanpa efek blur) -->
+    <div id="modal-backdrop" class="fixed inset-0 bg-[#081424]/60 modal-backdrop-transition opacity-0"></div>
+
+    <!-- Wadah Posisi Modal: Bottom sheet di mobile, terpusat di desktop -->
+    <div id="modal-wrapper"
+      class="fixed inset-0 z-10 flex items-end sm:items-center justify-center p-0 sm:p-4 pointer-events-none">
+      <div id="modal-box"
+        class="pointer-events-auto w-full sm:max-w-2xl bg-brand-surface border border-brand-border rounded-t-2xl sm:rounded-2xl shadow-2xl max-h-[90dvh] flex flex-col modal-box-transition translate-y-4 opacity-0 overflow-hidden">
+
+        <!-- Bilah Atas Modal -->
+        <div
+          class="flex items-center justify-between px-5 py-3.5 border-b border-brand-border bg-brand-canvas shrink-0">
+          <div class="flex items-center gap-2">
+            <span id="modal-counter" class="text-xs font-mono font-semibold tracking-wider text-brand-subtle uppercase">
+              Profil Anggota 01 / 10
+            </span>
+          </div>
+
+          <div class="flex items-center gap-1.5">
+            <!-- Navigasi Internal Antar Anggota -->
+            <button id="modal-prev-btn" type="button"
+              class="touch-target px-3 py-1.5 text-xs font-medium text-brand-muted hover:text-brand-navy hover:bg-brand-surface rounded-full transition-colors flex items-center gap-1 focus-visible:outline-none focus-visible:border-brand-navy border border-transparent"
+              aria-label="Lihat anggota sebelumnya">
+              <i data-lucide="chevron-left" class="w-4 h-4"></i>
+              <span class="hidden sm:inline">Sebelumnya</span>
+            </button>
+            <button id="modal-next-btn" type="button"
+              class="touch-target px-3 py-1.5 text-xs font-medium text-brand-muted hover:text-brand-navy hover:bg-brand-surface rounded-full transition-colors flex items-center gap-1 focus-visible:outline-none focus-visible:border-brand-navy border border-transparent"
+              aria-label="Lihat anggota berikutnya">
+              <span class="hidden sm:inline">Berikutnya</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </button>
+
+            <!-- Tombol Tutup (Area tekan 44x44 px) -->
+            <button id="modal-close-btn" type="button"
+              class="touch-target w-10 h-10 p-2 text-brand-navy hover:text-brand-ink hover:bg-brand-surface rounded-full border border-transparent hover:border-brand-border transition-colors ml-1 focus-visible:border-brand-navy flex items-center justify-center"
+              aria-label="Tutup detail profil anggota">
+              <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Area Isi Modal (Scrollable internal) -->
+        <div id="modal-scroll-area" class="overflow-y-auto p-5 sm:p-6 space-y-6 text-sm text-brand-ink">
+
+          <!-- Identitas Utama & Foto 3:4 -->
+          <div class="grid grid-cols-1 sm:grid-cols-12 gap-5 items-start">
+            <!-- Foto Besar Rasio 3:4 -->
+            <div
+              class="sm:col-span-4 w-full aspect-[3/4] bg-brand-canvas border border-brand-border rounded-xl flex flex-col items-center justify-center overflow-hidden">
+              <div id="modal-foto-wrapper"
+                class="w-full h-full flex flex-col items-center justify-center p-3 text-center">
+                <!-- Dirender secara dinamis -->
+              </div>
+            </div>
+
+            <!-- Rincian Identitas -->
+            <div class="sm:col-span-8 space-y-3">
+              <div class="flex flex-wrap items-center gap-2">
+                <span id="modal-prodi-badge"
+                  class="text-xs px-3 py-1 rounded-full font-medium border inline-block"></span>
+              </div>
+              <h3 id="modal-nama-anggota"
+                class="text-2xl sm:text-3xl font-editorial font-medium text-brand-navy leading-tight"></h3>
+              <p id="modal-peran-anggota" class="text-sm font-semibold text-brand-emerald"></p>
+
+              <dl
+                class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-3 border-t border-brand-border text-xs text-brand-muted">
+                <div>
+                  <dt class="text-[11px] font-mono text-brand-subtle uppercase">NIM</dt>
+                  <dd id="modal-nim" class="font-mono font-medium text-brand-ink mt-0.5 text-xs"></dd>
+                </div>
+                <div>
+                  <dt class="text-[11px] font-mono text-brand-subtle uppercase">Program Studi &amp; Fakultas</dt>
+                  <dd id="modal-prodi-fakultas" class="font-medium text-brand-ink mt-0.5 text-xs"></dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+
+          <!-- Ringkasan Peran -->
+          <div>
+            <h4 class="text-xs font-bold tracking-widest text-brand-navy uppercase mb-1.5">Ringkasan Peran</h4>
+            <p id="modal-ringkasan-anggota" class="text-sm text-brand-muted leading-relaxed"></p>
+          </div>
+
+          <!-- Tugas Utama Selama Program -->
+          <div>
+            <h4 class="text-xs font-bold tracking-widest text-brand-navy uppercase mb-2">Tugas Utama Selama Program</h4>
+            <ul id="modal-tugas-list" class="space-y-2 text-sm text-brand-muted">
+              <!-- Dirender secara dinamis -->
+            </ul>
+          </div>
+
+          <!-- Keahlian atau Fokus -->
+          <div>
+            <h4 class="text-xs font-bold tracking-widest text-brand-navy uppercase mb-2">Keahlian &amp; Fokus</h4>
+            <div id="modal-keahlian-list" class="flex flex-wrap gap-2">
+              <!-- Dirender secara dinamis -->
+            </div>
+          </div>
+
+          <!-- Kontak -->
+          <div class="pt-3 border-t border-brand-border">
+            <h4 class="text-xs font-bold tracking-widest text-brand-navy uppercase mb-2">Kontak Anggota</h4>
+            <div>
+              <a id="modal-instagram-link" href="#" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-xs font-medium text-brand-navy hover:text-brand-emerald hover:underline underline-offset-4 transition-colors py-1">
+                <i data-lucide="instagram" class="w-4 h-4 text-brand-emerald shrink-0"></i>
+                <span id="modal-instagram-text">[@akun_instagram]</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       8. JAVASCRIPT: LOGIKA CAROUSEL, MODAL & NAVIGASI
+       ========================================================= -->
+  <script>
+    // =========================================================
+    // A. DATA STRUKTUR TUNGGAL 10 ANGGOTA TIM PLK
+    // Semua pembaruan data anggota cukup dilakukan di array ini.
+    // =========================================================
+    const anggota = [
+      {
+        kode: 'TI-01',
+        nama: '[Nama Lengkap Ketua Tim]',
+        nim: '[NIM]',
+        prodi: 'ti',
+        namaProdi: 'Teknologi Informasi',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Ketua Tim / System Architect',
+        ringkasan: 'Bertanggung jawab atas koordinasi umum seluruh pilar pengabdian, manajemen komunikasi dengan pamong kalurahan, serta perancangan arsitektur sistem informasi.',
+        fokus: 'Manajemen Tim & Arsitektur Sistem',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'TI-02',
+        nama: '[Nama Lengkap Anggota 2]',
+        nim: '[NIM]',
+        prodi: 'ti',
+        namaProdi: 'Teknologi Informasi',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Pengembang Web & Pengelola Database',
+        ringkasan: 'Menangani pengembangan teknis portal, konfigurasi basis data kependudukan, serta uji keamanan sistem di lingkungan server desa.',
+        fokus: 'Backend & Struktur Basis Data',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'PTI-03',
+        nama: '[Nama Lengkap Anggota 3]',
+        nim: '[NIM]',
+        prodi: 'pti',
+        namaProdi: 'Pendidikan Teknik Informatika',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Koordinator Divisi Edukasi IT & Jaringan',
+        ringkasan: 'Memimpin jadwal kelas pelatihan teknologi untuk pamong kalurahan dan pengecekan stabilitas jaringan lokal di kantor kalurahan.',
+        fokus: 'Infrastruktur & Pelatihan Pamong',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'PTI-04',
+        nama: '[Nama Lengkap Anggota 4]',
+        nim: '[NIM]',
+        prodi: 'pti',
+        namaProdi: 'Pendidikan Teknik Informatika',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Instruktur Media Pembelajaran Digital',
+        ringkasan: 'Merancang materi presentasi dan media ajar interaktif untuk kegiatan bimbel anak-anak desa serta panduan grafis sederhana.',
+        fokus: 'Desain Media & Multimedia Ajar',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'PTI-05',
+        nama: '[Nama Lengkap Anggota 5]',
+        nim: '[NIM]',
+        prodi: 'pti',
+        namaProdi: 'Pendidikan Teknik Informatika',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Pengembang Modul & Pelatihan Komputer',
+        ringkasan: 'Menyusun buku saku tutorial komputer dasar dan memfasilitasi pendampingan langsung bagi perangkat desa dan pengurus RT.',
+        fokus: 'Modul Praktikum Cetak & Digital',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'BK-06',
+        nama: '[Nama Lengkap Anggota 6]',
+        nim: '[NIM]',
+        prodi: 'bk',
+        namaProdi: 'Bimbingan & Konseling',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Koordinator Program Sosial & Konseling Warga',
+        ringkasan: 'Mengorkestrasikan program kesehatan mental masyarakat, konseling keluarga, dan pendampingan pola asuh bersama kader Posyandu.',
+        fokus: 'Ketahanan Keluarga & Posyandu',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'BK-07',
+        nama: '[Nama Lengkap Anggota 7]',
+        nim: '[NIM]',
+        prodi: 'bk',
+        namaProdi: 'Bimbingan & Konseling',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Fasilitator Bimbingan Remaja & Karang Taruna',
+        ringkasan: 'Memandu sesi konseling kelompok, workshop orientasi masa depan untuk siswa sekolah, serta penguatan organisasi pemuda.',
+        fokus: 'Pengembangan Karir Remaja Desa',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'PBI-08',
+        nama: '[Nama Lengkap Anggota 8]',
+        nim: '[NIM]',
+        prodi: 'pbi',
+        namaProdi: 'Pendidikan Bahasa Inggris',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Koordinator Hubungan Masyarakat & Publikasi',
+        ringkasan: 'Menyusun strategi publikasi luaran kegiatan kepada pemangku kepentingan luar, mengelola relasi media, dan koordinasi siaran pers.',
+        fokus: 'Humas & Siaran Media Luaran',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'PBI-09',
+        nama: '[Nama Lengkap Anggota 9]',
+        nim: '[NIM]',
+        prodi: 'pbi',
+        namaProdi: 'Pendidikan Bahasa Inggris',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Penerjemah Konten Potensi Desa & Media',
+        ringkasan: 'Menulis dan menerjemahkan profil produk UMKM serta informasi wisata desa ke dalam bahasa Inggris yang komunikatif.',
+        fokus: 'Terjemahan Promosi & Konten Dua Bahasa',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      },
+      {
+        kode: 'PBI-10',
+        nama: '[Nama Lengkap Anggota 10]',
+        nim: '[NIM]',
+        prodi: 'pbi',
+        namaProdi: 'Pendidikan Bahasa Inggris',
+        fakultas: '[Fakultas]',
+        angkatan: '[Angkatan]',
+        peran: 'Dokumentator & Penulis Draft Berita Kegiatan',
+        ringkasan: 'Mencatat kronologi harian pelaksanaan 272 jam kerja lapangan, menulis draf berita berkala, dan kurasi arsip dokumentasi.',
+        fokus: 'Logbook Pengabdian & Draf Berita',
+        tugas: [
+          '[Tugas utama 1]',
+          '[Tugas utama 2]',
+          '[Tugas utama 3]'
+        ],
+        keahlian: [
+          '[Keahlian 1]',
+          '[Keahlian 2]'
+        ],
+        pesan: '[Pesan singkat anggota]',
+        instagram: '[@akun_instagram]',
+        email: '[email anggota]',
+        fotoUrl: ''
+      }
+    ];
+
+    // Pemetaan token warna Tailwind untuk badge prodi
+    const PRODI_TOKEN_MAP = {
+      ti: {
+        bg: 'bg-prodi-tiBg',
+        text: 'text-prodi-tiText',
+        border: 'border-prodi-tiBorder'
+      },
+      pti: {
+        bg: 'bg-prodi-ptiBg',
+        text: 'text-prodi-ptiText',
+        border: 'border-prodi-ptiBorder'
+      },
+      bk: {
+        bg: 'bg-prodi-bkBg',
+        text: 'text-prodi-bkText',
+        border: 'border-prodi-bkBorder'
+      },
+      pbi: {
+        bg: 'bg-prodi-pbiBg',
+        text: 'text-prodi-pbiText',
+        border: 'border-prodi-pbiBorder'
+      }
+    };
+
+    // =========================================================
+    // B. KONFIGURASI KECEPATAN & STATE CAROUSEL
+    // =========================================================
+    // Kecepatan gerak otomatis (piksel per detik, linear)
+    const CAROUSEL_SPEED = 40;
+
+    const carouselContainer = document.getElementById('carousel-container');
+    const carouselTrack = document.getElementById('carousel-track');
+    const prevBtn = document.getElementById('carousel-prev');
+    const nextBtn = document.getElementById('carousel-next');
+
+    let currentX = 0;
+    let setWidth = 0;
+    let lastTimestamp = 0;
+    let animationFrameId = null;
+
+    let isHovered = false;
+    let isFocused = false;
+    let isDragging = false;
+    let isModalOpen = false;
+    let isGalleryModalOpen = false;
+
+    // Deteksi prefers-reduced-motion
+    const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let isReducedMotion = reducedMotionQuery.matches;
+
+    reducedMotionQuery.addEventListener('change', (e) => {
+      isReducedMotion = e.matches;
+      if (isReducedMotion) {
+        if (animationFrameId) {
+          cancelAnimationFrame(animationFrameId);
+          animationFrameId = null;
+        }
+        if (galleryAnimationFrameId) {
+          cancelAnimationFrame(galleryAnimationFrameId);
+          galleryAnimationFrameId = null;
+        }
+      } else {
+        if (!animationFrameId) {
+          lastTimestamp = 0;
+          animationFrameId = requestAnimationFrame(stepContinuousCarousel);
+        }
+        if (!galleryAnimationFrameId) {
+          galleryLastTimestamp = 0;
+          galleryAnimationFrameId = requestAnimationFrame(stepContinuousGallery);
+        }
+      }
+    });
+
+    // =========================================================
+    // C. RENDER KARTU CAROUSEL (SET ASLI + KLON CONTINUOUS)
+    // =========================================================
+    let cachedCardOffsets = [];
+
+    function cacheCardOffsets() {
+      cachedCardOffsets = [];
+      const cards = carouselTrack.children;
+      for (let i = 0; i < cards.length; i++) {
+        cachedCardOffsets.push(cards[i].offsetLeft);
+      }
+    }
+
+    function createCardElement(m, index, isClone) {
+      const p = PRODI_TOKEN_MAP[m.prodi] || PRODI_TOKEN_MAP.ti;
+      const card = document.createElement('article');
+
+      // Bentuk kartu persegi panjang vertikal (portrait) yang disiplin & proporsional
+      card.className = 'card-glass-tim group cursor-pointer focus-visible:outline-none p-4 sm:p-5 rounded-2xl flex flex-col justify-between select-none w-[270px] sm:w-[285px] h-[390px] sm:h-[405px] shrink-0';
+      card.style.width = '285px';
+      card.style.maxWidth = '285px';
+      card.style.height = '405px';
+      card.style.flexShrink = '0';
+      card.setAttribute('data-index', String(index));
+
+      if (isClone) {
+        card.setAttribute('aria-hidden', 'true');
+        card.setAttribute('tabindex', '-1');
+      } else {
+        card.setAttribute('role', 'button');
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('aria-label', `Buka profil ${m.nama}, ${m.peran}`);
+      }
+
+      // Wadah pasfoto rasio 3:4 persegi panjang vertikal
+      const photoHtml = m.fotoUrl && m.fotoUrl.trim() !== ''
+        ? `<img src="${m.fotoUrl}" alt="${m.nama}" class="w-full h-full object-cover">`
+        : `<div class="w-12 h-12 rounded-full bg-brand-surface/90 border border-brand-border flex items-center justify-center mb-1 text-brand-emerald shadow-xs">
+             <i data-lucide="user" class="w-6 h-6"></i>
+           </div>
+           <span class="text-[11px] font-mono font-bold text-brand-navy">${m.kode}</span>
+           <span class="text-[9px] text-brand-subtle leading-none mt-0.5">Pasfoto 3x4</span>`;
+
+      card.innerHTML = `
+        <div class="flex flex-col h-full justify-between">
+          <div>
+            <!-- Wadah Pasfoto Vertikal Persegi Panjang -->
+            <div class="relative w-full h-[185px] sm:h-[195px] rounded-xl overflow-hidden mb-3.5 bg-gradient-to-b from-brand-canvas to-brand-surface border border-brand-border/60 flex flex-col items-center justify-center text-center p-2 shadow-xs group-hover:border-brand-emerald/40 transition-colors">
+              ${photoHtml}
+              <span class="absolute top-2.5 right-2.5 text-[10px] font-mono font-bold px-2.5 py-0.5 bg-brand-navy/90 text-white rounded-full shadow-xs">
+                ${m.kode}
+              </span>
+              <span class="absolute bottom-2.5 left-2.5 text-[10px] font-medium px-2.5 py-0.5 ${p.bg} ${p.text} border ${p.border} rounded-full shadow-xs backdrop-blur-xs">
+                ${m.namaProdi}
+              </span>
+            </div>
+
+            <!-- Identitas NIM -->
+            <div class="text-[11px] font-mono text-brand-subtle mb-1">NIM: ${m.nim}</div>
+
+            <!-- Nama & Peran Anggota -->
+            <h3 class="text-base sm:text-lg font-editorial font-medium text-brand-navy group-hover:text-brand-emerald transition-colors leading-snug line-clamp-2">${m.nama}</h3>
+            <p class="text-xs font-semibold text-brand-emerald mt-1 line-clamp-1">${m.peran}</p>
+          </div>
+
+          <!-- Bagian Bawah Kartu -->
+          <div class="pt-3 border-t border-brand-border/60 flex items-center justify-between text-xs text-brand-subtle">
+            <span class="text-[11px] font-mono text-brand-subtle">${m.kode}</span>
+            <span class="inline-flex items-center gap-1 font-medium text-brand-navy group-hover:text-brand-emerald transition-colors">
+              Lihat profil <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            </span>
+          </div>
+        </div>
+      `;
+
+      // Handler klik & keyboard untuk membuka modal
+      card.addEventListener('click', (e) => {
+        if (hasDraggedOverThreshold) {
+          e.preventDefault();
+          return;
+        }
+        openMemberModal(index, card);
+      });
+
+      if (!isClone) {
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openMemberModal(index, card);
+          }
+        });
+      }
+
+      return card;
+    }
+
+    function renderCarouselCards() {
+      carouselTrack.innerHTML = '';
+
+      // 1 set asli (fokus & aksesibel)
+      anggota.forEach((m, idx) => {
+        carouselTrack.appendChild(createCardElement(m, idx, false));
+      });
+
+      // 2 set klon untuk loop kontinu mulus di layar lebar hingga 4K
+      for (let cloneSet = 0; cloneSet < 2; cloneSet++) {
+        anggota.forEach((m, idx) => {
+          carouselTrack.appendChild(createCardElement(m, idx, true));
+        });
+      }
+
+      // Re-inisialisasi ikon Lucide di dalam kartu baru
+      lucide.createIcons({
+        attrs: { 'stroke-width': 1.75 }
+      });
+
+      calculateSetWidth();
+      centerInitialCard();
+    }
+
+    // Hitung jarak tepat sepanjang 1 set kartu asli (termasuk gap flex)
+    function calculateSetWidth() {
+      if (carouselTrack && carouselTrack.children.length > anggota.length) {
+        const firstCard = carouselTrack.children[0];
+        const nextSetFirstCard = carouselTrack.children[anggota.length];
+        const measured = nextSetFirstCard.offsetLeft - firstCard.offsetLeft;
+        setWidth = (measured > 1000 && measured < 10000) ? measured : anggota.length * 309;
+      } else {
+        setWidth = anggota.length * 309;
+      }
+      cacheCardOffsets();
+      updateCards3D();
+    }
+
+    function centerInitialCard() {
+      if (carouselContainer) {
+        if (!setWidth || setWidth <= 0) setWidth = anggota.length * 309;
+        const containerWidth = carouselContainer.clientWidth || 1200;
+        const firstCard = carouselTrack ? carouselTrack.children[0] : null;
+        if (firstCard) {
+          const cardWidth = firstCard.offsetWidth || 285;
+          currentX = (firstCard.offsetLeft + cardWidth / 2) - (containerWidth / 2);
+          while (currentX < 0 && setWidth > 0) currentX += setWidth;
+          while (currentX >= setWidth && setWidth > 0) currentX -= setWidth;
+          applyCarouselTransform();
+        }
+      }
+    }
+
+    window.addEventListener('resize', () => {
+      calculateSetWidth();
+      applyCarouselTransform();
+    });
+
+    // =========================================================
+    // D. UPDATE EFEK 3D & BLUR GRADIASI KARTU
+    // =========================================================
+    function updateCards3D() {
+      if (!carouselContainer || !carouselTrack) return;
+      const cards = carouselTrack.children;
+      const totalCards = cards.length;
+      if (totalCards === 0) return;
+
+      const containerWidth = carouselContainer.clientWidth || 1200;
+      const containerCenter = currentX + containerWidth / 2;
+      const cardWidth = cards[0].offsetWidth || 285;
+
+      for (let i = 0; i < totalCards; i++) {
+        const card = cards[i];
+        const cardLeft = cachedCardOffsets[i] !== undefined ? cachedCardOffsets[i] : card.offsetLeft;
+        const cardCenter = cardLeft + cardWidth / 2;
+        const distFromCenter = cardCenter - containerCenter;
+        const normalizedDist = distFromCenter / (containerWidth / 2);
+        const absDist = Math.abs(normalizedDist);
+
+        // Jika kartu jauh di luar viewport, sembunyikan untuk performa
+        if (absDist > 2.5) {
+          card.style.opacity = '0';
+          card.style.pointerEvents = 'none';
+          continue;
+        }
+
+        // Jalur kurva 3D: di tengah besar (1.08), mengecil ke tepi (0.72)
+        const scale = Math.max(0.72, 1.08 - Math.pow(Math.min(absDist, 1.3), 1.25) * 0.36);
+
+        // Rotasi perspektif 3D lembut mengarah ke pusat pandang
+        const rotY = Math.max(-15, Math.min(15, -normalizedDist * 14));
+
+        // Kedalaman 3D translateZ
+        const transZ = Math.max(-75, (1 - Math.min(absDist, 1.2)) * 35 - 15);
+
+        // Z-Index: kartu paling tengah memiliki prioritas tumpuk tertinggi
+        const zIndex = Math.round((1 - Math.min(absDist, 1.4)) * 30) + 1;
+
+        // Efek blur gradiasi lembut: kartu samping tetap terlihat estetis dan terbaca
+        let blurPx = 0;
+        let opacity = 1;
+        if (absDist > 0.45) {
+          const fadeProgress = Math.min(1, (absDist - 0.45) / 0.65);
+          blurPx = fadeProgress * 3;
+          opacity = Math.max(0.45, 1 - fadeProgress * 0.55);
+        }
+
+        card.style.transform = `perspective(1000px) translate3d(0, 0, ${transZ}px) rotateY(${rotY}deg) scale(${scale})`;
+        card.style.zIndex = String(zIndex);
+        card.style.opacity = String(opacity);
+        card.style.filter = blurPx > 0.2 ? `blur(${blurPx.toFixed(1)}px)` : 'none';
+        card.style.pointerEvents = absDist > 1.15 ? 'none' : 'auto';
+
+        if (absDist < 0.28) {
+          card.classList.add('is-center-card');
+        } else {
+          card.classList.remove('is-center-card');
+        }
+      }
+    }
+
+    function applyCarouselTransform() {
+      carouselTrack.style.transform = `translate3d(-${currentX}px, 0, 0)`;
+      updateCards3D();
+    }
+
+    // =========================================================
+    // E. ANIMASI LOOP KONTINU (REQUEST ANIMATION FRAME)
+    // =========================================================
+    let targetX = null;
+
+    function stepContinuousCarousel(timestamp) {
+      if (!lastTimestamp) lastTimestamp = timestamp;
+      const deltaTime = (timestamp - lastTimestamp) / 1000;
+      lastTimestamp = timestamp;
+
+      // Navigasi tombol panah dengan interpolasi halus (ease-out)
+      if (targetX !== null) {
+        const diff = targetX - currentX;
+        if (Math.abs(diff) < 0.6) {
+          currentX = targetX;
+          targetX = null;
+        } else {
+          currentX += diff * 0.14;
+        }
+        if (setWidth > 0) {
+          while (currentX >= setWidth) {
+            currentX -= setWidth;
+            if (targetX !== null) targetX -= setWidth;
+          }
+          while (currentX < 0) {
+            currentX += setWidth;
+            if (targetX !== null) targetX += setWidth;
+          }
+        }
+        applyCarouselTransform();
+      } else {
+        const shouldMove = !isHovered &&
+          !isFocused &&
+          !isDragging &&
+          !isModalOpen &&
+          !isGalleryModalOpen &&
+          !isReducedMotion &&
+          document.visibilityState === 'visible';
+
+        // Hindari lonjakan jika delta time terlalu besar (misal saat berganti tab)
+        if (shouldMove && setWidth > 0 && deltaTime < 0.1) {
+          currentX += CAROUSEL_SPEED * deltaTime;
+          if (currentX >= setWidth) {
+            currentX -= setWidth;
+          }
+          applyCarouselTransform();
+        }
+      }
+
+      animationFrameId = requestAnimationFrame(stepContinuousCarousel);
+    }
+
+    // =========================================================
+    // F. INTERAKSI SERET / GESER MANUAL (POINTER EVENTS)
+    // =========================================================
+    let isPointerDown = false;
+    let startPointerX = 0;
+    let lastPointerX = 0;
+    let dragTotalDistance = 0;
+    let hasDraggedOverThreshold = false;
+
+    carouselContainer.addEventListener('pointerdown', (e) => {
+      // Abaikan jika bukan tombol utama (mouse)
+      if (e.pointerType === 'mouse' && e.button !== 0) return;
+
+      targetX = null; // batalkan target animasi panah jika pengguna menyeret
+      isPointerDown = true;
+      isDragging = true;
+      startPointerX = e.clientX;
+      lastPointerX = e.clientX;
+      dragTotalDistance = 0;
+      hasDraggedOverThreshold = false;
+    });
+
+    window.addEventListener('pointermove', (e) => {
+      if (!isPointerDown) return;
+
+      const dx = e.clientX - lastPointerX;
+      lastPointerX = e.clientX;
+
+      dragTotalDistance += Math.abs(dx);
+      if (dragTotalDistance > 6) {
+        hasDraggedOverThreshold = true;
+      }
+
+      currentX -= dx;
+      if (setWidth > 0) {
+        while (currentX >= setWidth) currentX -= setWidth;
+        while (currentX < 0) currentX += setWidth;
+      }
+      applyCarouselTransform();
+    });
+
+    function endPointerDrag() {
+      if (!isPointerDown) return;
+      isPointerDown = false;
+      isDragging = false;
+
+      // Beri jeda kecil agar event click pada kartu tidak terpicu setelah seretan
+      setTimeout(() => {
+        hasDraggedOverThreshold = false;
+      }, 50);
+    }
+
+    window.addEventListener('pointerup', endPointerDrag);
+    window.addEventListener('pointercancel', endPointerDrag);
+
+    // Pause saat hover di desktop
+    carouselContainer.addEventListener('mouseenter', () => { isHovered = true; });
+    carouselContainer.addEventListener('mouseleave', () => { isHovered = false; });
+
+    // Pause saat fokus keyboard berada di dalam carousel
+    carouselContainer.addEventListener('focusin', () => { isFocused = true; });
+    carouselContainer.addEventListener('focusout', (e) => {
+      if (!carouselContainer.contains(e.relatedTarget)) {
+        isFocused = false;
+      }
+    });
+
+    // Geser Carousel dengan Trackpad (2-Finger Swipe / Horizontal Wheel)
+    carouselContainer.addEventListener('wheel', (e) => {
+      targetX = null;
+      // Prioritaskan deltaX (swipe horizontal trackpad). Jika shift ditekan, gunakan deltaY
+      const delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : (e.shiftKey ? e.deltaY : 0);
+      if (Math.abs(delta) > 1) {
+        e.preventDefault();
+        currentX += delta;
+        if (setWidth > 0) {
+          while (currentX >= setWidth) currentX -= setWidth;
+          while (currentX < 0) currentX += setWidth;
+        }
+        applyCarouselTransform();
+      }
+    }, { passive: false });
+
+    // =========================================================
+    // G. KONTROL TOMBOL PANAH MANUAL (SAMPING CAROUSEL)
+    // =========================================================
+    function getCardStepDistance() {
+      const card = carouselTrack.firstElementChild;
+      const cardWidth = card ? card.offsetWidth : 285;
+      return cardWidth + 24; // lebar kartu + jarak gap 24px
+    }
+
+    prevBtn.addEventListener('click', () => {
+      const stepDist = getCardStepDistance();
+      targetX = (targetX !== null ? targetX : currentX) - stepDist;
+    });
+
+    nextBtn.addEventListener('click', () => {
+      const stepDist = getCardStepDistance();
+      targetX = (targetX !== null ? targetX : currentX) + stepDist;
+    });
+
+    // =========================================================
+    // G. MODAL DETAIL ANGGOTA TIM
+    // =========================================================
+    const modalEl = document.getElementById('modal-anggota');
+    const modalBackdrop = document.getElementById('modal-backdrop');
+    const modalWrapper = document.getElementById('modal-wrapper');
+    const modalBox = document.getElementById('modal-box');
+    const modalScrollArea = document.getElementById('modal-scroll-area');
+    const modalCloseBtn = document.getElementById('modal-close-btn');
+    const modalPrevBtn = document.getElementById('modal-prev-btn');
+    const modalNextBtn = document.getElementById('modal-next-btn');
+
+    let currentModalIndex = 0;
+    let lastActiveCardElement = null;
+    let savedScrollPosition = 0;
+    let isClosingModal = false;
+
+    function renderModalData(index) {
+      const m = anggota[index];
+      const p = PRODI_TOKEN_MAP[m.prodi] || PRODI_TOKEN_MAP.ti;
+
+      // Label urutan cetak 01 / 10
+      const currentNumber = String(index + 1).padStart(2, '0');
+      const totalNumber = String(anggota.length).padStart(2, '0');
+      document.getElementById('modal-counter').textContent = `Profil Anggota ${currentNumber} / ${totalNumber}`;
+
+      // Foto besar 3:4
+      const fotoWrapper = document.getElementById('modal-foto-wrapper');
+      if (m.fotoUrl && m.fotoUrl.trim() !== '') {
+        fotoWrapper.innerHTML = `<img src="${m.fotoUrl}" alt="${m.nama}" class="w-full h-full object-cover rounded-xl">`;
+      } else {
+        fotoWrapper.innerHTML = `
+          <div class="w-14 h-14 rounded-full bg-brand-surface border border-brand-border flex items-center justify-center text-brand-emerald mb-2 shadow-xs">
+            <i data-lucide="user" class="w-7 h-7"></i>
+          </div>
+          <span class="text-xs font-mono font-bold text-brand-navy">${m.kode}</span>
+          <span class="text-[11px] text-brand-subtle mt-1">Pasfoto 3x4</span>
+        `;
+      }
+
+      // Badge prodi
+      const prodiBadge = document.getElementById('modal-prodi-badge');
+      prodiBadge.className = `text-xs px-3 py-1 rounded-full font-medium border inline-block ${p.bg} ${p.text} ${p.border}`;
+      prodiBadge.textContent = m.namaProdi;
+
+      // Nama, peran, identitas (tanpa angkatan sesuai brief)
+      document.getElementById('modal-nama-anggota').textContent = m.nama;
+      document.getElementById('modal-peran-anggota').textContent = m.peran;
+      document.getElementById('modal-nim').textContent = m.nim;
+      document.getElementById('modal-prodi-fakultas').textContent = `${m.namaProdi} • ${m.fakultas}`;
+
+      // Ringkasan peran
+      document.getElementById('modal-ringkasan-anggota').textContent = m.ringkasan;
+
+      // Tugas utama 3 butir dengan ikon check
+      const tugasList = document.getElementById('modal-tugas-list');
+      tugasList.innerHTML = m.tugas.map(item => `
+        <li class="flex items-start gap-2.5">
+          <i data-lucide="check" class="w-4 h-4 text-brand-emerald shrink-0 mt-0.5"></i>
+          <span class="leading-relaxed">${item}</span>
+        </li>
+      `).join('');
+
+      // Keahlian
+      const keahlianList = document.getElementById('modal-keahlian-list');
+      keahlianList.innerHTML = m.keahlian.map(item => `
+        <span class="text-xs px-3 py-1 bg-brand-canvas text-brand-muted border border-brand-border rounded-full">${item}</span>
+      `).join('');
+
+      // Kontak Instagram (teks yang bisa diklik ke URL IG)
+      const igLink = document.getElementById('modal-instagram-link');
+      const igText = document.getElementById('modal-instagram-text');
+      if (igLink && igText) {
+        const igClean = m.instagram.replace('@', '');
+        igLink.href = m.instagram.startsWith('http') ? m.instagram : `https://instagram.com/${igClean}`;
+        igText.textContent = m.instagram;
+      }
+
+      // Refresh ikon Lucide
+      lucide.createIcons({ attrs: { 'stroke-width': 1.75 } });
+    }
+
+    function openMemberModal(index, triggerElement) {
+      if (isModalOpen) return;
+
+      currentModalIndex = index;
+      lastActiveCardElement = triggerElement || document.activeElement;
+
+      // Simpan posisi scroll persis saat kartu dibuka
+      savedScrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+      // Kunci scroll halaman tanpa mengubah position: fixed agar koordinat scroll tidak hilang
+      document.documentElement.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
+
+      renderModalData(currentModalIndex);
+      modalScrollArea.scrollTop = 0;
+
+      modalEl.classList.remove('hidden');
+      isModalOpen = true;
+
+      // Transisi masuk
+      requestAnimationFrame(() => {
+        modalBackdrop.classList.remove('opacity-0');
+        modalBackdrop.classList.add('opacity-100');
+        modalBox.classList.remove('translate-y-4', 'opacity-0');
+        modalBox.classList.add('translate-y-0', 'opacity-100');
+        if (modalCloseBtn) {
+          modalCloseBtn.focus({ preventScroll: true });
+        }
+      });
+    }
+
+    function closeMemberModal() {
+      if (!isModalOpen || isClosingModal) return;
+      isClosingModal = true;
+
+      // Transisi keluar
+      modalBackdrop.classList.remove('opacity-100');
+      modalBackdrop.classList.add('opacity-0');
+      modalBox.classList.remove('translate-y-0', 'opacity-100');
+      modalBox.classList.add('translate-y-4', 'opacity-0');
+
+      const finalizeClose = () => {
+        modalEl.classList.add('hidden');
+        isModalOpen = false;
+        isClosingModal = false;
+
+        // Buka kunci scroll halaman dan pertahankan posisi scroll tepat di tempat semula
+        document.documentElement.style.overflow = '';
+        document.body.style.overflow = '';
+        window.scrollTo({
+          top: savedScrollPosition,
+          left: 0,
+          behavior: 'instant'
+        });
+
+        // Kembalikan fokus ke kartu pemicu dengan preventScroll: true agar tidak melompat ke atas
+        if (lastActiveCardElement && typeof lastActiveCardElement.focus === 'function') {
+          try {
+            lastActiveCardElement.focus({ preventScroll: true });
+          } catch (err) {
+            // Fallback aman untuk browser lama
+            lastActiveCardElement.focus();
+          }
+        }
+      };
+
+      if (isReducedMotion) {
+        finalizeClose();
+      } else {
+        setTimeout(finalizeClose, 180);
+      }
+    }
+
+    modalCloseBtn.addEventListener('click', closeMemberModal);
+
+    // Tutup saat klik pada area latar belakang
+    modalWrapper.addEventListener('click', (e) => {
+      if (e.target === modalWrapper) {
+        closeMemberModal();
+      }
+    });
+    modalBackdrop.addEventListener('click', closeMemberModal);
+
+    // Tutup dengan tombol Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isModalOpen) {
+        e.preventDefault();
+        closeMemberModal();
+      }
+    });
+
+    // Focus trap di dalam modal
+    modalEl.addEventListener('keydown', (e) => {
+      if (!isModalOpen || e.key !== 'Tab') return;
+
+      const focusableElements = Array.from(modalBox.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'))
+        .filter(el => !el.hasAttribute('disabled') && el.offsetParent !== null);
+
+      if (focusableElements.length === 0) return;
+
+      const firstEl = focusableElements[0];
+      const lastEl = focusableElements[focusableElements.length - 1];
+
+      if (e.shiftKey) {
+        if (document.activeElement === firstEl) {
+          e.preventDefault();
+          lastEl.focus();
+        }
+      } else {
+        if (document.activeElement === lastEl) {
+          e.preventDefault();
+          firstEl.focus();
+        }
+      }
+    });
+
+    // Navigasi internal di dalam modal
+    modalPrevBtn.addEventListener('click', () => {
+      currentModalIndex = (currentModalIndex - 1 + anggota.length) % anggota.length;
+      renderModalData(currentModalIndex);
+      modalScrollArea.scrollTop = 0;
+    });
+
+    modalNextBtn.addEventListener('click', () => {
+      currentModalIndex = (currentModalIndex + 1) % anggota.length;
+      renderModalData(currentModalIndex);
+      modalScrollArea.scrollTop = 0;
+    });
+
+    // =========================================================
+    // H. INISIALISASI HALAMAN
+    // =========================================================
+
+
+    // =========================================================
+    // I. DATA STRUKTUR 8 DOKUMENTASI KEGIATAN PLK
+    // =========================================================
+    const galeriKegiatan = [
+      {
+        id: 1,
+        kode: 'DOK-01',
+        kategori: 'Pamong & Warga',
+        badgeBg: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+        judul: 'Penerimaan & Musyawarah Awal Pamong',
+        waktu: 'Minggu Ke-1 • Balai Kalurahan',
+        lokasi: 'Pendopo Kalurahan [Nama Desa/Mitra]',
+        ringkasan: 'Koordinasi perdana penyelarasan rencana 272 jam pengabdian bersama jajaran pamong, BPD, dan tokoh masyarakat.',
+        deskripsi: 'Pertemuan resmi penyambutan mahasiswa tim PLK UNY Mengabdi oleh Lurah, Carik, dan pamong kalurahan. Forum ini merumuskan target luaran 4 pilar program kerja, jadwal sambang pedukuhan, serta koordinasi teknis data kependudukan.',
+        poin: [
+          'Penyampaian rencana 272 jam pengabdian terpadu',
+          'Pemetaan kebutuhan riil tiap pedukuhan dan sasaran program',
+          'Penetapan narahubung pamong untuk kelancaran pendampingan lapangan'
+        ],
+        fotoUrl: 'assets/images/galeri_1.jpg'
+      },
+      {
+        id: 2,
+        kode: 'DOK-02',
+        kategori: 'Pendidikan',
+        badgeBg: 'bg-blue-50 text-blue-800 border-blue-200',
+        judul: 'Pelatihan Interaktif & Motivasi Belajar',
+        waktu: 'Minggu Ke-2 • Ruang Komunal',
+        lokasi: 'Balai Kalurahan & Balai RW',
+        ringkasan: 'Pendampingan literasi komputer interaktif dan penguatan motivasi kelanjutan studi pemuda desa.',
+        deskripsi: 'Kegiatan bimbingan belajar kreatif dan pengenalan aplikasi perkantoran dasar bagi pelajar SD/SMP serta remaja Karang Taruna guna menumbuhkan minat belajar dan literasi digital sejak dini.',
+        poin: [
+          'Modul pembelajaran visual dan kuis digital interaktif',
+          'Simulasi praktik komputer dasar secara terarah',
+          'Konseling motivasi studi lanjut dan pemetaan minat karir remaja'
+        ],
+        fotoUrl: 'assets/images/proker_pendidikan.jpg'
+      },
+      {
+        id: 3,
+        kode: 'DOK-03',
+        kategori: 'Lingkungan',
+        badgeBg: 'bg-green-50 text-green-800 border-green-200',
+        judul: 'Aksi Penghijauan Lahan & Penanaman Bibit',
+        waktu: 'Minggu Ke-3 • Area Sabuk Hijau',
+        lokasi: 'Lahan Kritis & Pekarangan Warga',
+        ringkasan: 'Penanaman bibit pohon produktif dan konservasi tanah bersama kelompok tani binaan desa.',
+        deskripsi: 'Aksi peduli lingkungan bersama Gabungan Kelompok Tani (Gapoktan) dalam menanam bibit buah dan pohon pelindung untuk meningkatkan resapan air, mencegah erosi tanah tegalan, dan mempercantik bentang alam kalurahan.',
+        poin: [
+          'Penyaluran 200+ bibit pohon produktif bernilai ekonomis',
+          'Edukasi pengelolaan limbah organik menjadi kompos mandiri',
+          'Penataan sempadan jalur hijau desa bersama warga dusun'
+        ],
+        fotoUrl: 'assets/images/proker_lingkungan.jpg'
+      },
+      {
+        id: 4,
+        kode: 'DOK-04',
+        kategori: 'Teknologi',
+        badgeBg: 'bg-indigo-50 text-indigo-800 border-indigo-200',
+        judul: 'Digitalisasi Administrasi & Sistem Desa',
+        waktu: 'Minggu Ke-3 • Kantor Kalurahan',
+        lokasi: 'Ruang Pelayanan Kalurahan',
+        ringkasan: 'Pengenalan dan pendampingan pengelolaan basis data kependudukan digital bagi perangkat desa.',
+        deskripsi: 'Transformasi digital penataan arsip berbasis sistem informasi untuk mempercepat layanan surat-menyurat dan validasi berkas warga di lingkungan kantor pemerintahan kalurahan.',
+        poin: [
+          'Digitalisasi alur pencatatan kependudukan dan surat desa',
+          'Pelatihan entri data sistem informasi kalurahan bagi staf pamong',
+          'Penyusunan modul panduan pemeliharaan sistem terstruktur'
+        ],
+        fotoUrl: 'assets/images/proker_teknologi.jpg'
+      },
+      {
+        id: 5,
+        kode: 'DOK-05',
+        kategori: 'Ekonomi Kreatif',
+        badgeBg: 'bg-amber-50 text-amber-800 border-amber-200',
+        judul: 'Pemberdayaan Produk UMKM & Kemasan',
+        waktu: 'Minggu Ke-4 • Sentra UMKM',
+        lokasi: 'Dapur Produksi Olahan Warga',
+        ringkasan: 'Pendampingan kemasan higienis, legalitas pangan, dan pendaftaran titik usaha di Google Maps.',
+        deskripsi: 'Pendampingan peningkatan nilai jual produk olahan tradisional desa melalui desain kemasan ramah lingkungan, label merek yang menarik, dan digitalisasi lokasi lapak ke Google Maps.',
+        poin: [
+          'Redesain kemasan dan stiker label identitas produk lokal',
+          'Pendaftaran 15+ titik usaha warga ke platform Google Maps',
+          'Pelatihan foto katalog produk praktis hanya menggunakan ponsel'
+        ],
+        fotoUrl: 'assets/images/proker_ekonomi.jpg'
+      },
+      {
+        id: 6,
+        kode: 'DOK-06',
+        kategori: 'Sosial Budaya',
+        badgeBg: 'bg-teal-50 text-teal-800 border-teal-200',
+        judul: 'Sarasehan & Musyawarah Dialog Warga',
+        waktu: 'Minggu Ke-4 • Pendopo Dusun',
+        lokasi: 'Balai Warga Pedukuhan',
+        ringkasan: 'Forum dialog malam hari mendengar aspirasi warga dan evaluasi gotong royong mingguan.',
+        deskripsi: 'Malam keakraban sarasehan budaya dan rembuk warga yang santai namun berbobot, mempererat rasa kekeluargaan antara mahasiswa dan warga sekaligus menjaring saran pelaksanaan program.',
+        poin: [
+          'Dialog terbuka capaian dan kendala kegiatan di pedukuhan',
+          'Penyelarasan rencana lanjutan gotong royong pembersihan dusun',
+          'Penguatan tradisi guyub rukun antar-generasi di desa'
+        ],
+        fotoUrl: 'assets/images/galeri_4.jpg'
+      },
+      {
+        id: 7,
+        kode: 'DOK-07',
+        kategori: 'Sambang Dusun',
+        badgeBg: 'bg-rose-50 text-rose-800 border-rose-200',
+        judul: 'Sambang Dusun & Silaturahmi Keluarga',
+        waktu: 'Minggu Ke-5 • Lingkungan Dusun',
+        lokasi: 'Rumah Warga & Posyandu Dusun',
+        ringkasan: 'Kunjungan silaturahmi ke rumah warga lansia dan balita untuk pendampingan keluarga sehat.',
+        deskripsi: 'Kegiatan door-to-door mahasiswa menyapa warga di pelosok dusun, membagikan edukasi pola asuh ramah anak bersama kader PKK, serta mencatat kearifan lokal yang masih terjaga.',
+        poin: [
+          'Pendataan kebiasaan hidup bersih dan gizi keluarga balita',
+          'Kunjungan ramah tamah menyapa lansia dan tokoh sesepuh dusun',
+          'Dokumentasi cerita lisan sejarah asal-usul pedukuhan'
+        ],
+        fotoUrl: 'assets/images/desa_interaksi_1790872269944.jpg'
+      },
+      {
+        id: 8,
+        kode: 'DOK-08',
+        kategori: 'Potensi Wilayah',
+        badgeBg: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+        judul: 'Eksplorasi Lanskap & Pemetaan Potensi',
+        waktu: 'Minggu Ke-5 • Kawasan Alam',
+        lokasi: 'Terasering & Sumber Mata Air Kalurahan',
+        ringkasan: 'Dokumentasi potensi alam dan profil visual untuk promosi agrowisata kalurahan.',
+        deskripsi: 'Pengambilan foto dan rekaman visual lanskap alam, area persawahan, serta potensi agrowisata untuk bahan publikasi website dan media profil Kalurahan.',
+        poin: [
+          'Pemetaan titik-titik bentang alam unggulan kalurahan',
+          'Dokumentasi visual foto resolusi tinggi untuk materi promosi',
+          'Penyusunan narasi dwibahasa potensi keindahan kalurahan'
+        ],
+        fotoUrl: 'assets/images/profil_desa.jpg'
+      }
+    ];
+
+    // =========================================================
+    // J. KONFIGURASI ENGINE 3D CAROUSEL GALERI KEGIATAN
+    // (IDENTIK PENUH DENGAN CAROUSEL TIM PENGABDI)
+    // =========================================================
+    const GALLERY_SPEED = 40;
+
+    const galleryCarouselContainer = document.getElementById('gallery-carousel-container');
+    const galleryCarouselTrack = document.getElementById('gallery-carousel-track');
+    const galleryPrevBtn = document.getElementById('gallery-carousel-prev');
+    const galleryNextBtn = document.getElementById('gallery-carousel-next');
+
+    let galleryCurrentX = 0;
+    let galleryTargetX = null;
+    let gallerySetWidth = 0;
+    let galleryLastTimestamp = 0;
+    let galleryAnimationFrameId = null;
+
+    let isGalleryHovered = false;
+    let isGalleryFocused = false;
+    let isGalleryDragging = false;
+
+    let cachedGalleryOffsets = [];
+
+    function cacheGalleryOffsets() {
+      cachedGalleryOffsets = [];
+      if (!galleryCarouselTrack) return;
+      const cards = galleryCarouselTrack.children;
+      for (let i = 0; i < cards.length; i++) {
+        cachedGalleryOffsets.push(cards[i].offsetLeft);
+      }
+    }
+
+    function createGalleryCardElement(g, index, isClone) {
+      const card = document.createElement('article');
+
+      // Bentuk kartu identik proporsional dengan kartu profil tim
+      card.className = 'card-glass-tim group cursor-pointer focus-visible:outline-none p-4 sm:p-5 rounded-2xl flex flex-col justify-between select-none w-[270px] sm:w-[285px] h-[390px] sm:h-[405px] shrink-0';
+      card.style.width = '285px';
+      card.style.maxWidth = '285px';
+      card.style.height = '405px';
+      card.style.flexShrink = '0';
+      card.setAttribute('data-index', String(index));
+
+      if (isClone) {
+        card.setAttribute('aria-hidden', 'true');
+        card.setAttribute('tabindex', '-1');
+      } else {
+        card.setAttribute('role', 'button');
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('aria-label', `Lihat dokumentasi ${g.judul}`);
+      }
+
+      card.innerHTML = `
+        <div class="flex flex-col h-full justify-between">
+          <div>
+            <!-- Wadah Foto Rasio 16:10 / 4:3 Persegi Panjang dengan Zoom Hover -->
+            <div class="relative w-full h-[185px] sm:h-[195px] rounded-xl overflow-hidden mb-3.5 bg-gradient-to-b from-brand-canvas to-brand-surface border border-brand-border/60 flex flex-col items-center justify-center text-center shadow-xs group-hover:border-brand-emerald/40 transition-colors">
+              <img src="${g.fotoUrl}" alt="${g.judul}" class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500">
+              <span class="absolute top-2.5 right-2.5 text-[10px] font-mono font-bold px-2.5 py-0.5 bg-brand-forest/90 text-white rounded-full shadow-xs backdrop-blur-xs">
+                ${g.kode}
+              </span>
+              <span class="absolute bottom-2.5 left-2.5 text-[10px] font-medium px-2.5 py-0.5 ${g.badgeBg} border rounded-full shadow-xs backdrop-blur-xs">
+                ${g.kategori}
+              </span>
+            </div>
+
+            <!-- Meta Waktu & Lokasi Singkat -->
+            <div class="text-[11px] font-mono text-brand-subtle mb-1 flex items-center gap-1.5 line-clamp-1">
+              <i data-lucide="calendar" class="w-3 h-3 text-emerald-700 shrink-0"></i>
+              <span>${g.waktu}</span>
+            </div>
+
+            <!-- Judul & Ringkasan Dokumentasi -->
+            <h3 class="text-base font-bold text-brand-forest group-hover:text-emerald-700 transition-colors leading-snug line-clamp-2">${g.judul}</h3>
+            <p class="text-xs text-brand-muted mt-1 leading-relaxed line-clamp-2">${g.ringkasan}</p>
+          </div>
+
+          <!-- Bagian Bawah Kartu -->
+          <div class="pt-3 border-t border-brand-border/60 flex items-center justify-between text-xs text-brand-subtle">
+            <span class="text-[11px] font-mono text-brand-subtle">${g.kode}</span>
+            <span class="inline-flex items-center gap-1 font-semibold text-brand-forest group-hover:text-emerald-700 transition-colors">
+              Buka foto <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            </span>
+          </div>
+        </div>
+      `;
+
+      card.addEventListener('click', () => {
+        if (hasGalleryDraggedOverThreshold) return;
+        openGalleryModal(index, card);
+      });
+
+      if (!isClone) {
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openGalleryModal(index, card);
+          }
+        });
+      }
+
+      return card;
+    }
+
+    function renderGalleryCarouselCards() {
+      if (!galleryCarouselTrack) return;
+      galleryCarouselTrack.innerHTML = '';
+
+      // 1 set asli
+      galeriKegiatan.forEach((g, idx) => {
+        galleryCarouselTrack.appendChild(createGalleryCardElement(g, idx, false));
+      });
+
+      // 2 set klon untuk infinite continuous seamless loop
+      for (let cloneSet = 0; cloneSet < 2; cloneSet++) {
+        galeriKegiatan.forEach((g, idx) => {
+          galleryCarouselTrack.appendChild(createGalleryCardElement(g, idx, true));
+        });
+      }
+
+      lucide.createIcons({
+        attrs: { 'stroke-width': 1.75 }
+      });
+
+      calculateGallerySetWidth();
+      centerInitialGalleryCard();
+    }
+
+    function calculateGallerySetWidth() {
+      if (galleryCarouselTrack && galleryCarouselTrack.children.length > galeriKegiatan.length) {
+        const firstCard = galleryCarouselTrack.children[0];
+        const nextSetFirstCard = galleryCarouselTrack.children[galeriKegiatan.length];
+        const measured = nextSetFirstCard.offsetLeft - firstCard.offsetLeft;
+        gallerySetWidth = (measured > 1000 && measured < 10000) ? measured : galeriKegiatan.length * 309;
+      } else {
+        gallerySetWidth = galeriKegiatan.length * 309;
+      }
+      cacheGalleryOffsets();
+      updateGalleryCards3D();
+    }
+
+    function centerInitialGalleryCard() {
+      if (galleryCarouselContainer) {
+        if (!gallerySetWidth || gallerySetWidth <= 0) gallerySetWidth = galeriKegiatan.length * 309;
+        const containerWidth = galleryCarouselContainer.clientWidth || 1200;
+        const firstCard = galleryCarouselTrack ? galleryCarouselTrack.children[0] : null;
+        if (firstCard) {
+          const cardWidth = firstCard.offsetWidth || 285;
+          galleryCurrentX = (firstCard.offsetLeft + cardWidth / 2) - (containerWidth / 2);
+          while (galleryCurrentX < 0 && gallerySetWidth > 0) galleryCurrentX += gallerySetWidth;
+          while (galleryCurrentX >= gallerySetWidth && gallerySetWidth > 0) galleryCurrentX -= gallerySetWidth;
+          applyGalleryTransform();
+        }
+      }
+    }
+
+    window.addEventListener('resize', () => {
+      calculateGallerySetWidth();
+      applyGalleryTransform();
+    });
+
+    function updateGalleryCards3D() {
+      if (!galleryCarouselContainer || !galleryCarouselTrack) return;
+      const cards = galleryCarouselTrack.children;
+      const totalCards = cards.length;
+      if (totalCards === 0) return;
+
+      const containerWidth = galleryCarouselContainer.clientWidth || 1200;
+      const containerCenter = galleryCurrentX + containerWidth / 2;
+      const cardWidth = cards[0].offsetWidth || 285;
+
+      for (let i = 0; i < totalCards; i++) {
+        const card = cards[i];
+        const cardLeft = cachedGalleryOffsets[i] !== undefined ? cachedGalleryOffsets[i] : card.offsetLeft;
+        const cardCenter = cardLeft + cardWidth / 2;
+        const distFromCenter = cardCenter - containerCenter;
+        const normalizedDist = distFromCenter / (containerWidth / 2);
+        const absDist = Math.abs(normalizedDist);
+
+        if (absDist > 2.5) {
+          card.style.opacity = '0';
+          card.style.pointerEvents = 'none';
+          continue;
+        }
+
+        const scale = Math.max(0.72, 1.08 - Math.pow(Math.min(absDist, 1.3), 1.25) * 0.36);
+        const rotY = Math.max(-15, Math.min(15, -normalizedDist * 14));
+        const transZ = Math.max(-75, (1 - Math.min(absDist, 1.2)) * 35 - 15);
+        const zIndex = Math.round((1 - Math.min(absDist, 1.4)) * 30) + 1;
+
+        let blurPx = 0;
+        let opacity = 1;
+        if (absDist > 0.45) {
+          const fadeProgress = Math.min(1, (absDist - 0.45) / 0.65);
+          blurPx = fadeProgress * 3;
+          opacity = Math.max(0.45, 1 - fadeProgress * 0.55);
+        }
+
+        card.style.transform = `perspective(1000px) translate3d(0, 0, ${transZ}px) rotateY(${rotY}deg) scale(${scale})`;
+        card.style.zIndex = String(zIndex);
+        card.style.opacity = String(opacity);
+        card.style.filter = blurPx > 0.2 ? `blur(${blurPx.toFixed(1)}px)` : 'none';
+        card.style.pointerEvents = absDist > 1.15 ? 'none' : 'auto';
+
+        if (absDist < 0.28) {
+          card.classList.add('is-center-card');
+        } else {
+          card.classList.remove('is-center-card');
+        }
+      }
+    }
+
+    function applyGalleryTransform() {
+      if (!galleryCarouselTrack) return;
+      galleryCarouselTrack.style.transform = `translate3d(-${galleryCurrentX}px, 0, 0)`;
+      updateGalleryCards3D();
+    }
+
+    function stepContinuousGallery(timestamp) {
+      if (!galleryLastTimestamp) galleryLastTimestamp = timestamp;
+      const deltaTime = (timestamp - galleryLastTimestamp) / 1000;
+      galleryLastTimestamp = timestamp;
+
+      if (galleryTargetX !== null) {
+        const diff = galleryTargetX - galleryCurrentX;
+        if (Math.abs(diff) < 0.6) {
+          galleryCurrentX = galleryTargetX;
+          galleryTargetX = null;
+        } else {
+          galleryCurrentX += diff * 0.14;
+        }
+        if (gallerySetWidth > 0) {
+          while (galleryCurrentX >= gallerySetWidth) {
+            galleryCurrentX -= gallerySetWidth;
+            if (galleryTargetX !== null) galleryTargetX -= gallerySetWidth;
+          }
+          while (galleryCurrentX < 0) {
+            galleryCurrentX += gallerySetWidth;
+            if (galleryTargetX !== null) galleryTargetX += gallerySetWidth;
+          }
+        }
+        applyGalleryTransform();
+      } else {
+        const shouldMove = !isGalleryHovered &&
+          !isGalleryFocused &&
+          !isGalleryDragging &&
+          !isGalleryModalOpen &&
+          !isReducedMotion &&
+          document.visibilityState === 'visible';
+
+        if (shouldMove && gallerySetWidth > 0 && deltaTime < 0.1) {
+          galleryCurrentX += GALLERY_SPEED * deltaTime;
+          if (galleryCurrentX >= gallerySetWidth) {
+            galleryCurrentX -= gallerySetWidth;
+          }
+          applyGalleryTransform();
+        }
+      }
+
+      galleryAnimationFrameId = requestAnimationFrame(stepContinuousGallery);
+    }
+
+    // Interaksi Drag Pointer Galeri
+    let isGalleryPointerDown = false;
+    let startGalleryPointerX = 0;
+    let lastGalleryPointerX = 0;
+    let galleryDragTotalDistance = 0;
+    let hasGalleryDraggedOverThreshold = false;
+
+    if (galleryCarouselContainer) {
+      galleryCarouselContainer.addEventListener('pointerdown', (e) => {
+        if (e.pointerType === 'mouse' && e.button !== 0) return;
+        galleryTargetX = null;
+        isGalleryPointerDown = true;
+        isGalleryDragging = true;
+        startGalleryPointerX = e.clientX;
+        lastGalleryPointerX = e.clientX;
+        galleryDragTotalDistance = 0;
+        hasGalleryDraggedOverThreshold = false;
+      });
+
+      window.addEventListener('pointermove', (e) => {
+        if (!isGalleryPointerDown) return;
+        const dx = e.clientX - lastGalleryPointerX;
+        lastGalleryPointerX = e.clientX;
+        galleryDragTotalDistance += Math.abs(dx);
+        if (galleryDragTotalDistance > 6) {
+          hasGalleryDraggedOverThreshold = true;
+        }
+        galleryCurrentX -= dx;
+        if (gallerySetWidth > 0) {
+          while (galleryCurrentX >= gallerySetWidth) galleryCurrentX -= gallerySetWidth;
+          while (galleryCurrentX < 0) galleryCurrentX += gallerySetWidth;
+        }
+        applyGalleryTransform();
+      });
+
+      const endGalleryPointerDrag = () => {
+        if (!isGalleryPointerDown) return;
+        isGalleryPointerDown = false;
+        isGalleryDragging = false;
+        setTimeout(() => {
+          hasGalleryDraggedOverThreshold = false;
+        }, 50);
+      };
+
+      window.addEventListener('pointerup', endGalleryPointerDrag);
+      window.addEventListener('pointercancel', endGalleryPointerDrag);
+
+      galleryCarouselContainer.addEventListener('mouseenter', () => { isGalleryHovered = true; });
+      galleryCarouselContainer.addEventListener('mouseleave', () => { isGalleryHovered = false; });
+
+      galleryCarouselContainer.addEventListener('focusin', () => { isGalleryFocused = true; });
+      galleryCarouselContainer.addEventListener('focusout', (e) => {
+        if (!galleryCarouselContainer.contains(e.relatedTarget)) {
+          isGalleryFocused = false;
+        }
+      });
+
+      galleryCarouselContainer.addEventListener('wheel', (e) => {
+        galleryTargetX = null;
+        const delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : (e.shiftKey ? e.deltaY : 0);
+        if (Math.abs(delta) > 1) {
+          e.preventDefault();
+          galleryCurrentX += delta;
+          if (gallerySetWidth > 0) {
+            while (galleryCurrentX >= gallerySetWidth) galleryCurrentX -= gallerySetWidth;
+            while (galleryCurrentX < 0) galleryCurrentX += gallerySetWidth;
+          }
+          applyGalleryTransform();
+        }
+      }, { passive: false });
+    }
+
+    function getGalleryCardStepDistance() {
+      if (!galleryCarouselTrack) return 309;
+      const card = galleryCarouselTrack.firstElementChild;
+      const cardWidth = card ? card.offsetWidth : 285;
+      return cardWidth + 24;
+    }
+
+    if (galleryPrevBtn) {
+      galleryPrevBtn.addEventListener('click', () => {
+        const stepDist = getGalleryCardStepDistance();
+        galleryTargetX = (galleryTargetX !== null ? galleryTargetX : galleryCurrentX) - stepDist;
+      });
+    }
+
+    if (galleryNextBtn) {
+      galleryNextBtn.addEventListener('click', () => {
+        const stepDist = getGalleryCardStepDistance();
+        galleryTargetX = (galleryTargetX !== null ? galleryTargetX : galleryCurrentX) + stepDist;
+      });
+    }
+
+    // =========================================================
+    // K. MODAL DETAIL DOKUMENTASI GALERI KEGIATAN
+    // =========================================================
+    const modalGaleriEl = document.getElementById('modal-galeri');
+    const modalGaleriBackdrop = document.getElementById('modal-galeri-backdrop');
+    const modalGaleriWrapper = document.getElementById('modal-galeri-wrapper');
+    const modalGaleriBox = document.getElementById('modal-galeri-box');
+    const modalGaleriScrollArea = document.getElementById('modal-galeri-scroll-area');
+    const modalGaleriCloseBtn = document.getElementById('modal-galeri-close-btn');
+    const modalGaleriPrevBtn = document.getElementById('modal-galeri-prev-btn');
+    const modalGaleriNextBtn = document.getElementById('modal-galeri-next-btn');
+
+    let currentGalleryModalIndex = 0;
+    let lastActiveGalleryCard = null;
+    let savedGalleryScrollPosition = 0;
+    let isClosingGalleryModal = false;
+
+    function renderGalleryModalData(index) {
+      const g = galeriKegiatan[index];
+      if (!g) return;
+
+      const currentNum = String(index + 1).padStart(2, '0');
+      const totalNum = String(galeriKegiatan.length).padStart(2, '0');
+      document.getElementById('modal-galeri-counter').textContent = `Dokumentasi ${currentNum} / ${totalNum}`;
+
+      const imgEl = document.getElementById('modal-galeri-img');
+      imgEl.src = g.fotoUrl;
+      imgEl.alt = g.judul;
+
+      const katEl = document.getElementById('modal-galeri-kategori');
+      katEl.className = `text-xs px-3 py-1 rounded-full font-medium border ${g.badgeBg}`;
+      katEl.textContent = g.kategori;
+
+      document.getElementById('modal-galeri-waktu').textContent = g.waktu;
+      document.getElementById('modal-galeri-judul').textContent = g.judul;
+      document.getElementById('modal-galeri-lokasi').textContent = g.lokasi;
+      document.getElementById('modal-galeri-deskripsi').textContent = g.deskripsi;
+
+      const poinList = document.getElementById('modal-galeri-poin-list');
+      poinList.innerHTML = g.poin.map(p => `
+        <li class="flex items-start gap-2.5">
+          <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+          <span class="leading-relaxed">${p}</span>
+        </li>
+      `).join('');
+
+      lucide.createIcons({ attrs: { 'stroke-width': 1.75 } });
+    }
+
+    function openGalleryModal(index, triggerEl) {
+      if (isGalleryModalOpen || !modalGaleriEl) return;
+      currentGalleryModalIndex = index;
+      lastActiveGalleryCard = triggerEl || document.activeElement;
+
+      savedGalleryScrollPosition = window.pageYOffset || document.documentElement.scrollTop || 0;
+      document.documentElement.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
+
+      renderGalleryModalData(currentGalleryModalIndex);
+      if (modalGaleriScrollArea) modalGaleriScrollArea.scrollTop = 0;
+
+      modalGaleriEl.classList.remove('hidden');
+      isGalleryModalOpen = true;
+
+      requestAnimationFrame(() => {
+        modalGaleriBackdrop.classList.remove('opacity-0');
+        modalGaleriBackdrop.classList.add('opacity-100');
+        modalGaleriBox.classList.remove('translate-y-4', 'opacity-0');
+        modalGaleriBox.classList.add('translate-y-0', 'opacity-100');
+        if (modalGaleriCloseBtn) modalGaleriCloseBtn.focus({ preventScroll: true });
+      });
+    }
+
+    function closeGalleryModal() {
+      if (!isGalleryModalOpen || isClosingGalleryModal || !modalGaleriEl) return;
+      isClosingGalleryModal = true;
+
+      modalGaleriBackdrop.classList.remove('opacity-100');
+      modalGaleriBackdrop.classList.add('opacity-0');
+      modalGaleriBox.classList.remove('translate-y-0', 'opacity-100');
+      modalGaleriBox.classList.add('translate-y-4', 'opacity-0');
+
+      setTimeout(() => {
+        modalGaleriEl.classList.add('hidden');
+        isGalleryModalOpen = false;
+        isClosingGalleryModal = false;
+
+        document.documentElement.style.overflow = '';
+        document.body.style.overflow = '';
+        window.scrollTo({
+          top: savedGalleryScrollPosition,
+          left: 0,
+          behavior: 'instant'
+        });
+
+        if (lastActiveGalleryCard && typeof lastActiveGalleryCard.focus === 'function') {
+          try {
+            lastActiveGalleryCard.focus({ preventScroll: true });
+          } catch (e) {
+            lastActiveGalleryCard.focus();
+          }
+        }
+      }, isReducedMotion ? 10 : 180);
+    }
+
+    if (modalGaleriCloseBtn) modalGaleriCloseBtn.addEventListener('click', closeGalleryModal);
+    if (modalGaleriWrapper) {
+      modalGaleriWrapper.addEventListener('click', (e) => {
+        if (e.target === modalGaleriWrapper) closeGalleryModal();
+      });
+    }
+    if (modalGaleriBackdrop) modalGaleriBackdrop.addEventListener('click', closeGalleryModal);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isGalleryModalOpen) {
+        e.preventDefault();
+        closeGalleryModal();
+      }
+    });
+
+    if (modalGaleriPrevBtn) {
+      modalGaleriPrevBtn.addEventListener('click', () => {
+        currentGalleryModalIndex = (currentGalleryModalIndex - 1 + galeriKegiatan.length) % galeriKegiatan.length;
+        renderGalleryModalData(currentGalleryModalIndex);
+        if (modalGaleriScrollArea) modalGaleriScrollArea.scrollTop = 0;
+      });
+    }
+
+    if (modalGaleriNextBtn) {
+      modalGaleriNextBtn.addEventListener('click', () => {
+        currentGalleryModalIndex = (currentGalleryModalIndex + 1) % galeriKegiatan.length;
+        renderGalleryModalData(currentGalleryModalIndex);
+        if (modalGaleriScrollArea) modalGaleriScrollArea.scrollTop = 0;
+      });
+    }
+
+    // Inisialisasi awal render kedua carousel (Tim Pengabdi & Galeri Kegiatan)
+    renderCarouselCards();
+    renderGalleryCarouselCards();
+    if (!isReducedMotion) {
+      animationFrameId = requestAnimationFrame(stepContinuousCarousel);
+      galleryAnimationFrameId = requestAnimationFrame(stepContinuousGallery);
+    }
+
+    // Manajemen Menu Hamburger Mobile (Fitur Asli yang Dipertahankan)
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+    if (menuToggle && mobileNav) {
+      menuToggle.addEventListener('click', function () {
+        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', !isExpanded);
+        mobileNav.classList.toggle('hidden');
+
+        if (!isExpanded) {
+          menuToggle.setAttribute('aria-label', 'Tutup menu navigasi');
+          menuToggle.innerHTML = '<i data-lucide="x" class="w-5 h-5"></i>';
+        } else {
+          menuToggle.setAttribute('aria-label', 'Buka menu navigasi');
+          menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
+        }
+        lucide.createIcons({ attrs: { 'stroke-width': 1.75 } });
+      });
+
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          mobileNav.classList.add('hidden');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          menuToggle.setAttribute('aria-label', 'Buka menu navigasi');
+          menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
+          lucide.createIcons({ attrs: { 'stroke-width': 1.75 } });
+        });
+      });
+    }
+  </script>
+
+</body>
+
+</html>
