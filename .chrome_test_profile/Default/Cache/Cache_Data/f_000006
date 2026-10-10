@@ -1,0 +1,3592 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PLK UNY Mengabdi | Kalurahan Trimurti, Srandakan, Bantul</title>
+
+  <meta name="description"
+    content="Dokumentasi resmi program dan rencana kerja 10 mahasiswa Pengabdian Luar Kampus (PLK) Universitas Negeri Yogyakarta di Kalurahan Trimurti, Kapanewon Srandakan, Kabupaten Bantul.">
+  <meta name="theme-color" content="#162F24">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PLK UNY Mengabdi | Kalurahan Trimurti, Srandakan, Bantul">
+  <meta property="og:description"
+    content="Kerja bersama 10 mahasiswa lintas 4 bidang keilmuan UNY mendampingi pamong dan warga Kalurahan Trimurti, Srandakan, Bantul.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://plk-trimurti.uny.ac.id">
+
+  <!-- Preload LCP Hero WebP Image with Responsive Breakpoints (Desktop & Mobile) -->
+  <link rel="preload" as="image" href="assets/images/hero-1200.webp"
+    imagesrcset="assets/images/hero-480.webp 480w, assets/images/hero-800.webp 800w, assets/images/hero-1200.webp 1200w"
+    imagesizes="100vw" type="image/webp" fetchpriority="high">
+
+  <!-- Favicon Brand Icon (Inline SVG Data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23162F24' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 20h10'/%3E%3Cpath d='M10 20c5.5-2.5.8-6.4 3-10'/%3E%3Cpath d='M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z'/%3E%3Cpath d='M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z'/%3E%3C/svg%3E">
+
+  <!-- Local Font Preload with CORS (Outfit Variable) -->
+  <link rel="preload" as="font" href="assets/fonts/Outfit-Variable.woff2" type="font/woff2" crossorigin="anonymous">
+
+  <!-- Custom Structured CSS File -->
+  <link rel="stylesheet" href="style.css?v=6.1">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              forest: '#162F24',
+              forestDark: '#0F231A',
+              forestHover: '#10241B',
+              forestLight: '#254F3B',
+              sage: '#EBF1EC',
+              sageLight: '#F4F7F5',
+              sageDark: '#D3DFD6',
+              canvas: '#F7FAF8',
+              surface: '#FCFDFC',
+              border: '#E2E8E4',
+              borderDark: '#CBD7CE',
+              ink: '#111827',
+              muted: '#4B5563',
+              subtle: '#6B7280'
+            },
+            prodi: {
+              tiBg: '#EDF4FC',
+              tiText: '#184C85',
+              tiBorder: '#C9DEF4',
+              ptiBg: '#E9F5F1',
+              ptiText: '#0D685C',
+              ptiBorder: '#C2E5DC',
+              bkBg: '#F8EFE9',
+              bkText: '#874321',
+              bkBorder: '#ECCDBF',
+              pbiBg: '#FEF3E2',
+              pbiText: '#9A5B0B',
+              pbiBorder: '#F9DFB0'
+            }
+          },
+          borderRadius: {
+            sm: '6px',
+            md: '14px',
+            lg: '14px',
+            xl: '14px',
+            '2xl': '16px',
+            full: '9999px'
+          },
+          fontFamily: {
+            display: ['"Outfit"', '"Plus Jakarta Sans"', 'sans-serif'],
+            body: ['"Outfit"', '"Plus Jakarta Sans"', 'sans-serif'],
+            sans: ['"Outfit"', '"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"Outfit"', '"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Smooth Inertia Scroll (Lenis Engine) -->
+  <script src="assets/js/lenis.min.js"></script>
+</head>
+
+<body class="relative selection:bg-brand-forest selection:text-white bg-brand-canvas text-brand-ink">
+
+  <!-- =========================================================
+       MINIMALIST MACOS GLASSMORPHISM CURSOR (DESKTOP MODE)
+       ========================================================= -->
+  <div id="mac-cursor" class="mac-cursor" aria-hidden="true">
+    <div class="mac-cursor-dot"></div>
+  </div>
+
+  <!-- =========================================================
+       GLOBAL BACKGROUND SYSTEM: WHOLE-SITE TACTILE FILM/PAPER GRAIN
+       Tactile fine grain overlay applied across the whole site
+       ========================================================= -->
+  <div class="site-grain-overlay" aria-hidden="true"></div>
+
+  <!-- Sentinel Observer Header Scroll -->
+  <div id="header-sentinel" class="absolute top-0 left-0 w-full h-[8px] pointer-events-none -z-10" aria-hidden="true">
+  </div>
+
+  <!-- =========================================================
+       1. STICKY NAVBAR & HEADER (Atmospheric Glassmorphic Nav)
+       ========================================================= -->
+  <header id="header-nav"
+    class="fixed top-0 left-0 right-0 w-full z-50 bg-[#0A1B13]/90 backdrop-blur-md border-b border-emerald-900/35">
+    <div class="header-inner max-w-6xl mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
+
+      <!-- Logo & Identitas Penempatan -->
+      <a href="#beranda" class="group flex items-center gap-2.5 touch-target text-left"
+        aria-label="Beranda PLK UNY Mengabdi Kalurahan Trimurti">
+        <div
+          class="w-8 h-8 rounded-lg bg-emerald-950 border border-emerald-700/50 flex items-center justify-center text-white shadow-xs">
+          <i data-lucide="sprout" class="w-4 h-4 text-emerald-300"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-sm font-bold tracking-tight text-white">PLK UNY Mengabdi</span>
+          <span class="text-[10px] text-emerald-300/80 leading-none">Kalurahan Trimurti, Srandakan</span>
+        </div>
+      </a>
+
+      <!-- Navigasi Desktop Presisi dengan Indikator Aktif -->
+      <nav id="desktop-nav" class="hidden md:flex items-center gap-7 text-xs font-semibold text-gray-300 relative"
+        aria-label="Navigasi Utama">
+        <a href="#beranda" class="text-emerald-400 font-bold transition-colors py-2 px-2.5 inline-flex items-center">Beranda</a>
+        <a href="#peta-lokasi" class="hover:text-emerald-300 transition-colors py-2 px-2.5 inline-flex items-center">Lokasi</a>
+        <a href="#profil-desa" class="hover:text-emerald-300 transition-colors py-2 px-2.5 inline-flex items-center">Tentang</a>
+        <a href="#kegiatan" class="hover:text-emerald-300 transition-colors py-2 px-2.5 inline-flex items-center">Kegiatan</a>
+        <a href="#dokumentasi" class="hover:text-emerald-300 transition-colors py-2 px-2.5 inline-flex items-center">Dokumentasi</a>
+        <a href="#tim" class="hover:text-emerald-300 transition-colors py-2 px-2.5 inline-flex items-center">Tim</a>
+        <a href="#kontak" class="hover:text-emerald-300 transition-colors py-2 px-2.5 inline-flex items-center">Kontak</a>
+        <span id="nav-indicator-line" aria-hidden="true"></span>
+      </nav>
+
+      <!-- Aksi Sisi Kanan: Tombol Hamburger Mobile -->
+      <div class="flex items-center gap-3">
+        <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"
+          class="md:hidden touch-target p-2 text-emerald-300 hover:bg-emerald-950/60 rounded-xl transition-colors"
+          aria-label="Buka menu navigasi">
+          <i data-lucide="menu" id="menu-icon" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-nav" class="hidden md:hidden border-t border-emerald-900/40 bg-[#0F231A] px-4 py-4 shadow-xl">
+      <nav class="flex flex-col space-y-1 text-sm font-semibold text-gray-200" aria-label="Navigasi Mobile">
+        <a href="#beranda"
+          class="mobile-nav-link touch-target justify-start px-3 py-2.5 rounded-xl hover:bg-emerald-950/60">Beranda</a>
+        <a href="#peta-lokasi"
+          class="mobile-nav-link touch-target justify-start px-3 py-2.5 rounded-xl hover:bg-emerald-950/60">Lokasi Posko
+          &amp; Peta</a>
+        <a href="#profil-desa"
+          class="mobile-nav-link touch-target justify-start px-3 py-2.5 rounded-xl hover:bg-emerald-950/60">Tentang
+          Program</a>
+        <a href="#kegiatan"
+          class="mobile-nav-link touch-target justify-start px-3 py-2.5 rounded-xl hover:bg-emerald-950/60">Kegiatan</a>
+        <a href="#dokumentasi"
+          class="mobile-nav-link touch-target justify-start px-3 py-2.5 rounded-xl hover:bg-emerald-950/60">Galeri
+          Dokumentasi</a>
+        <a href="#tim"
+          class="mobile-nav-link touch-target justify-start px-3 py-2.5 rounded-xl hover:bg-emerald-950/60">Tim
+          Pengabdi</a>
+        <a href="#kontak"
+          class="mobile-nav-link touch-target justify-start px-3 py-2.5 rounded-xl hover:bg-emerald-950/60">Kontak &amp;
+          Informasi</a>
+      </nav>
+    </div>
+
+    <!-- Reading Progress Bar -->
+    <div id="progress-bar-baca" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         2. HERO SECTION: PROGRESSIVE GRADIENT BLUR
+         Foto lanskap desa & pegunungan, kontras teks optimal
+         ========================================================= -->
+    <section id="beranda"
+      class="hero-container relative min-h-screen min-h-[100vh] min-h-[100svh] flex items-center pt-20 pb-12 lg:pt-24 lg:pb-16 overflow-hidden">
+
+      <div class="hero-bg-wrapper absolute inset-0 pointer-events-none select-none z-0 overflow-hidden">
+        <div class="hero-gradient-mesh" aria-hidden="true"></div>
+        <div class="hero-layer-sharp hero-parallax-bg absolute inset-0 bg-cover bg-no-repeat bg-[center_right]"></div>
+        <div class="hero-layer-tint absolute inset-0" aria-hidden="true"></div>
+        <div class="hero-grain-overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full">
+        <div class="max-w-xl text-left">
+          <h1
+            class="hero-seq-2 font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-[1.1] mb-4">
+            PLK UNY Mengabdi
+          </h1>
+
+          <p class="hero-seq-3 text-base sm:text-lg lg:text-xl font-semibold text-emerald-100/95 leading-snug mb-4">
+            Pengabdian Mahasiswa di Kalurahan Trimurti, Srandakan, Bantul
+          </p>
+
+          <p class="hero-seq-4 text-xs sm:text-sm text-gray-200/90 leading-relaxed mb-6 max-w-lg">
+            Sepuluh mahasiswa Universitas Negeri Yogyakarta mendampingi warga dan pamong kalurahan pada bidang teknologi
+            informasi, pendidikan sekolah, ketahanan keluarga, dan usaha warga di Kalurahan Trimurti, Kapanewon
+            Srandakan, Bantul.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. SECTION PETA & PARAMETER WILAYAH (Bantul / Trimurti Tunggal)
+         Fokus eksklusif ke Trimurti dengan 3 marker riil
+         ========================================================= -->
+    <section id="peta-lokasi" class="scroll-mt-20 py-16 lg:py-24 border-b border-brand-border bg-brand-canvas">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+        <div class="gerakJudul mb-6">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-ink tracking-tight leading-tight">
+            Peta Lokasi &amp; Titik Penempatan Kalurahan Trimurti
+          </h2>
+          <p class="gerakTeks text-xs sm:text-sm text-brand-muted max-w-2xl leading-relaxed mt-2">
+            Berpusat di Kalurahan Trimurti, Kapanewon Srandakan,
+            Kabupaten Bantul.
+          </p>
+        </div>
+
+        <!-- Kontainer Peta Lebar Penuh dengan 3 Titik Riil -->
+        <div id="peta-map-wrapper"
+          class="relative w-full rounded-2xl border border-brand-border bg-brand-surface shadow-xs overflow-hidden select-none h-[440px] sm:h-[480px] lg:h-[500px]"
+          role="region"
+          aria-label="Peta interaktif penempatan PLK UNY di Kalurahan Trimurti, Kapanewon Srandakan, Kabupaten Bantul">
+
+          <!-- 1. Tombol Aksi Petunjuk Arah Minimalis (Pojok Kiri Bawah) -->
+          <div id="peta-info-teks"
+            class="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 z-20 pointer-events-auto">
+            <a href="https://maps.google.com/?q=-7.9350,110.2780" target="_blank" rel="noopener noreferrer"
+              class="group touch-target inline-flex items-center gap-2 px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-xl bg-brand-forest hover:bg-brand-forestLight text-white text-xs sm:text-sm font-semibold transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 active:scale-95 cursor-pointer"
+              aria-label="Petunjuk Arah ke Kalurahan Trimurti" title="Buka Petunjuk Arah">
+              <span>Petunjuk Arah</span>
+              <svg class="w-4 h-4 text-emerald-300 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="7" y1="17" x2="17" y2="7"/>
+                <polyline points="7 7 17 7 17 17"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- 2. Fallback SVG Maket Diorama Murni -->
+          <div id="peta-svg-container"
+            class="absolute inset-0 w-full h-full flex items-center justify-center pointer-events-auto">
+          </div>
+
+          <!-- 3. WebGL MapLibre Container -->
+          <div id="peta-maplibre"
+            class="absolute inset-0 w-full h-full opacity-0 transition-opacity duration-500 pointer-events-auto">
+          </div>
+
+          <!-- 4. Mode Hemat Data Banner -->
+          <div id="peta-save-data-banner"
+            class="hidden absolute bottom-3.5 left-3.5 z-20 bg-brand-surface/95 backdrop-blur-sm border border-brand-border px-3.5 py-2 rounded-xl text-xs shadow-md flex items-center gap-2.5">
+            <span class="text-brand-muted font-medium">Mode hemat data aktif:</span>
+            <button id="btn-load-peta-interactive" type="button"
+              class="px-3 py-1 bg-brand-forest hover:bg-brand-forestHover text-white font-semibold rounded-lg transition-colors text-xs cursor-pointer">
+              Muat peta interaktif
+            </button>
+          </div>
+
+          <!-- 5. Kontrol Toolbar Navigasi Peta (Touch Target Minimal 44x44px) -->
+          <div class="absolute top-3 right-3 sm:top-5 sm:right-5 z-20 flex flex-col gap-1.5 sm:gap-2" role="toolbar"
+            aria-label="Kontrol Navigasi Peta">
+            <button id="peta-btn-north" type="button"
+              class="touch-target w-9 h-9 sm:w-11 sm:h-11 bg-brand-surface/90 hover:bg-brand-surface active:scale-95 text-brand-forest border border-brand-border rounded-xl flex items-center justify-center transition-all shadow-xs cursor-pointer"
+              aria-label="Arahkan peta ke utara" title="Arahkan ke utara">
+              <svg id="peta-compass-arrow" viewBox="0 0 24 24"
+                class="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-200" fill="none">
+                <polygon points="12,3 16,13 12,10 8,13" fill="#DC2626" />
+                <polygon points="12,21 16,11 12,14 8,11" fill="#162F24" opacity="0.65" />
+              </svg>
+            </button>
+            <button id="peta-btn-zoom-in" type="button"
+              class="touch-target w-9 h-9 sm:w-11 sm:h-11 bg-brand-surface/90 hover:bg-brand-surface active:scale-95 text-brand-forest border border-brand-border rounded-xl flex items-center justify-center transition-all shadow-xs cursor-pointer"
+              aria-label="Perbesar peta" title="Perbesar peta">
+              <i data-lucide="plus" class="w-4 h-4 text-brand-forest"></i>
+            </button>
+            <button id="peta-btn-zoom-out" type="button"
+              class="touch-target w-9 h-9 sm:w-11 sm:h-11 bg-brand-surface/90 hover:bg-brand-surface active:scale-95 text-brand-forest border border-brand-border rounded-xl flex items-center justify-center transition-all shadow-xs cursor-pointer"
+              aria-label="Perkecil peta" title="Perkecil peta">
+              <i data-lucide="minus" class="w-4 h-4 text-brand-forest"></i>
+            </button>
+            <button id="peta-btn-toggle-3d" type="button"
+              class="touch-target w-9 h-9 sm:w-11 sm:h-11 bg-brand-surface/90 hover:bg-brand-surface active:scale-95 text-brand-forest border border-brand-border rounded-xl flex items-center justify-center transition-all shadow-xs text-xs font-bold cursor-pointer"
+              aria-label="Tukar tampilan 3D atau Datar" title="Tukar tampilan 3D / Datar">
+              <span id="peta-label-toggle-3d">3D</span>
+            </button>
+            <button id="peta-btn-reset-diy" type="button"
+              class="touch-target w-9 h-9 sm:w-11 sm:h-11 bg-brand-surface/90 hover:bg-brand-surface active:scale-95 text-brand-forest border border-brand-border rounded-xl flex items-center justify-center transition-all shadow-xs cursor-pointer"
+              aria-label="Kembali ke fokus Trimurti Bantul" title="Fokus Trimurti">
+              <i data-lucide="rotate-ccw" class="w-4 h-4 text-brand-forest"></i>
+            </button>
+          </div>
+
+          <!-- 6. Skala Metrik Kustom -->
+          <div id="peta-scale-bar"
+            class="absolute bottom-3.5 right-3.5 z-10 pointer-events-none select-none flex flex-col items-end">
+            <div class="border-b border-l border-r border-brand-border h-1.5 w-12"></div>
+            <span class="text-[9px] font-semibold text-brand-muted mt-0.5 tracking-tight tabular-nums">1 km</span>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. SECTION TENTANG PROGRAM / PROFIL DESA
+         ========================================================= -->
+    <section id="profil-desa" class="scroll-mt-20 py-16 lg:py-24 bg-brand-surface">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+
+          <!-- Kolom Kiri: Teks Tentang Kami -->
+          <div class="lg:col-span-6">
+            <div class="gerakJudul mb-2">
+              <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-ink tracking-tight leading-tight mb-4">
+                Kerja Bersama untuk Kemandirian Warga Trimurti
+              </h2>
+            </div>
+            <p class="gerakTeks text-xs sm:text-sm text-brand-muted leading-relaxed mb-4">
+              PLK UNY Mengabdi adalah wahana pengabdian aplikatif mahasiswa Universitas Negeri Yogyakarta untuk
+              menghubungkan keilmuan akademis dengan kebutuhan nyata masyarakat pedesaan.
+            </p>
+            <p class="gerakTeks text-xs sm:text-sm text-brand-muted leading-relaxed mb-6">
+              Di Kalurahan Trimurti, sepuluh mahasiswa dari empat disiplin ilmu (Teknologi Informasi, Pendidikan Teknik
+              Informatika,
+              Bimbingan dan Konseling, serta Pendidikan Bahasa Inggris) bekerja bahu-membahu bersama pamong kalurahan,
+              kader posyandu, Karang Taruna, dan pengelola UMKM dalam penataan arsip dan pelayanan desa yang mandiri.
+            </p>
+
+          </div>
+
+          <!-- Kolom Kanan: Foto Dokumentasi Lapangan -->
+          <div class="lg:col-span-6">
+            <div
+              class="gerakFoto rounded-2xl overflow-hidden shadow-xs border border-brand-border h-[300px] sm:h-[380px] w-full group relative">
+              <div class="gerakFotoTirai" aria-hidden="true"></div>
+              <img src="assets/images/profil_desa-800.webp"
+                srcset="assets/images/profil_desa-480.webp 480w, assets/images/profil_desa-600.webp 600w, assets/images/profil_desa-800.webp 800w, assets/images/profil_desa-1200.webp 1200w"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px" width="800" height="600"
+                loading="lazy" decoding="async"
+                alt="Musyawarah Mahasiswa PLK UNY bersama Pamong Kalurahan Trimurti di Pendopo"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. SECTION KEGIATAN: GLYPH PORTAL (21st.dev LIVE TYPE CAMERA)
+         Scroll-driven camera zoom through giant word "kegiatan"
+         ========================================================= -->
+    <section id="kegiatan" class="glyph-portal scroll-mt-20" aria-label="Program Kegiatan Pengabdian">
+      <!-- Anchor alias for backward compatibility and test suite -->
+      <div id="program-kerja" class="sr-only" aria-hidden="true"></div>
+
+      <!-- Small viewport probe for 100svh measurement -->
+      <div data-gp-viewport aria-hidden="true"></div>
+
+      <!-- Sticky Pin Container -->
+      <div data-gp-pin>
+        <!-- Canvas/Field that will be clipped to the glyph -->
+        <div data-gp-field aria-hidden="true" inert>
+          <div data-gp-default-field></div>
+        </div>
+
+        <!-- SVG Art containing the clipPath and live text -->
+        <svg data-gp-art aria-hidden="true" focusable="false">
+          <defs>
+            <clipPath id="gp-kegiatan-clip" clipPathUnits="userSpaceOnUse">
+              <text data-gp-glyph x="0" y="0">kegiatan</text>
+            </clipPath>
+          </defs>
+        </svg>
+
+        <!-- No-JS Fallback Poster -->
+        <span data-gp-fallback aria-hidden="true">kegiatan</span>
+      </div>
+
+      <!-- Revealed Content Layer Inside Portal -->
+      <div data-gp-content id="kegiatan-content" tabindex="-1">
+        <h2 class="sr-only">Empat Pilar Program Pengabdian</h2>
+
+        <div class="relative z-10 max-w-6xl mx-auto w-full px-4 sm:px-6 py-12 lg:py-16">
+
+          <!-- 4 Kolom Program Kerja Polos (Editorial Columns) di dalam Portal -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+
+            <!-- Pilar 1: Pendidikan -->
+            <div class="gp-proker-card flex flex-col justify-between group">
+              <div>
+                <div class="aspect-[16/10] w-full overflow-hidden rounded-xl mb-3.5">
+                  <img src="assets/images/proker_pendidikan-600.webp"
+                    srcset="assets/images/proker_pendidikan-400.webp 400w, assets/images/proker_pendidikan-600.webp 600w"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 300px" width="600" height="375"
+                    loading="lazy" decoding="async" alt="Program Kerja Bidang Pendidikan"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <h3 class="text-base font-bold text-white mb-2 tracking-tight">
+                  Literasi Digital &amp; Belajar Kreatif
+                </h3>
+                <p class="text-xs text-emerald-100/75 leading-relaxed mb-3">
+                  Pelatihan dasar aplikasi perkantoran, media ajar interaktif, dan pendampingan bimbel kreatif bagi
+                  pelajar pedukuhan.
+                </p>
+              </div>
+              <ul class="pt-1 space-y-1.5 text-[11px] text-emerald-100/70">
+                <li class="flex items-start gap-1.5">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5"></i>
+                  <span>Modul visual praktis komputer dasar</span>
+                </li>
+                <li class="flex items-start gap-1.5">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5"></i>
+                  <span>Bimbel menyenangkan siswa SD-SMP</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Pilar 2: Lingkungan -->
+            <div class="gp-proker-card flex flex-col justify-between group">
+              <div>
+                <div class="aspect-[16/10] w-full overflow-hidden rounded-xl mb-3.5">
+                  <img src="assets/images/proker_lingkungan-600.webp"
+                    srcset="assets/images/proker_lingkungan-400.webp 400w, assets/images/proker_lingkungan-600.webp 600w"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 300px" width="600" height="375"
+                    loading="lazy" decoding="async" alt="Program Kerja Bidang Lingkungan Hidup"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <h3 class="text-base font-bold text-white mb-2 tracking-tight">
+                  Konservasi &amp; Edukasi Organik
+                </h3>
+                <p class="text-xs text-emerald-100/75 leading-relaxed mb-3">
+                  Penanaman bibit pohon produktif bersama kelompok tani dan edukasi pemilahan sampah organik rumah
+                  tangga.
+                </p>
+              </div>
+              <ul class="pt-1 space-y-1.5 text-[11px] text-emerald-100/70">
+                <li class="flex items-start gap-1.5">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5"></i>
+                  <span>Penanaman 200 bibit tanaman pelindung</span>
+                </li>
+                <li class="flex items-start gap-1.5">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5"></i>
+                  <span>Pengelolaan kompos rumah tangga mandiri</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Pilar 3: Teknologi Informasi -->
+            <div class="gp-proker-card flex flex-col justify-between group">
+              <div>
+                <div class="aspect-[16/10] w-full overflow-hidden rounded-xl mb-3.5">
+                  <img src="assets/images/proker_teknologi-600.webp"
+                    srcset="assets/images/proker_teknologi-400.webp 400w, assets/images/proker_teknologi-600.webp 600w"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 300px" width="600" height="375"
+                    loading="lazy" decoding="async" alt="Program Kerja Bidang Teknologi Informasi"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <h3 class="text-base font-bold text-white mb-2 tracking-tight">
+                  Digitalisasi Sistem Informasi Kalurahan
+                </h3>
+                <p class="text-xs text-emerald-100/75 leading-relaxed mb-3">
+                  Pembaruan data kependudukan digital, tata arsip elektronik pamong, dan peta web interaktif kalurahan.
+                </p>
+              </div>
+              <ul class="pt-1 space-y-1.5 text-[11px] text-emerald-100/70">
+                <li class="flex items-start gap-1.5">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5"></i>
+                  <span>Validasi dan digitalisasi profil potensi</span>
+                </li>
+                <li class="flex items-start gap-1.5">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5"></i>
+                  <span>Panduan teknis pemeliharaan perangkat desa</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Pilar 4: Ekonomi Kreatif & Bahasa -->
+            <div class="gp-proker-card flex flex-col justify-between group">
+              <div>
+                <div class="aspect-[16/10] w-full overflow-hidden rounded-xl mb-3.5">
+                  <img src="assets/images/proker_ekonomi-600.webp"
+                    srcset="assets/images/proker_ekonomi-400.webp 400w, assets/images/proker_ekonomi-600.webp 600w"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 300px" width="600" height="375"
+                    loading="lazy" decoding="async" alt="Program Kerja Bidang Ekonomi Kreatif"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <h3 class="text-base font-bold text-white mb-2 tracking-tight">
+                  Branding UMKM &amp; Publikasi Dwibahasa
+                </h3>
+                <p class="text-xs text-emerald-100/75 leading-relaxed mb-3">
+                  Pendampingan kemasan produk pangan lokal, pendaftaran titik Google Maps, serta kurasi katalog promosi
+                  dwibahasa.
+                </p>
+              </div>
+              <ul class="pt-1 space-y-1.5 text-[11px] text-emerald-100/70">
+                <li class="flex items-start gap-1.5">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5"></i>
+                  <span>Redesain label kemasan produk olahan</span>
+                </li>
+                <li class="flex items-start gap-1.5">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5"></i>
+                  <span>Pendaftaran titik usaha di peta digital</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. SECTION DOKUMENTASI (SQUEEZE CAROUSEL EDITORIAL BERSIH)
+         Interactive Adaptive Squeezed Slats + Crossfade Panel
+         ========================================================= -->
+    <section id="dokumentasi"
+      class="scroll-mt-20 py-16 lg:py-24 border-b border-brand-border bg-brand-surface overflow-hidden">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+        <div class="mb-8">
+          <div class="gerakJudul mb-2">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-ink tracking-tight leading-tight">
+              Arsip Dokumentasi Kegiatan
+            </h2>
+          </div>
+          <p class="gerakTeks text-xs sm:text-sm text-brand-muted mt-2 max-w-2xl">
+            Momen interaksi, musyawarah bersama pamong, implementasi program kerja, dan kebersamaan warga di Kalurahan
+            Trimurti.
+          </p>
+        </div>
+
+        <!-- Squeeze Carousel Viewport & Slats -->
+        <div id="squeeze-carousel-wrapper" class="sq-carousel">
+          <div class="sq-strip-viewport" id="sq-viewport" tabindex="0" role="region"
+            aria-label="Carousel Arsip Dokumentasi Kegiatan">
+            <div class="sq-strip" id="sq-strip" role="tablist" aria-label="Daftar Foto Dokumentasi Kegiatan">
+              <!-- Dirender secara interaktif oleh skrip JavaScript -->
+            </div>
+          </div>
+
+          <!-- Bottom Crossfade Info Panel -->
+          <div class="sq-info-panel" id="sq-info-panel" role="tabpanel" aria-live="polite">
+            <!-- Dirender secara interaktif oleh skrip JavaScript -->
+          </div>
+        </div>
+
+        <!-- Hidden container fallback jika dibutuhkan -->
+        <div id="gallery-grid" class="hidden"></div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. SECTION TIM PENGABDI (10 KARTU ANGGOTA)
+         ========================================================= -->
+    <section id="tim" class="scroll-mt-20 py-16 lg:py-24 border-b border-brand-border bg-brand-canvas overflow-hidden">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <div class="gerakJudul mb-2">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-ink tracking-tight leading-tight">
+              Sepuluh Mahasiswa Pengabdi
+            </h2>
+          </div>
+          <p class="gerakTeks text-xs sm:text-sm text-brand-muted mt-2">
+            Kolaborasi lintas 4 program studi Universitas Negeri Yogyakarta untuk mendampingi Kalurahan Trimurti,
+            Srandakan.
+          </p>
+        </div>
+
+        <!-- Grid 10 Anggota Tim (5 Kolom Desktop, 2-3 Kolom Tablet, 1-2 Mobile) -->
+        <div id="team-grid"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 sm:gap-6 max-w-xs sm:max-w-none mx-auto">
+          <!-- Dirender oleh skrip JavaScript -->
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       8. FOOTER RESMI (Deep Dark Forest Green & Vektor Sosial)
+       ========================================================= -->
+  <footer id="kontak" class="bg-grain-ambient text-white py-12 border-t border-emerald-900/40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-lg bg-emerald-800/80 flex items-center justify-center text-white shadow-xs">
+            <i data-lucide="sprout" class="w-4 h-4 text-emerald-200"></i>
+          </div>
+          <div class="text-left">
+            <span class="text-sm font-bold tracking-tight text-white block">PLK UNY Mengabdi</span>
+            <span class="text-[11px] text-gray-300">Kalurahan Trimurti, Srandakan, Bantul</span>
+          </div>
+        </div>
+
+
+        <div class="flex items-center gap-4 text-gray-300">
+          <a id="footer-instagram" href="https://www.instagram.com/plk_abdidalem" target="_blank"
+            rel="noopener noreferrer" class="social-vector" aria-label="Instagram Resmi PLK UNY Mengabdi"
+            title="Instagram Resmi">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" />
+              <circle cx="12" cy="12" r="4.25" />
+              <circle cx="17.4" cy="6.6" r="0.6" fill="currentColor" stroke="none" />
+            </svg>
+          </a>
+          <a id="footer-tiktok" href="https://www.tiktok.com/@plkabdidalem_" target="_blank" rel="noopener noreferrer"
+            class="social-vector" aria-label="TikTok Resmi PLK UNY Mengabdi" title="TikTok Resmi">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor" aria-hidden="true">
+              <path
+                d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-white/10 text-center text-[11px] text-gray-400">
+        &copy; 2026 Tim Pengabdian Luar Kampus Universitas Negeri Yogyakarta
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- =========================================================
+       MODAL 2: DETAIL GALERI DOKUMENTASI (FROSTED GLASS)
+       ========================================================= -->
+  <div id="modal-galeri" class="light-modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-galeri-judul"
+    aria-describedby="modal-galeri-deskripsi" data-lenis-prevent="true">
+    <div id="modal-galeri-backdrop" class="light-modal-backdrop"></div>
+
+    <div class="light-modal-box max-w-2xl w-full" data-lenis-prevent="true">
+      <!-- Bilah Atas Modal -->
+      <div class="light-modal-header">
+        <span id="modal-galeri-counter"
+          class="text-xs font-semibold tracking-wider text-brand-forest uppercase tabular-nums">
+          Dokumentasi 01 / 08
+        </span>
+
+        <div class="flex items-center gap-1.5">
+          <button id="modal-galeri-prev-btn" type="button"
+            class="touch-target px-3 py-1.5 text-xs font-semibold text-brand-muted hover:text-brand-forest hover:bg-brand-sage rounded-lg transition-colors flex items-center gap-1"
+            aria-label="Lihat dokumentasi sebelumnya">
+            <i data-lucide="chevron-left" class="w-4 h-4"></i>
+            <span class="hidden sm:inline">Sebelumnya</span>
+          </button>
+          <button id="modal-galeri-next-btn" type="button"
+            class="touch-target px-3 py-1.5 text-xs font-semibold text-brand-muted hover:text-brand-forest hover:bg-brand-sage rounded-lg transition-colors flex items-center gap-1"
+            aria-label="Lihat dokumentasi berikutnya">
+            <span class="hidden sm:inline">Berikutnya</span>
+            <i data-lucide="chevron-right" class="w-4 h-4"></i>
+          </button>
+          <button id="modal-galeri-close-btn" type="button"
+            class="touch-target w-9 h-9 text-brand-muted hover:text-brand-ink hover:bg-brand-sage rounded-lg transition-colors flex items-center justify-center ml-1"
+            aria-label="Tutup detail dokumentasi">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Area Isi Modal Galeri -->
+      <div id="modal-galeri-scroll-area" class="light-modal-scroll-area space-y-4 text-sm text-brand-body"
+        data-lenis-prevent="true">
+        <div class="w-full aspect-[16/10] rounded-xl overflow-hidden bg-brand-canvas border border-brand-border">
+          <img id="modal-galeri-img" src="assets/images/galeri_1-600.webp" width="1200" height="750" alt=""
+            class="w-full h-full object-cover">
+        </div>
+
+        <div class="space-y-2">
+          <div class="flex flex-wrap items-center gap-1.5 text-xs">
+            <span id="modal-galeri-kategori" class="font-semibold text-brand-forest"></span>
+            <span class="text-brand-subtle select-none">•</span>
+            <span id="modal-galeri-waktu" class="text-brand-subtle"></span>
+          </div>
+          <h3 id="modal-galeri-judul" class="text-xl sm:text-2xl font-bold text-brand-ink leading-tight"></h3>
+          <p class="text-xs text-brand-muted flex items-center gap-1.5">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-brand-forest shrink-0"></i>
+            <span id="modal-galeri-lokasi"></span>
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold tracking-widest text-brand-forest uppercase mb-1">Deskripsi Kegiatan</h4>
+          <p id="modal-galeri-deskripsi" class="text-xs sm:text-sm text-brand-muted leading-relaxed"></p>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold tracking-widest text-brand-forest uppercase mb-2">Sorotan &amp; Capaian
+            Pelaksanaan</h4>
+          <ul id="modal-galeri-poin-list" class="space-y-2 text-xs sm:text-sm text-brand-muted"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       MODAL 3: DETAIL ANGGOTA TIM (FROSTED GLASS)
+       ========================================================= -->
+  <div id="modal-anggota" class="light-modal hidden" role="dialog" aria-modal="true"
+    aria-labelledby="modal-nama-anggota" aria-describedby="modal-ringkasan-anggota" data-lenis-prevent="true">
+    <div id="modal-backdrop" class="light-modal-backdrop"></div>
+
+    <div class="light-modal-box max-w-2xl w-full" data-lenis-prevent="true">
+      <div class="modal-pull-indicator" aria-hidden="true"></div>
+      <!-- Bilah Atas Modal -->
+      <div class="light-modal-header">
+        <span id="modal-counter" class="text-xs font-semibold tracking-wider text-brand-forest uppercase tabular-nums">
+          Profil Anggota 01 / 10
+        </span>
+
+        <div class="flex items-center gap-1.5">
+          <button id="modal-prev-btn" type="button"
+            class="touch-target px-3 py-1.5 text-xs font-semibold text-brand-ink bg-white/60 hover:bg-white/90 border border-white/80 rounded-xl transition-all flex items-center gap-1 shadow-2xs backdrop-blur-md"
+            aria-label="Lihat anggota sebelumnya">
+            <i data-lucide="chevron-left" class="w-4 h-4"></i>
+            <span class="hidden sm:inline">Sebelumnya</span>
+          </button>
+          <button id="modal-next-btn" type="button"
+            class="touch-target px-3 py-1.5 text-xs font-semibold text-brand-ink bg-white/60 hover:bg-white/90 border border-white/80 rounded-xl transition-all flex items-center gap-1 shadow-2xs backdrop-blur-md"
+            aria-label="Lihat anggota berikutnya">
+            <span class="hidden sm:inline">Berikutnya</span>
+            <i data-lucide="chevron-right" class="w-4 h-4"></i>
+          </button>
+          <button id="modal-close-btn" type="button"
+            class="touch-target w-9 h-9 text-brand-ink bg-white/60 hover:bg-white/90 border border-white/80 rounded-xl transition-all flex items-center justify-center ml-1 shadow-2xs backdrop-blur-md"
+            aria-label="Tutup detail profil anggota">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Area Isi Modal Anggota -->
+      <div id="modal-scroll-area" class="light-modal-scroll-area space-y-4 text-sm text-brand-body"
+        data-lenis-prevent="true">
+        <div class="grid grid-cols-1 sm:grid-cols-12 gap-5 sm:gap-6 items-start">
+          <!-- Mini Team Card di sisi kiri modal -->
+          <div class="sm:col-span-5 md:col-span-4 w-full">
+            <div id="modal-foto-wrapper"
+              class="team-interactive-card w-full aspect-[9/12] rounded-2xl sm:rounded-3xl shadow-lg border border-white/40">
+            </div>
+          </div>
+
+          <div class="sm:col-span-7 md:col-span-8 space-y-2.5">
+            <div>
+              <span id="modal-prodi-badge" class="text-xs font-semibold text-brand-forest"></span>
+            </div>
+            <h3 id="modal-nama-anggota"
+              class="text-2xl sm:text-3xl font-extrabold text-brand-ink leading-tight tracking-tight"></h3>
+            <p id="modal-peran-anggota" class="text-sm font-semibold text-brand-forest"></p>
+
+            <dl
+              class="grid grid-cols-1 sm:grid-cols-2 gap-3 p-3.5 rounded-2xl bg-white/60 border border-white/80 shadow-2xs backdrop-blur-md text-xs mt-3">
+              <div>
+                <dt class="text-[10px] text-brand-muted uppercase font-bold tracking-wider">NIM Mahasiswa</dt>
+                <dd id="modal-nim" class="font-bold text-brand-ink mt-0.5 text-xs tabular-nums"></dd>
+              </div>
+              <div>
+                <dt class="text-[10px] text-brand-muted uppercase font-bold tracking-wider">Nama Panggilan
+                </dt>
+                <dd id="modal-panggilan" class="font-semibold text-brand-forest mt-0.5 text-xs"></dd>
+              </div>
+              <div>
+                <dt class="text-[10px] text-brand-muted uppercase font-bold tracking-wider">Divisi Pengabdian
+                </dt>
+                <dd id="modal-divisi" class="font-semibold text-brand-ink mt-0.5 text-xs"></dd>
+              </div>
+              <div>
+                <dt class="text-[10px] text-brand-muted uppercase font-bold tracking-wider">Fakultas &amp;
+                  Universitas</dt>
+                <dd id="modal-prodi-fakultas" class="font-medium text-brand-ink mt-0.5 text-xs"></dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-white/60 border border-white/80 shadow-2xs backdrop-blur-md">
+          <h4 class="text-xs font-bold tracking-widest text-brand-forest uppercase mb-1">Ringkasan Peran</h4>
+          <p id="modal-ringkasan-anggota" class="text-xs sm:text-sm text-brand-body leading-relaxed"></p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-white/60 border border-white/80 shadow-2xs backdrop-blur-md">
+          <h4 class="text-xs font-bold tracking-widest text-brand-forest uppercase mb-2">Tugas Utama Selama Program</h4>
+          <ul id="modal-tugas-list" class="space-y-1.5 text-xs sm:text-sm text-brand-body"></ul>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-white/60 border border-white/80 shadow-2xs backdrop-blur-md">
+          <h4 class="text-xs font-bold tracking-widest text-brand-forest uppercase mb-2">Keahlian &amp; Fokus</h4>
+          <div id="modal-keahlian-list" class="flex flex-wrap gap-2"></div>
+        </div>
+
+        <div class="pt-1">
+          <a id="modal-instagram-link" href="#" target="_blank" rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 text-xs font-semibold text-brand-forest bg-white/60 hover:bg-white/90 border border-white/80 px-4 py-2.5 rounded-xl backdrop-blur-md shadow-2xs transition-all hover:scale-[1.02]">
+            <svg class="w-4 h-4 text-brand-forest shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+            </svg>
+            <span id="modal-instagram-text">[@akun_instagram]</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       JAVASCRIPT: STRUKTUR DATA TERISOLASI & LOGIKA INTERAKTIF
+       ========================================================= -->
+  <script>
+    // =========================================================
+    // A. DATA STRUKTUR 10 MAHASISWA PENGABDI (BEBAS KODE ROBOTIK)
+    // =========================================================
+    const anggota = [
+      {
+        id: 1,
+        nama: 'Ivana Daffa Inggita',
+        nim: '240505030039',
+        panggilan: 'Inggit',
+        prodi: 'pti',
+        namaProdi: 'Pendidikan Teknik Informatika',
+        fakultas: 'Fakultas Teknik, UNY',
+        peran: 'Ketua Tim',
+        divisi: 'bph',
+        divisiLabel: 'Ketua',
+        namaDivisi: 'Badan Pengurus Harian (Ketua)',
+        ringkasan: 'Memimpin dan mengkoordinasikan implementasi seluruh rencana kerja pengabdian di Kalurahan Trimurti, menjalin komunikasi aktif dengan pamong kalurahan, serta mengarahkan pelaksanaan program lintas divisi.',
+        tugas: [
+          'Koordinasi menyeluruh pelaksanaan program pengabdian di Kalurahan Trimurti',
+          'Komunikasi dan audiensi berkala bersama Pamong Kalurahan serta tokoh masyarakat',
+          'Pengawasan dan evaluasi berkala capaian program kerja lintas divisi'
+        ],
+        keahlian: ['Kepemimpinan Tim', 'Manajemen Program Kerja', 'Komunikasi Publik'],
+        instagram: '@ivvannaadf',
+        email: 'ivana.dafa2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_ivana.webp?v=5.0'
+      },
+      {
+        id: 2,
+        nama: 'Faza Nur Syabhila',
+        nim: '24050530027',
+        panggilan: 'Faza',
+        prodi: 'pti',
+        namaProdi: 'Pendidikan Teknik Informatika',
+        fakultas: 'Fakultas Teknik, UNY',
+        peran: 'Sekretaris Tim',
+        divisi: 'bph',
+        divisiLabel: 'Sekretaris',
+        namaDivisi: 'Badan Pengurus Harian (Sekretariat)',
+        ringkasan: 'Mengelola tata kelola administrasi program pengabdian, penyusunan persuratan resmi, perizinan kegiatan, notula rapat koordinasi, serta pengarsipan berkas kerja sama dengan kantor Kalurahan Trimurti.',
+        tugas: [
+          'Pengelolaan arsip persuratan resmi dan tata administrasi pengabdian',
+          'Penyusunan notula rapat koordinasi rutin tim bersama pamong kalurahan',
+          'Penyusunan format pelaporan administrasi dan arsip kegiatan'
+        ],
+        keahlian: ['Tata Kelola Administrasi', 'Penyusunan Surat Resmi', 'Dokumentasi Rapat'],
+        instagram: '@fazasyabila',
+        email: 'faza.nursyabhila2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_faza.webp?v=5.0'
+      },
+      {
+        id: 3,
+        nama: 'Muhammad Nur Syarifulloh',
+        nim: '24020330133',
+        panggilan: 'Arif',
+        prodi: 'pbi',
+        namaProdi: 'Pendidikan Bahasa Inggris',
+        fakultas: 'Fakultas Bahasa, Seni, dan Budaya, UNY',
+        peran: 'Sekretaris Tim',
+        divisi: 'bph',
+        divisiLabel: 'Sekretaris',
+        namaDivisi: 'Badan Pengurus Harian (Sekretariat)',
+        ringkasan: 'Menyusun draf laporan resmi kegiatan, modul materi kerja, korespondensi administratif kelembagaan pengabdian, serta inventarisasi arsip dokumen tertulis bersama Faza.',
+        tugas: [
+          'Penyusunan draf laporan berkala dan dokumen resmi program pengabdian',
+          'Penyusunan modul tertulis dan panduan pelaksanaan kegiatan',
+          'Pengelolaan arsip berkas dan inventarisasi dokumen tim'
+        ],
+        keahlian: ['Penyusunan Dokumen Resmi', 'Korespondensi Tertulis', 'Pengelolaan Berkas'],
+        instagram: '@mnrif28',
+        email: 'muhammad.nur2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_arif.webp?v=5.0'
+      },
+      {
+        id: 4,
+        nama: 'Yohanes Wijaya Satria Utama',
+        nim: '24020330202',
+        panggilan: 'Rio',
+        prodi: 'pbi',
+        namaProdi: 'Pendidikan Bahasa Inggris',
+        fakultas: 'Fakultas Bahasa, Seni, dan Budaya, UNY',
+        peran: 'Bendahara Tim',
+        divisi: 'bph',
+        divisiLabel: 'Bendahara',
+        namaDivisi: 'Badan Pengurus Harian (Bendahara)',
+        ringkasan: 'Mengelola perencanaan anggaran belanja pengabdian, pembukuan arus kas harian, alokasi dana operasional tiap divisi, serta penyusunan laporan pertanggungjawaban (LPJ) keuangan yang transparan dan akuntabel.',
+        tugas: [
+          'Pencatatan dan pengelolaan arus kas operasional kegiatan tim',
+          'Penganggaran dan verifikasi bukti transaksi belanja program kerja',
+          'Penyusunan laporan pertanggungjawaban keuangan resmi pengabdian'
+        ],
+        keahlian: ['Pengelolaan Anggaran', 'Pembukuan Kas', 'Akuntabilitas Keuangan'],
+        instagram: '@yohaneswjys',
+        email: 'yohanes.wijaya2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_rio.webp?v=5.0'
+      },
+      {
+        id: 5,
+        nama: 'Azaria Bimarichi',
+        nim: '24010430099',
+        panggilan: 'Aza',
+        prodi: 'bk',
+        namaProdi: 'Bimbingan & Konseling',
+        fakultas: 'Fakultas Ilmu Pendidikan, UNY',
+        peran: 'Humas',
+        divisi: 'humas',
+        divisiLabel: 'Humas',
+        namaDivisi: 'Divisi Hubungan Masyarakat (Humas)',
+        ringkasan: 'Membangun relasi kemasyarakatan yang hangat bersama kader PKK dan kelompok warga pedukuhan, menjaring aspirasi warga, serta menghubungkan kebutuhan masyarakat dengan agenda pengabdian.',
+        tugas: [
+          'Pendekatan sosial kemasyarakatan bersama kader PKK dan kelompok warga',
+          'Penjaringan aspirasi kebutuhan warga di lingkungan pedukuhan Trimurti',
+          'Sosialisasi jadwal kegiatan pengabdian dan pendampingan temu warga'
+        ],
+        keahlian: ['Komunikasi Empatik', 'Pendekatan Warga', 'Hubungan Kemasyarakatan'],
+        instagram: '@zzariaa_',
+        email: 'azaria.bimarichi2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_aza.webp?v=5.0'
+      },
+      {
+        id: 6,
+        nama: 'Sekar Nisfussanah K',
+        nim: '24010430103',
+        panggilan: 'Sekar',
+        prodi: 'bk',
+        namaProdi: 'Bimbingan & Konseling',
+        fakultas: 'Fakultas Ilmu Pendidikan, UNY',
+        peran: 'PDD',
+        divisi: 'pdd',
+        divisiLabel: 'PDD',
+        namaDivisi: 'Divisi Publikasi, Dekorasi & Dokumentasi (PDD)',
+        ringkasan: 'Menyusun narasi liputan kegiatan lapangan, mengkurasi konten edukasi warga yang komunikatif, serta mendokumentasikan kegiatan interaksi sosial kemasyarakatan di berbagai pedukuhan.',
+        tugas: [
+          'Penyusunan narasi liputan kegiatan sosial dan interaksi warga',
+          'Kurasi materi publikasi media informasi dan buletin pengabdian',
+          'Dokumentasi interaksi tim pengabdi dengan masyarakat pedukuhan'
+        ],
+        keahlian: ['Penulisan Narasi Lapangan', 'Kurasi Konten Publikasi', 'Dokumentasi Sosial'],
+        instagram: '@sekarnisfuss._',
+        email: 'sekar.nisfussanah2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_sekar.webp?v=5.0'
+      },
+      {
+        id: 7,
+        nama: 'Nailah Salsabilah Al-Anshori',
+        nim: '24050530039',
+        panggilan: 'Nailah',
+        prodi: 'pti',
+        namaProdi: 'Pendidikan Teknik Informatika',
+        fakultas: 'Fakultas Teknik, UNY',
+        peran: 'PDD',
+        divisi: 'pdd',
+        divisiLabel: 'PDD',
+        namaDivisi: 'Divisi Publikasi, Dekorasi & Dokumentasi (PDD)',
+        ringkasan: 'Merancang aset visual publikasi kegiatan, poster informasi warga, kurasi tata letak materi presentasi resmi, serta penataan dekorasi visual kegiatan pengabdian di Kalurahan Trimurti.',
+        tugas: [
+          'Perancangan materi grafis, poster informasi, dan spanduk kegiatan',
+          'Kurasi foto dokumentasi harian kegiatan pengabdian di lapangan',
+          'Tata letak materi publikasi digital dan laporan kegiatan resmi'
+        ],
+        keahlian: ['Desain Grafis', 'Tata Letak Publikasi', 'Dokumentasi Visual'],
+        instagram: '@nailahslsbiila',
+        email: 'nailah.salsabilah2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_nailah.webp?v=5.0'
+      },
+      {
+        id: 8,
+        nama: 'Yuki Ramadhan',
+        nim: '24051130053',
+        panggilan: 'Yuki',
+        prodi: 'ti',
+        namaProdi: 'Teknologi Informasi',
+        fakultas: 'Fakultas Teknik, UNY',
+        peran: 'PDD',
+        divisi: 'pdd',
+        divisiLabel: 'PDD',
+        namaDivisi: 'Divisi Publikasi, Dekorasi & Dokumentasi (PDD)',
+        ringkasan: 'Mengembangkan arsitektur portal web resmi pengabdian, integrasi peta digital wilayah Kalurahan Trimurti, serta tata kelola infrastruktur media informasi digital pengabdian.',
+        tugas: [
+          'Pengembangan portal web dokumentasi resmi PLK UNY Trimurti',
+          'Implementasi peta interaktif batas wilayah dan pedukuhan Trimurti',
+          'Pemeliharaan infrastruktur publikasi digital dan performa web'
+        ],
+        keahlian: ['Pengembangan Web', 'Sistem Informasi Spasial', 'Publikasi Digital'],
+        instagram: '@yukirmdhn_',
+        email: 'yuki.ramadhan2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_yuki.webp?v=5.0'
+      },
+      {
+        id: 9,
+        nama: 'Alejandro Mohammed Daudy',
+        nim: '24051130059',
+        panggilan: 'Ale',
+        prodi: 'ti',
+        namaProdi: 'Teknologi Informasi',
+        fakultas: 'Fakultas Teknik, UNY',
+        peran: 'Humas',
+        divisi: 'humas',
+        divisiLabel: 'Humas',
+        namaDivisi: 'Divisi Hubungan Masyarakat (Humas)',
+        ringkasan: 'Menjalin jejaring komunikasi dengan kelompok pemuda Karang Taruna pedukuhan, pelaku UMKM warga Trimurti, serta koordinasi teknis lapangan agenda kemasyarakatan.',
+        tugas: [
+          'Koordinasi komunikasi dengan pemuda Karang Taruna pedukuhan',
+          'Penghubung komunikasi tim pengabdi dengan pelaku usaha warga',
+          'Pendampingan teknis lapangan agenda pertemuan masyarakat'
+        ],
+        keahlian: ['Komunikasi Publik', 'Koordinasi Komunitas', 'Relasi Lapangan'],
+        instagram: '@_amohda_',
+        email: 'alejandro.mohammed2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_alejandro.webp?v=5.0'
+      },
+      {
+        id: 10,
+        nama: 'Rafael Aga Pratama',
+        nim: '24050530049',
+        panggilan: 'Tama',
+        prodi: 'pti',
+        namaProdi: 'Pendidikan Teknik Informatika',
+        fakultas: 'Fakultas Teknik, UNY',
+        peran: 'Humas',
+        divisi: 'humas',
+        divisiLabel: 'Humas',
+        namaDivisi: 'Divisi Hubungan Masyarakat (Humas)',
+        ringkasan: 'Membangun komunikasi dan koordinasi aktif dengan pamong kalurahan, ketua pedukuhan, serta tokoh masyarakat Trimurti demi kelancaran dan ketertiban seluruh kegiatan pengabdian.',
+        tugas: [
+          'Koordinasi perizinan dan audiensi berkala bersama ketua pedukuhan',
+          'Penyampaian informasi dan agenda pengabdian kepada warga desa',
+          'Pendampingan logistik dan ketertiban pelaksanaan kegiatan warga'
+        ],
+        keahlian: ['Koordinasi Pamong & Warga', 'Hubungan Masyarakat', 'Komunikasi Lapangan'],
+        instagram: '@rapa.ag',
+        email: 'rafael.aga2024@student.uny.ac.id',
+        fotoUrl: 'assets/images/team_tama.webp?v=5.0'
+      }
+    ];
+
+    // Pemetaan Badge Prodi
+    const PRODI_TOKEN_MAP = {
+      ti: { bg: 'bg-prodi-tiBg', text: 'text-prodi-tiText', border: 'border-prodi-tiBorder' },
+      pti: { bg: 'bg-prodi-ptiBg', text: 'text-prodi-ptiText', border: 'border-prodi-ptiBorder' },
+      bk: { bg: 'bg-prodi-bkBg', text: 'text-prodi-bkText', border: 'border-prodi-bkBorder' },
+      pbi: { bg: 'bg-prodi-pbiBg', text: 'text-prodi-pbiText', border: 'border-prodi-pbiBorder' }
+    };
+
+    // =========================================================
+    // B. DATA STRUKTUR DOKUMENTASI KEGIATAN (FOTO LANSKAP 16:10)
+    // =========================================================
+    const galeriKegiatan = [
+      {
+        id: 1,
+        kategori: 'Sosial Budaya',
+        badgeBg: 'bg-teal-50 text-teal-800 border-teal-200',
+        judul: 'Musyawarah & Sambung Rasa Pamong Kalurahan',
+        waktu: 'Observasi Lapangan • Pendopo Kalurahan',
+        lokasi: 'Balai Kalurahan Trimurti, Srandakan',
+        ringkasan: 'Koordinasi perdana penyelarasan rencana program pengabdian bersama jajaran pamong, BPD, dan tokoh masyarakat.',
+        deskripsi: 'Pertemuan resmi penyambutan mahasiswa tim PLK UNY Mengabdi oleh Lurah, Carik, dan jajaran pamong kalurahan. Forum ini membahas pemetaan potensi pedukuhan, jadwal kunjungan lapangan, dan sinkronisasi rencana 4 pilar program kerja.',
+        poin: [
+          'Penyampaian rencana 4 pilar kerja mahasiswa UNY',
+          'Pemetaan kebutuhan prioritas tiap pedukuhan',
+          'Penetapan narahubung pamong untuk kelancaran pendampingan'
+        ],
+        fotoUrl: 'assets/images/galeri_1-600.webp?v=4.0'
+      },
+      {
+        id: 2,
+        kategori: 'Pendidikan',
+        badgeBg: 'bg-blue-50 text-blue-800 border-blue-200',
+        judul: 'Pelatihan Literasi Komputer Siswa Pedukuhan',
+        waktu: 'Sesi Pembelajaran • Ruang Komunal',
+        lokasi: 'Balai RW & Posko PLK Trimurti',
+        ringkasan: 'Bimbingan literasi komputer interaktif dan pengenalan aplikasi perkantoran praktis bagi anak-anak dan remaja dusun.',
+        deskripsi: 'Kegiatan bimbingan belajar kreatif dan praktik dasar komputer terarah guna menumbuhkan minat belajar dan keterampilan digital sejak dini bagi pelajar sekolah dasar dan menengah.',
+        poin: [
+          'Modul visual komputer praktis dan simulasi kuis digital',
+          'Praktik mengetik dan navigasi dasar secara menyenangkan',
+          'Motivasi kelanjutan studi dan bimbingan belajar tematik'
+        ],
+        fotoUrl: 'assets/images/proker_pendidikan-600.webp'
+      },
+      {
+        id: 3,
+        kategori: 'Lingkungan',
+        badgeBg: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+        judul: 'Aksi Sabuk Hijau & Konservasi Pekarangan',
+        waktu: 'Kegiatan Lapangan • Sempadan Lahan',
+        lokasi: 'Kawasan Tegalan & Pekarangan Warga',
+        ringkasan: 'Penanaman bibit pohon produktif dan edukasi pemilahan sampah organik bersama kelompok tani pedukuhan.',
+        deskripsi: 'Gerakan peduli lingkungan bersama warga dalam menanam bibit pohon pelindung dan tanaman buah produktif untuk menjaga resapan air serta memperkaya ketahanan pangan keluarga.',
+        poin: [
+          'Penyaluran bibit pohon produktif bagi pekarangan warga',
+          'Edukasi pembuatan pupuk kompos mandiri dari sisa organik',
+          'Penataan jalur hijau jalan pedukuhan bersama warga dusun'
+        ],
+        fotoUrl: 'assets/images/proker_lingkungan-600.webp'
+      },
+      {
+        id: 4,
+        kategori: 'Pendidikan',
+        badgeBg: 'bg-indigo-50 text-indigo-800 border-indigo-200',
+        judul: 'Digitalisasi Administrasi & Sistem Informasi',
+        waktu: 'Bimbingan Teknis • Balai Kalurahan',
+        lokasi: 'Ruang Pelayanan Kantor Trimurti',
+        ringkasan: 'Pendampingan tata persuratan digital dan pengelolaan basis data kependudukan bagi perangkat kalurahan.',
+        deskripsi: 'Sesi teknis pembaruan berkas kependudukan dan penataan arsip berbasis digital guna mempermudah pelayanan administrasi warga serta meningkatkan kinerja pamong.',
+        poin: [
+          'Penataan basis data profil kependudukan kalurahan',
+          'Bimbingan teknis alur persuratan digital bagi staf kalurahan',
+          'Penyusunan modul pemeliharaan perangkat komputer kantor'
+        ],
+        fotoUrl: 'assets/images/proker_teknologi-600.webp'
+      },
+      {
+        id: 5,
+        kategori: 'UMKM',
+        badgeBg: 'bg-amber-50 text-amber-800 border-amber-200',
+        judul: 'Redesain Kemasan & Pemetaan Titik UMKM',
+        waktu: 'Pendampingan Usaha • Sentra Olahan',
+        lokasi: 'Sentra Dampingan UMKM Trimurti',
+        ringkasan: 'Peningkatan mutu label kemasan pangan lokal dan pendaftaran lokasi usaha warga ke platform peta digital.',
+        deskripsi: 'Pendampingan langsung kepada pelaku usaha mikro olahan pangan tradisional mengenai standar kemasan higienis, pembuatan label merek yang menarik, dan penandaan titik Google Maps.',
+        poin: [
+          'Redesain label kemasan produk olahan pangan tradisional',
+          'Pendaftaran titik lokasi usaha warga ke Google Maps',
+          'Pelatihan foto produk menarik hanya menggunakan smartphone'
+        ],
+        fotoUrl: 'assets/images/proker_ekonomi-600.webp'
+      },
+      {
+        id: 6,
+        kategori: 'Sosial Budaya',
+        badgeBg: 'bg-teal-50 text-teal-800 border-teal-200',
+        judul: 'Sarasehan Guyub Rukun Warga Pedukuhan',
+        waktu: 'Pertemuan Warga • Pendopo Dusun',
+        lokasi: 'Balai Warga Kembanggede, Trimurti',
+        ringkasan: 'Malam silaturahmi sarasehan budaya mendengar aspirasi warga dan menyelaraskan jadwal kegiatan desa.',
+        deskripsi: 'Forum rembuk santai penuh kehangatan antara mahasiswa pengabdi dengan sesepuh, pengurus RT, dan warga untuk memperkuat rasa kebersamaan serta menjaring masukan program pengabdian.',
+        poin: [
+          'Dialog terbuka aspirasi warga dan evaluasi kegiatan',
+          'Penyelarasan jadwal gotong royong dan posyandu dusun',
+          'Penguatan tradisi guyub rukun antar-generasi di dusun'
+        ],
+        fotoUrl: 'assets/images/galeri_4-600.webp?v=4.0'
+      },
+      {
+        id: 7,
+        kategori: 'Sosial Budaya',
+        badgeBg: 'bg-rose-50 text-rose-800 border-rose-200',
+        judul: 'Silaturahmi Sambang Dusun & Posyandu',
+        waktu: 'Sambang Warga • Lingkungan Dusun',
+        lokasi: 'Posyandu & Rumah Warga Trimurti',
+        ringkasan: 'Kunjungan ramah tamah menyapa sesepuh dusun, kader PKK, dan pendampingan layanan posyandu balita.',
+        deskripsi: 'Kegiatan silaturahmi mahasiswa menyapa warga di lingkungan pedukuhan, membagikan informasi pola asuh ramah anak bersama kader posyandu, dan mencatat kearifan lokal.',
+        poin: [
+          'Pendampingan kegiatan penimbangan balita dan gizi keluarga',
+          'Kunjungan ramah tamah menyapa lansia di pedukuhan',
+          'Dokumentasi cerita kearifan lokal pedukuhan Trimurti'
+        ],
+        fotoUrl: 'assets/images/desa_interaksi_1790872269944-600.webp'
+      },
+      {
+        id: 8,
+        kategori: 'Lingkungan',
+        badgeBg: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+        judul: 'Eksplorasi Lanskap & Pemetaan Potensi Alam',
+        waktu: 'Pemetaan Lapangan • Kawasan Sawah',
+        lokasi: 'Bantaran Progo & Persawahan Trimurti',
+        ringkasan: 'Dokumentasi visual bentang alam dan pemetaan titik sumber daya alam Kalurahan Trimurti.',
+        deskripsi: 'Pengambilan foto dokumentasi lanskap area persawahan irigasi dan bantaran sungai untuk bahan narasi profil potensi kalurahan serta promosi potensi lokal.',
+        poin: [
+          'Dokumentasi lanskap alam persawahan dan tegalan dusun',
+          'Pemetaan titik potensi agraris untuk materi web profil',
+          'Penyusunan narasi dwibahasa potensi keasrian kalurahan'
+        ],
+        fotoUrl: 'assets/images/profil_desa-800.webp'
+      },
+      {
+        id: 9,
+        kategori: 'Tim PKL',
+        badgeBg: 'bg-amber-50 text-amber-800 border-amber-200',
+        judul: 'Temu Perdana PLK Abdi Dalem',
+        waktu: 'Diskusi Produk • Ruang Diskusi',
+        lokasi: 'Posko PLK Trimurti, Srandakan',
+        ringkasan: 'Temu Perdana PLK dengan perwakilan 4 program studi: 4 PTI, 2 TI, 2 PBI, 2 BK',
+        deskripsi: 'Temu Perdana PLK dengan perwakilan 4 program studi: 4 PTI, 2 TI, 2 PBI, 2 BK',
+        poin: [
+          'Kurasi narasi kualitas bahan baku pangan lokal',
+          'Penyusunan terjemahan deskripsi produk ke Bahasa Inggris',
+          'Uji coba takarir katalog di kanal media sosial'
+        ],
+        fotoUrl: 'assets/images/galeri_diskusi_1790872504929-600.webp'
+      }
+    ];
+
+    // =========================================================
+    // C. RENDER TIM PENGABDI KE GRID (TEMA TERANG BERSIH & MINIMALIS)
+    // Menampilkan detail lengkap saat kartu/profil dibuka
+    // =========================================================
+    function renderTeamGrid() {
+      const container = document.getElementById('team-grid');
+      if (!container) return;
+      container.innerHTML = '';
+
+      const isFinePointer = () => window.matchMedia('(pointer: fine) and (min-width: 768px)').matches;
+      const isReducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      anggota.forEach((m, idx) => {
+        const card = document.createElement('article');
+        card.className = 'team-interactive-card team-card group';
+        card.setAttribute('role', 'button');
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('aria-label', `Buka profil ${m.panggilan} (${m.nama}), ${m.peran}`);
+
+        const photoHtml = m.fotoUrl && m.fotoUrl.trim() !== ''
+          ? `<img src="${m.fotoUrl}" width="340" height="453" loading="lazy" decoding="async" alt="${m.panggilan} (${m.nama})" class="team-card-bg-img">`
+          : `<div class="absolute inset-0 bg-gradient-to-br from-emerald-950 via-brand-forest to-emerald-900 flex flex-col items-center justify-center p-4 text-center">
+               <div class="w-14 h-14 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-emerald-300 mb-2">
+                 <i data-lucide="user" class="w-7 h-7"></i>
+               </div>
+               <span class="text-sm font-bold text-white">${m.panggilan}</span>
+             </div>`;
+
+        card.innerHTML = `
+          ${photoHtml}
+          <div class="team-card-gradient" aria-hidden="true"></div>
+
+          <div class="team-card-content-3d">
+            <!-- Top Bar: 'Profil ↗' di kanan atas -->
+            <div class="flex items-center justify-end w-full">
+              <span class="team-card-top-link">
+                <span>Profil</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </span>
+            </div>
+
+            <!-- Bottom: Nama Panggilan & Peran -->
+            <div class="mt-auto">
+              <h3 class="text-base sm:text-lg font-bold text-white tracking-tight leading-snug line-clamp-1 drop-shadow-md group-hover:text-emerald-200 transition-colors">
+                ${m.panggilan}
+              </h3>
+              <p class="text-xs sm:text-sm text-gray-200 font-normal leading-relaxed drop-shadow-md line-clamp-1 mt-0.5">
+                ${m.peran}
+              </p>
+            </div>
+          </div>
+        `;
+
+        // 3D Tilt Mouse Interaction (Desktop fine pointer only)
+        card.addEventListener('mousemove', (e) => {
+          if (!isFinePointer() || isReducedMotion()) return;
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          const rotateX = ((y - rect.height / 2) / (rect.height / 2)) * -8;
+          const rotateY = ((x - rect.width / 2) / (rect.width / 2)) * 8;
+
+          card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) scale3d(1.04, 1.04, 1.04)`;
+          card.style.transition = 'transform 0.08s ease-out';
+        });
+
+        card.addEventListener('mouseleave', () => {
+          card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+          card.style.transition = 'transform 0.45s cubic-bezier(0.16, 1, 0.3, 1)';
+        });
+
+        // Touch feedback on mobile
+        card.addEventListener('touchstart', () => {
+          card.style.transform = 'scale(0.98)';
+          card.style.transition = 'transform 0.15s ease';
+        }, { passive: true });
+
+        const resetCardScale = () => {
+          card.style.transform = 'scale(1)';
+          card.style.transition = 'transform 0.25s ease';
+        };
+
+        card.addEventListener('touchend', resetCardScale, { passive: true });
+        card.addEventListener('touchcancel', resetCardScale, { passive: true });
+
+        card.addEventListener('click', () => openMemberModal(idx, card));
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openMemberModal(idx, card);
+          }
+        });
+
+        container.appendChild(card);
+      });
+
+      if (window.lucide && lucide.createIcons) {
+        lucide.createIcons();
+      }
+    }
+
+    // =========================================================
+    // D. RENDER SQUEEZE CAROUSEL & FILTER KATEGORI AKTIF
+    // Style adaptif 21st.dev Squeeze Carousel untuk Dokumentasi
+    // Dynamic Shares [-0.06, 0.61, 0.30, 0.15], Slat Tail, Continuous Strip
+    // =========================================================
+    const SQ_SHARES = [-0.06, 0.61, 0.3, 0.15];
+    const SQ_STRETCHED = [0, 0.71, 0.4, 0.25];
+    const SQ_SQUEEZED = [-0.12, 0.59, 0.28, 0.13];
+
+    let currentGalleryFilter = 'all';
+    let sqSeed = 0;
+    let activeSlideIndex = 0;
+    let isSlideTransitioning = false;
+    let sqHover = -1;
+    let sqAutoplayTimer = null;
+    let sqPaused = false;
+    const sqInterval = 6000;
+
+    function getFilteredGalleryItems() {
+      if (currentGalleryFilter === 'all') return galeriKegiatan;
+      return galeriKegiatan.filter(item => item.kategori.toLowerCase() === currentGalleryFilter.toLowerCase());
+    }
+
+    function wrapSqIndex(idx, count) {
+      if (count <= 0) return 0;
+      return ((idx % count) + count) % count;
+    }
+
+    function getSqueezeMetrics(count) {
+      const slats = Math.max(0, Math.min(3, count - 4));
+      const visibleCount = Math.min(count, 4 + slats);
+      return { count, slats, visibleCount };
+    }
+
+    function getShareOf(col, hover) {
+      const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const sharesActive = (hover >= 0 && hover <= 3 && !isReduced) ? null : SQ_SHARES;
+      if (sharesActive) return SQ_SHARES[col];
+      return hover === col ? SQ_STRETCHED[col] : SQ_SQUEEZED[col];
+    }
+
+    function getCardWidthCSS(col, visibleCount, hover = -1) {
+      if (visibleCount <= 1) return '100%';
+      if (visibleCount === 2) {
+        if (col === 0) {
+          if (hover === 1) return 'calc(var(--sq-hero) - 30px)';
+          return 'var(--sq-hero)';
+        }
+        if (col === 1) {
+          if (hover === 1) return 'calc(var(--sq-room) + 30px)';
+          return 'var(--sq-room)';
+        }
+        return 'var(--sq-slat-w)';
+      }
+      if (visibleCount === 3) {
+        if (col === 0) {
+          if (hover === 1 || hover === 2) return 'calc(var(--sq-hero) - 30px)';
+          return 'var(--sq-hero)';
+        }
+        if (col === 1) {
+          if (hover === 1) return 'calc(var(--sq-room) * 0.75 + 20px)';
+          if (hover === 2) return 'calc(var(--sq-room) * 0.50)';
+          return 'calc(var(--sq-room) * 0.65)';
+        }
+        if (col === 2) {
+          if (hover === 2) return 'calc(var(--sq-room) * 0.50 + 20px)';
+          if (hover === 1) return 'calc(var(--sq-room) * 0.25)';
+          return 'calc(var(--sq-room) * 0.35)';
+        }
+        return 'var(--sq-slat-w)';
+      }
+
+      // visibleCount >= 4
+      if (col < 0) return 'var(--sq-slat-w)';
+
+      // KASUS: Hover pada salah satu slat kecil di sisi kanan (hover >= 4)
+      if (hover >= 4) {
+        if (col === hover) {
+          return 'var(--sq-slat-grow)';
+        }
+        if (col === 0) {
+          return 'calc(var(--sq-hero) + var(--sq-room) * -0.06 - (var(--sq-slat-grow) - var(--sq-slat-w)))';
+        }
+        if (col <= 3) {
+          return `calc(var(--sq-room) * ${SQ_SHARES[col]})`;
+        }
+        return 'var(--sq-slat-w)';
+      }
+
+      // KASUS: Hover pada kolom 0..3 atau resting (hover = -1)
+      if (col >= 4) return 'var(--sq-slat-w)';
+      const share = getShareOf(col, hover);
+      if (col === 0) return `calc(var(--sq-hero) + var(--sq-room) * ${share})`;
+      return `calc(var(--sq-room) * ${share})`;
+    }
+
+    function getCardRadiusCSS(col, visibleCount, hover = -1) {
+      const widthExpr = getCardWidthCSS(col, visibleCount, hover);
+      return `min(var(--sq-radius), calc(${widthExpr} / 2))`;
+    }
+
+    function getCardMarginLeftCSS(place, col) {
+      if (place === 0) return '0px';
+      return col < 4 ? 'var(--sq-gap)' : 'var(--sq-slat-gap)';
+    }
+
+    function createCardDOM(slideItem, slideIndex, originalIndex) {
+      const cardEl = document.createElement('button');
+      cardEl.type = 'button';
+      cardEl.className = 'sq-card';
+      cardEl.dataset.key = String(sqSeed++);
+      cardEl.dataset.slideIndex = String(slideIndex);
+      cardEl.dataset.origIndex = String(originalIndex >= 0 ? originalIndex : 0);
+      cardEl.setAttribute('role', 'tab');
+
+      // Foto fixed 16:9 crop terpusat
+      const pic = document.createElement('div');
+      pic.className = 'sq-picture';
+      const img = document.createElement('img');
+      img.src = slideItem.fotoUrl;
+      img.alt = slideItem.judul;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.draggable = false;
+      pic.appendChild(img);
+      cardEl.appendChild(pic);
+
+      // Klik kartu: Col 0 buka modal detail, Col > 0 geser kartu tersebut ke depan (menjadi hero)
+      cardEl.addEventListener('click', () => {
+        const colVal = parseInt(cardEl.dataset.col, 10);
+        if (colVal === 0) {
+          const origIdx = parseInt(cardEl.dataset.origIndex, 10);
+          openGalleryModal(origIdx, cardEl);
+        } else if (colVal > 0) {
+          setSqHover(-1);
+          stepSqueeze(colVal);
+        }
+      });
+
+      // Interaksi hover memperluas kartu slat (mouseenter & mousemove)
+      cardEl.addEventListener('mouseenter', () => {
+        const colVal = parseInt(cardEl.dataset.col, 10);
+        setSqHover(colVal);
+      });
+
+      cardEl.addEventListener('mousemove', () => {
+        const colVal = parseInt(cardEl.dataset.col, 10);
+        setSqHover(colVal);
+      });
+
+      return cardEl;
+    }
+
+    function renderSqueezeCarousel(initialIndex = 0) {
+      const stripContainer = document.getElementById('sq-strip');
+      const infoPanel = document.getElementById('sq-info-panel');
+      const wrapper = document.getElementById('squeeze-carousel-wrapper');
+      if (!stripContainer || !infoPanel) return;
+
+      if (sqAutoplayTimer) clearTimeout(sqAutoplayTimer);
+      isSlideTransitioning = false;
+      sqHover = -1;
+
+      const items = getFilteredGalleryItems();
+      const count = items.length;
+
+      if (!count) {
+        stripContainer.innerHTML = '<div class="p-8 text-center text-sm text-brand-muted w-full">Tidak ada dokumentasi dalam kategori ini.</div>';
+        infoPanel.innerHTML = '';
+        return;
+      }
+
+      activeSlideIndex = wrapSqIndex(initialIndex, count);
+      const { slats, visibleCount } = getSqueezeMetrics(count);
+
+      if (wrapper) {
+        wrapper.style.setProperty('--sq-slats', String(slats));
+        if (visibleCount === 2) {
+          wrapper.style.setProperty('--sq-room', 'calc(100cqi - var(--sq-hero) - var(--sq-gap))');
+        } else if (visibleCount === 3) {
+          wrapper.style.setProperty('--sq-room', 'calc(100cqi - var(--sq-hero) - 2 * var(--sq-gap))');
+        } else {
+          wrapper.style.setProperty('--sq-room', `calc(100cqi - var(--sq-hero) - 3 * var(--sq-gap) - ${slats} * var(--sq-slat-gap) - ${slats} * var(--sq-slat-w))`);
+        }
+      }
+
+      stripContainer.innerHTML = '';
+      stripContainer.style.transition = 'none';
+      stripContainer.style.transform = 'translateX(0px)';
+
+      for (let place = 0; place < visibleCount; place++) {
+        const slideIdx = wrapSqIndex(activeSlideIndex + place, count);
+        const slideItem = items[slideIdx];
+        const originalIndex = galeriKegiatan.findIndex(item => item.id === slideItem.id);
+        const cardEl = createCardDOM(slideItem, slideIdx, originalIndex);
+
+        cardEl.dataset.col = String(place);
+        const isFront = place === 0;
+        cardEl.setAttribute('aria-selected', isFront ? 'true' : 'false');
+        cardEl.setAttribute('tabindex', isFront ? '0' : '-1');
+        cardEl.setAttribute('aria-label', `${slideItem.judul} (${slideItem.kategori})`);
+
+        cardEl.style.transition = 'none';
+        cardEl.style.width = getCardWidthCSS(place, visibleCount, sqHover);
+        cardEl.style.marginLeft = getCardMarginLeftCSS(place, place);
+        cardEl.style.borderRadius = getCardRadiusCSS(place, visibleCount, sqHover);
+
+        stripContainer.appendChild(cardEl);
+      }
+
+      // Aktifkan kembali transisi setelah initial paint
+      requestAnimationFrame(() => {
+        stripContainer.style.transition = '';
+        Array.from(stripContainer.children).forEach(c => { c.style.transition = ''; });
+      });
+
+      updateSqueezeInfoPanel(items[activeSlideIndex], false);
+      resetAutoplay();
+    }
+
+    function stepSqueeze(by) {
+      if (isSlideTransitioning) return;
+      const items = getFilteredGalleryItems();
+      const count = items.length;
+      if (count < 2 || by === 0) return;
+
+      const stripContainer = document.getElementById('sq-strip');
+      if (!stripContainer) return;
+
+      sqHover = -1;
+      Array.from(stripContainer.children).forEach(c => c.classList.remove('is-slat-grown'));
+
+      const { slats, visibleCount } = getSqueezeMetrics(count);
+      isSlideTransitioning = true;
+      if (sqAutoplayTimer) clearTimeout(sqAutoplayTimer);
+
+      const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const ms = isReduced ? 0 : 850;
+
+      if (by > 0) {
+        // Melangkah maju (Forward): Sisipkan `by` kartu di ujung kanan
+        for (let k = 0; k < by; k++) {
+          const slideIdx = wrapSqIndex(activeSlideIndex + visibleCount + k, count);
+          const slideItem = items[slideIdx];
+          const origIdx = galeriKegiatan.findIndex(item => item.id === slideItem.id);
+          const newCard = createCardDOM(slideItem, slideIdx, origIdx);
+          const initialCol = visibleCount + k;
+
+          newCard.dataset.col = String(initialCol);
+          newCard.setAttribute('aria-selected', 'false');
+          newCard.setAttribute('tabindex', '-1');
+          newCard.setAttribute('aria-label', `${slideItem.judul} (${slideItem.kategori})`);
+          newCard.style.transition = 'none';
+          newCard.style.width = getCardWidthCSS(initialCol, visibleCount, -1);
+          newCard.style.marginLeft = getCardMarginLeftCSS(stripContainer.children.length, initialCol);
+          newCard.style.borderRadius = getCardRadiusCSS(initialCol, visibleCount, -1);
+
+          stripContainer.appendChild(newCard);
+        }
+
+        // Force reflow agar dimensi kartu baru tercatat
+        void stripContainer.offsetWidth;
+
+        // Terapkan transisi meluncur ke kiri
+        stripContainer.style.transition = isReduced ? 'none' : 'transform var(--sq-ms) var(--sq-ease)';
+        stripContainer.style.transform = `translateX(calc(-${by} * (var(--sq-slat-w) + var(--sq-gap))))`;
+
+        const allChildren = Array.from(stripContainer.children);
+        allChildren.forEach((child, place) => {
+          const newCol = place - by;
+          child.dataset.col = String(newCol);
+          const isFront = newCol === 0;
+          child.setAttribute('aria-selected', isFront ? 'true' : 'false');
+          child.setAttribute('tabindex', isFront ? '0' : '-1');
+
+          child.style.transition = isReduced ? 'none' : 'width var(--sq-ms) var(--sq-ease), margin-left var(--sq-ms) var(--sq-ease), border-radius var(--sq-ms) var(--sq-ease)';
+          child.style.width = getCardWidthCSS(newCol, visibleCount, sqHover);
+          child.style.marginLeft = getCardMarginLeftCSS(place, newCol);
+          child.style.borderRadius = getCardRadiusCSS(newCol, visibleCount, sqHover);
+        });
+
+        // Sinkronkan panel teks di bawah
+        const nextActiveIdx = wrapSqIndex(activeSlideIndex + by, count);
+        updateSqueezeInfoPanel(items[nextActiveIdx], true);
+
+        // Setelah animasi selesai, bersihkan kartu yang sudah keluar di kiri (settle)
+        setTimeout(() => {
+          for (let k = 0; k < by; k++) {
+            if (stripContainer.firstElementChild) {
+              stripContainer.removeChild(stripContainer.firstElementChild);
+            }
+          }
+
+          stripContainer.style.transition = 'none';
+          stripContainer.style.transform = 'translateX(0px)';
+
+          const remaining = Array.from(stripContainer.children);
+          remaining.forEach((child, place) => {
+            child.dataset.col = String(place);
+            const isFront = place === 0;
+            child.setAttribute('aria-selected', isFront ? 'true' : 'false');
+            child.setAttribute('tabindex', isFront ? '0' : '-1');
+            child.style.transition = 'none';
+            child.style.width = getCardWidthCSS(place, visibleCount, sqHover);
+            child.style.marginLeft = getCardMarginLeftCSS(place, place);
+            child.style.borderRadius = getCardRadiusCSS(place, visibleCount, sqHover);
+          });
+
+          void stripContainer.offsetWidth;
+          stripContainer.style.transition = '';
+          remaining.forEach(c => { c.style.transition = ''; });
+
+          activeSlideIndex = nextActiveIdx;
+          isSlideTransitioning = false;
+          resetAutoplay();
+        }, ms + 25);
+
+      } else {
+        // Melangkah mundur (Backward): Sisipkan `-by` kartu di ujung kiri
+        const stepBack = -by;
+
+        for (let k = stepBack - 1; k >= 0; k--) {
+          const slideIdx = wrapSqIndex(activeSlideIndex - (k + 1), count);
+          const slideItem = items[slideIdx];
+          const origIdx = galeriKegiatan.findIndex(item => item.id === slideItem.id);
+          const prepCard = createCardDOM(slideItem, slideIdx, origIdx);
+          const colVal = -(k + 1);
+
+          prepCard.dataset.col = String(colVal);
+          prepCard.setAttribute('aria-selected', 'false');
+          prepCard.setAttribute('tabindex', '-1');
+          prepCard.setAttribute('aria-label', `${slideItem.judul} (${slideItem.kategori})`);
+          prepCard.style.transition = 'none';
+          prepCard.style.width = 'var(--sq-slat-w)';
+          prepCard.style.marginLeft = k === stepBack - 1 ? '0px' : 'var(--sq-gap)';
+          prepCard.style.borderRadius = 'var(--sq-radius)';
+
+          stripContainer.insertBefore(prepCard, stripContainer.firstChild);
+        }
+
+        // Posisi awal strip digeser ke kiri sejauh kartu yang disisipkan
+        stripContainer.style.transition = 'none';
+        stripContainer.style.transform = `translateX(calc(-${stepBack} * (var(--sq-slat-w) + var(--sq-gap))))`;
+
+        void stripContainer.offsetWidth;
+
+        // Animasikan strip kembali ke 0
+        stripContainer.style.transition = isReduced ? 'none' : 'transform var(--sq-ms) var(--sq-ease)';
+        stripContainer.style.transform = 'translateX(0px)';
+
+        const allChildren = Array.from(stripContainer.children);
+        allChildren.forEach((child, place) => {
+          const newCol = place;
+          child.dataset.col = String(newCol);
+          const isFront = newCol === 0;
+          child.setAttribute('aria-selected', isFront ? 'true' : 'false');
+          child.setAttribute('tabindex', isFront ? '0' : '-1');
+
+          child.style.transition = isReduced ? 'none' : 'width var(--sq-ms) var(--sq-ease), margin-left var(--sq-ms) var(--sq-ease), border-radius var(--sq-ms) var(--sq-ease)';
+          child.style.width = getCardWidthCSS(newCol, visibleCount, sqHover);
+          child.style.marginLeft = getCardMarginLeftCSS(place, newCol);
+          child.style.borderRadius = getCardRadiusCSS(newCol, visibleCount, sqHover);
+        });
+
+        const nextActiveIdx = wrapSqIndex(activeSlideIndex - stepBack, count);
+        updateSqueezeInfoPanel(items[nextActiveIdx], true);
+
+        setTimeout(() => {
+          for (let k = 0; k < stepBack; k++) {
+            if (stripContainer.lastElementChild && stripContainer.children.length > visibleCount) {
+              stripContainer.removeChild(stripContainer.lastElementChild);
+            }
+          }
+
+          stripContainer.style.transition = 'none';
+          stripContainer.style.transform = 'translateX(0px)';
+
+          const remaining = Array.from(stripContainer.children);
+          remaining.forEach((child, place) => {
+            child.dataset.col = String(place);
+            const isFront = place === 0;
+            child.setAttribute('aria-selected', isFront ? 'true' : 'false');
+            child.setAttribute('tabindex', isFront ? '0' : '-1');
+            child.style.transition = 'none';
+            child.style.width = getCardWidthCSS(place, visibleCount, sqHover);
+            child.style.marginLeft = getCardMarginLeftCSS(place, place);
+            child.style.borderRadius = getCardRadiusCSS(place, visibleCount, sqHover);
+          });
+
+          void stripContainer.offsetWidth;
+          stripContainer.style.transition = '';
+          remaining.forEach(c => { c.style.transition = ''; });
+
+          activeSlideIndex = nextActiveIdx;
+          isSlideTransitioning = false;
+          resetAutoplay();
+        }, ms + 25);
+      }
+    }
+
+    function setSqHover(targetCol) {
+      const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (isReduced || isSlideTransitioning) return;
+
+      const stripContainer = document.getElementById('sq-strip');
+      if (!stripContainer) return;
+      const items = getFilteredGalleryItems();
+      const { visibleCount } = getSqueezeMetrics(items.length);
+
+      const nextHover = (targetCol >= 0 && targetCol < visibleCount) ? targetCol : -1;
+      if (sqHover === nextHover) return;
+      sqHover = nextHover;
+
+      Array.from(stripContainer.children).forEach((cardEl) => {
+        const colVal = parseInt(cardEl.dataset.col, 10);
+        cardEl.style.transition = isReduced ? 'none' : 'width var(--sq-hover-ms, 320ms) var(--sq-ease), border-radius var(--sq-hover-ms, 320ms) var(--sq-ease), border-color 200ms ease, box-shadow 200ms ease';
+        cardEl.style.width = getCardWidthCSS(colVal, visibleCount, sqHover);
+        cardEl.style.borderRadius = getCardRadiusCSS(colVal, visibleCount, sqHover);
+
+        if (colVal === sqHover && sqHover >= 4) {
+          cardEl.classList.add('is-slat-grown');
+        } else {
+          cardEl.classList.remove('is-slat-grown');
+        }
+      });
+    }
+
+    function updateSqueezeInfoPanel(activeItem, animated = true) {
+      const infoPanel = document.getElementById('sq-info-panel');
+      if (!infoPanel) return;
+
+      if (!activeItem) {
+        infoPanel.innerHTML = '';
+        return;
+      }
+
+      const originalIndex = galeriKegiatan.findIndex(item => item.id === activeItem.id);
+      const safeIndex = originalIndex >= 0 ? originalIndex : 0;
+
+      const contentHtml = `
+        <div class="sq-info-text">
+          <h3 class="sq-info-title">
+            <button type="button" class="sq-title-link" data-orig-idx="${safeIndex}" aria-label="Buka rincian dokumentasi kegiatan: ${activeItem.judul}">
+              <span>${activeItem.judul}</span>
+              <svg class="sq-title-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M6 12l4-4-4-4"/>
+              </svg>
+            </button>
+          </h3>
+          <p class="sq-info-desc">${activeItem.ringkasan}</p>
+        </div>
+      `;
+
+      let contentWrapper = infoPanel.querySelector('.sq-info-content');
+
+      if (!contentWrapper) {
+        infoPanel.innerHTML = `<div class="sq-info-content">${contentHtml}</div>`;
+        bindTitleBtn(infoPanel.querySelector('.sq-title-link'));
+        return;
+      }
+
+      if (animated) {
+        contentWrapper.classList.add('is-fading');
+        setTimeout(() => {
+          contentWrapper.innerHTML = contentHtml;
+          bindTitleBtn(contentWrapper.querySelector('.sq-title-link'));
+          contentWrapper.classList.remove('is-fading');
+        }, 140);
+      } else {
+        contentWrapper.innerHTML = contentHtml;
+        bindTitleBtn(contentWrapper.querySelector('.sq-title-link'));
+      }
+    }
+
+    function bindTitleBtn(btn) {
+      if (!btn) return;
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const origIdx = parseInt(btn.dataset.origIdx, 10);
+        openGalleryModal(origIdx, btn);
+      });
+    }
+
+    function resetAutoplay() {
+      if (sqAutoplayTimer) clearTimeout(sqAutoplayTimer);
+      if (sqPaused) return;
+      const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (isReduced) return;
+      const items = getFilteredGalleryItems();
+      if (items.length < 2) return;
+
+      sqAutoplayTimer = setTimeout(() => {
+        stepSqueeze(1);
+      }, sqInterval);
+    }
+
+    // Jeda Autoplay saat Hover & Kembalikan Lebar Default saat Kursor Pergi
+    const sqCarouselWrapper = document.getElementById('squeeze-carousel-wrapper');
+    if (sqCarouselWrapper) {
+      sqCarouselWrapper.addEventListener('mouseenter', () => {
+        sqPaused = true;
+        if (sqAutoplayTimer) clearTimeout(sqAutoplayTimer);
+      });
+      sqCarouselWrapper.addEventListener('mouseleave', () => {
+        sqPaused = false;
+        setSqHover(-1);
+        resetAutoplay();
+      });
+      sqCarouselWrapper.addEventListener('focusin', () => {
+        sqPaused = true;
+        if (sqAutoplayTimer) clearTimeout(sqAutoplayTimer);
+      });
+      sqCarouselWrapper.addEventListener('focusout', () => {
+        sqPaused = false;
+        resetAutoplay();
+      });
+    }
+
+    // Navigasi Keyboard Presisi & Swipe Sentuh
+    const sqViewport = document.getElementById('sq-viewport');
+    if (sqViewport) {
+      sqViewport.addEventListener('mouseleave', () => {
+        setSqHover(-1);
+      });
+
+      sqViewport.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          stepSqueeze(1);
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          stepSqueeze(-1);
+        }
+      });
+
+      let touchStartX = 0;
+      let touchStartY = 0;
+      let touchEndX = 0;
+      let touchEndY = 0;
+      sqViewport.addEventListener('touchstart', (e) => {
+        if (e.changedTouches && e.changedTouches[0]) {
+          touchStartX = e.changedTouches[0].screenX;
+          touchStartY = e.changedTouches[0].screenY;
+        }
+      }, { passive: true });
+      sqViewport.addEventListener('touchend', (e) => {
+        if (e.changedTouches && e.changedTouches[0]) {
+          touchEndX = e.changedTouches[0].screenX;
+          touchEndY = e.changedTouches[0].screenY;
+          const diffX = touchEndX - touchStartX;
+          const diffY = touchEndY - touchStartY;
+          // Hanya picu navigasi jika gerakan horizontal dominan dibanding scroll vertikal
+          if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY) * 1.25) {
+            if (diffX < 0) {
+              stepSqueeze(1);
+            } else {
+              stepSqueeze(-1);
+            }
+          }
+        }
+      }, { passive: true });
+    }
+
+    // Filter Buttons Handler
+    const filterButtons = document.querySelectorAll('.gallery-filter-btn');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentGalleryFilter = btn.dataset.filter;
+        renderSqueezeCarousel(0);
+      });
+    });
+
+    // Alias kompatibilitas
+    function renderGalleryGrid() {
+      renderSqueezeCarousel(0);
+    }
+    function goToSqueezeSlide(idx) {
+      renderSqueezeCarousel(idx);
+    }
+
+    // =========================================================
+    // E. MODAL ANGGOTA TIM (TEMA TERANG BERSIH)
+    // =========================================================
+    const modalEl = document.getElementById('modal-anggota');
+    const modalBackdrop = document.getElementById('modal-backdrop');
+    const modalCloseBtn = document.getElementById('modal-close-btn');
+    const modalPrevBtn = document.getElementById('modal-prev-btn');
+    const modalNextBtn = document.getElementById('modal-next-btn');
+
+    let currentModalIndex = 0;
+    let lastActiveCardElement = null;
+    let isModalOpen = false;
+
+    function renderModalData(index) {
+      const m = anggota[index];
+      const p = PRODI_TOKEN_MAP[m.prodi] || PRODI_TOKEN_MAP.ti;
+
+      const currentNumber = String(index + 1).padStart(2, '0');
+      const totalNumber = String(anggota.length).padStart(2, '0');
+      document.getElementById('modal-counter').textContent = `Profil Anggota ${currentNumber} / ${totalNumber}`;
+
+      const fotoWrapper = document.getElementById('modal-foto-wrapper');
+      if (fotoWrapper) {
+        const photoHtml = m.fotoUrl && m.fotoUrl.trim() !== ''
+          ? `<img src="${m.fotoUrl}" width="340" height="453" loading="lazy" decoding="async" alt="${m.nama}" class="team-card-bg-img">`
+          : `<div class="absolute inset-0 bg-gradient-to-br from-emerald-950 via-brand-forest to-emerald-900 flex flex-col items-center justify-center p-4 text-center">
+               <div class="w-14 h-14 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-emerald-300">
+                 <i data-lucide="user" class="w-7 h-7"></i>
+               </div>
+             </div>`;
+
+        fotoWrapper.innerHTML = `
+          ${photoHtml}
+          <div class="team-card-gradient" aria-hidden="true"></div>
+
+          <div class="team-card-content-3d">
+            <!-- Top Bar: Ikon Pengabdian (sprout) di kanan atas -->
+            <div class="flex items-center justify-end w-full">
+              <span class="text-white/80 flex items-center justify-center" title="PLK UNY Mengabdi">
+                <i data-lucide="sprout" class="w-4 h-4 text-emerald-300 drop-shadow-sm"></i>
+              </span>
+            </div>
+          </div>
+        `;
+
+        // Interaksi 3D Tilt halus pada kartu mini modal
+        const isFinePointer = () => window.matchMedia('(pointer: fine) and (min-width: 768px)').matches;
+        const isReducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        fotoWrapper.onmousemove = (e) => {
+          if (!isFinePointer() || isReducedMotion()) return;
+          const rect = fotoWrapper.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          const rotateX = ((y - rect.height / 2) / (rect.height / 2)) * -6;
+          const rotateY = ((x - rect.width / 2) / (rect.width / 2)) * 6;
+
+          fotoWrapper.style.transform = `perspective(800px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) scale3d(1.02, 1.02, 1.02)`;
+          fotoWrapper.style.transition = 'transform 0.08s ease-out';
+        };
+
+        fotoWrapper.onmouseleave = () => {
+          fotoWrapper.style.transform = 'perspective(800px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+          fotoWrapper.style.transition = 'transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)';
+        };
+      }
+
+      const prodiBadge = document.getElementById('modal-prodi-badge');
+      if (prodiBadge) {
+        prodiBadge.className = 'text-xs font-semibold text-brand-forest';
+        prodiBadge.textContent = m.namaProdi;
+      }
+
+      document.getElementById('modal-nama-anggota').textContent = m.nama;
+      document.getElementById('modal-peran-anggota').textContent = `${m.peran} • Panggilan: ${m.panggilan}`;
+      document.getElementById('modal-nim').textContent = m.nim;
+      const modalPanggilan = document.getElementById('modal-panggilan');
+      if (modalPanggilan) modalPanggilan.textContent = m.panggilan;
+      const modalDivisi = document.getElementById('modal-divisi');
+      if (modalDivisi) modalDivisi.textContent = m.namaDivisi;
+      document.getElementById('modal-prodi-fakultas').textContent = `${m.namaProdi}, ${m.fakultas}`;
+      document.getElementById('modal-ringkasan-anggota').textContent = m.ringkasan;
+
+      const tugasList = document.getElementById('modal-tugas-list');
+      tugasList.innerHTML = m.tugas.map(item => `
+        <li class="flex items-start gap-2">
+          <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+          <span class="leading-relaxed text-brand-body text-xs sm:text-sm">${item}</span>
+        </li>
+      `).join('');
+
+      const keahlianList = document.getElementById('modal-keahlian-list');
+      keahlianList.innerHTML = m.keahlian.map(item => `
+        <span class="text-xs px-2.5 py-0.5 bg-white/70 text-brand-ink border border-white/80 rounded-lg shadow-2xs">${item}</span>
+      `).join('');
+
+      const igLink = document.getElementById('modal-instagram-link');
+      const igText = document.getElementById('modal-instagram-text');
+      if (igLink && igText) {
+        const igClean = m.instagram.replace('@', '');
+        igLink.href = m.instagram.startsWith('http') ? m.instagram : `https://instagram.com/${igClean}`;
+        igText.textContent = m.instagram;
+      }
+
+      if (window.lucide && lucide.createIcons) {
+        lucide.createIcons();
+      }
+    }
+
+    // Freeze & Unfreeze Scroll Helper (Lenis & Body Integration)
+    function freezeScroll() {
+      document.documentElement.classList.add('modal-open');
+      document.body.classList.add('modal-open');
+      if (window.lenis && typeof window.lenis.stop === 'function') {
+        window.lenis.stop();
+      }
+    }
+
+    function unfreezeScroll() {
+      const openModals = document.querySelectorAll('.light-modal:not(.hidden)');
+      if (openModals.length === 0) {
+        document.documentElement.classList.remove('modal-open');
+        document.body.classList.remove('modal-open');
+        if (window.lenis && typeof window.lenis.start === 'function') {
+          window.lenis.start();
+        }
+      }
+    }
+
+    // =========================================================
+    // MODAL HISTORY & HARDWARE BACK-BUTTON HANDLER (WCAG / UX)
+    // =========================================================
+    let isHistoryPopping = false;
+    let currentOpenModalType = null;
+
+    function pushModalHistory(type, id) {
+      currentOpenModalType = type;
+      try {
+        window.history.pushState({ modalOpen: true, modalType: type, modalId: id }, '');
+      } catch (e) { }
+    }
+
+    function popModalHistory() {
+      if (currentOpenModalType && !isHistoryPopping) {
+        currentOpenModalType = null;
+        if (window.history.state && window.history.state.modalOpen) {
+          try {
+            window.history.back();
+          } catch (e) { }
+        }
+      }
+    }
+
+    window.addEventListener('popstate', () => {
+      isHistoryPopping = true;
+      if (isModalOpen) closeMemberModal(true);
+      if (isGalleryModalOpen) closeGalleryModal(true);
+      currentOpenModalType = null;
+      setTimeout(() => { isHistoryPopping = false; }, 60);
+    });
+
+    // Touch Swipe-Down gesture helper for mobile modal sheet dismiss
+    function setupModalSwipeDown(modalContainer, closeHandler) {
+      if (!modalContainer) return;
+      const box = modalContainer.querySelector('.light-modal-box');
+      const scrollArea = modalContainer.querySelector('.light-modal-scroll-area');
+      if (!box) return;
+
+      let startY = 0;
+      let currentY = 0;
+      let isDragging = false;
+
+      box.addEventListener('touchstart', (e) => {
+        if (scrollArea && scrollArea.scrollTop > 5) return;
+        startY = e.touches[0].clientY;
+        currentY = startY;
+        isDragging = true;
+        box.style.transition = 'none';
+      }, { passive: true });
+
+      box.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        currentY = e.touches[0].clientY;
+        const deltaY = currentY - startY;
+        if (deltaY > 0 && (!scrollArea || scrollArea.scrollTop <= 0)) {
+          box.style.transform = `translateY(${Math.min(deltaY, 220)}px)`;
+        }
+      }, { passive: true });
+
+      box.addEventListener('touchend', () => {
+        if (!isDragging) return;
+        isDragging = false;
+        const deltaY = currentY - startY;
+        box.style.transition = 'transform 220ms cubic-bezier(0.16, 1, 0.3, 1)';
+        if (deltaY > 75) {
+          box.style.transform = 'translateY(100%)';
+          setTimeout(() => {
+            box.style.transform = '';
+            closeHandler();
+          }, 180);
+        } else {
+          box.style.transform = '';
+        }
+      }, { passive: true });
+
+      box.addEventListener('touchcancel', () => {
+        if (!isDragging) return;
+        isDragging = false;
+        box.style.transition = 'transform 220ms cubic-bezier(0.16, 1, 0.3, 1)';
+        box.style.transform = '';
+      }, { passive: true });
+    }
+
+    function openMemberModal(index, triggerElement, fromHistory = false) {
+      if (isModalOpen) return;
+      currentModalIndex = index;
+      lastActiveCardElement = triggerElement || document.activeElement;
+
+      freezeScroll();
+
+      renderModalData(currentModalIndex);
+      modalEl.classList.remove('hidden');
+      isModalOpen = true;
+
+      if (!fromHistory && !isHistoryPopping) {
+        pushModalHistory('member', index);
+      }
+
+      if (modalCloseBtn) {
+        modalCloseBtn.focus({ preventScroll: true });
+      }
+    }
+
+    function closeMemberModal(skipHistory = false) {
+      if (!isModalOpen) return;
+      modalEl.classList.add('hidden');
+      isModalOpen = false;
+
+      unfreezeScroll();
+
+      if (!skipHistory) {
+        popModalHistory();
+      }
+
+      if (lastActiveCardElement && typeof lastActiveCardElement.focus === 'function') {
+        try { lastActiveCardElement.focus({ preventScroll: true }); }
+        catch (e) { lastActiveCardElement.focus(); }
+      }
+    }
+
+    if (modalCloseBtn) modalCloseBtn.addEventListener('click', () => closeMemberModal());
+    if (modalBackdrop) modalBackdrop.addEventListener('click', () => closeMemberModal());
+    setupModalSwipeDown(modalEl, () => closeMemberModal());
+
+    if (modalPrevBtn) {
+      modalPrevBtn.addEventListener('click', () => {
+        currentModalIndex = (currentModalIndex - 1 + anggota.length) % anggota.length;
+        renderModalData(currentModalIndex);
+      });
+    }
+
+    if (modalNextBtn) {
+      modalNextBtn.addEventListener('click', () => {
+        currentModalIndex = (currentModalIndex + 1) % anggota.length;
+        renderModalData(currentModalIndex);
+      });
+    }
+
+    // =========================================================
+    // F. LIGHTBOX MODAL GALERI DOKUMENTASI (TEMA TERANG)
+    // =========================================================
+    const modalGaleriEl = document.getElementById('modal-galeri');
+    const modalGaleriBackdrop = document.getElementById('modal-galeri-backdrop');
+    const modalGaleriCloseBtn = document.getElementById('modal-galeri-close-btn');
+    const modalGaleriPrevBtn = document.getElementById('modal-galeri-prev-btn');
+    const modalGaleriNextBtn = document.getElementById('modal-galeri-next-btn');
+
+    let currentGalleryModalIndex = 0;
+    let lastActiveGalleryCard = null;
+    let isGalleryModalOpen = false;
+
+    function renderGalleryModalData(index) {
+      const g = galeriKegiatan[index];
+      if (!g) return;
+
+      const currentNum = String(index + 1).padStart(2, '0');
+      const totalNum = String(galeriKegiatan.length).padStart(2, '0');
+      document.getElementById('modal-galeri-counter').textContent = `Dokumentasi ${currentNum} / ${totalNum}`;
+
+      const imgEl = document.getElementById('modal-galeri-img');
+      imgEl.src = g.fotoUrl;
+      imgEl.alt = g.judul;
+
+      const katEl = document.getElementById('modal-galeri-kategori');
+      katEl.className = 'font-semibold text-brand-forest';
+      katEl.textContent = g.kategori;
+
+      document.getElementById('modal-galeri-waktu').textContent = g.waktu;
+      document.getElementById('modal-galeri-judul').textContent = g.judul;
+      document.getElementById('modal-galeri-lokasi').textContent = g.lokasi;
+      document.getElementById('modal-galeri-deskripsi').textContent = g.deskripsi;
+
+      const poinList = document.getElementById('modal-galeri-poin-list');
+      poinList.innerHTML = g.poin.map(p => `
+        <li class="flex items-start gap-2">
+          <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5"></i>
+          <span class="leading-relaxed text-brand-body text-xs sm:text-sm">${p}</span>
+        </li>
+      `).join('');
+
+      if (window.lucide && lucide.createIcons) {
+        lucide.createIcons();
+      }
+    }
+
+    function openGalleryModal(index, triggerEl, fromHistory = false) {
+      if (isGalleryModalOpen || !modalGaleriEl) return;
+      currentGalleryModalIndex = index;
+      lastActiveGalleryCard = triggerEl || document.activeElement;
+
+      freezeScroll();
+
+      renderGalleryModalData(currentGalleryModalIndex);
+      modalGaleriEl.classList.remove('hidden');
+      isGalleryModalOpen = true;
+
+      if (!fromHistory && !isHistoryPopping) {
+        pushModalHistory('gallery', index);
+      }
+
+      if (modalGaleriCloseBtn) modalGaleriCloseBtn.focus({ preventScroll: true });
+    }
+
+    function closeGalleryModal(skipHistory = false) {
+      if (!isGalleryModalOpen || !modalGaleriEl) return;
+      modalGaleriEl.classList.add('hidden');
+      isGalleryModalOpen = false;
+
+      unfreezeScroll();
+
+      if (!skipHistory) {
+        popModalHistory();
+      }
+
+      if (lastActiveGalleryCard && typeof lastActiveGalleryCard.focus === 'function') {
+        try { lastActiveGalleryCard.focus({ preventScroll: true }); }
+        catch (e) { lastActiveGalleryCard.focus(); }
+      }
+    }
+
+    if (modalGaleriCloseBtn) modalGaleriCloseBtn.addEventListener('click', () => closeGalleryModal());
+    if (modalGaleriBackdrop) modalGaleriBackdrop.addEventListener('click', () => closeGalleryModal());
+    setupModalSwipeDown(modalGaleriEl, () => closeGalleryModal());
+
+    if (modalGaleriPrevBtn) {
+      modalGaleriPrevBtn.addEventListener('click', () => {
+        currentGalleryModalIndex = (currentGalleryModalIndex - 1 + galeriKegiatan.length) % galeriKegiatan.length;
+        renderGalleryModalData(currentGalleryModalIndex);
+      });
+    }
+
+    if (modalGaleriNextBtn) {
+      modalGaleriNextBtn.addEventListener('click', () => {
+        currentGalleryModalIndex = (currentGalleryModalIndex + 1) % galeriKegiatan.length;
+        renderGalleryModalData(currentGalleryModalIndex);
+      });
+    }
+
+    // Helper Focus Trap Dialog WCAG 2.1 AA
+    function trapModalFocus(modalContainer, e) {
+      if (!modalContainer || e.key !== 'Tab') return;
+      const focusables = Array.from(modalContainer.querySelectorAll(
+        'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      )).filter(el => el.offsetParent !== null || el === document.activeElement);
+      if (focusables.length === 0) return;
+      const first = focusables[0];
+      const last = focusables[focusables.length - 1];
+
+      if (e.shiftKey) {
+        if (document.activeElement === first || !modalContainer.contains(document.activeElement)) {
+          e.preventDefault();
+          last.focus();
+        }
+      } else {
+        if (document.activeElement === last || !modalContainer.contains(document.activeElement)) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    }
+
+    // Keyboard Global Handler (Escape, Arrow Navigation & Focus Trap)
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        if (isModalOpen) closeMemberModal();
+        if (isGalleryModalOpen) closeGalleryModal();
+        if (mobileNav && !mobileNav.classList.contains('hidden')) {
+          mobileNav.classList.add('hidden');
+          if (menuToggle) {
+            menuToggle.setAttribute('aria-expanded', 'false');
+            menuToggle.setAttribute('aria-label', 'Buka menu navigasi');
+            menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
+            if (window.lucide && lucide.createIcons) lucide.createIcons();
+            menuToggle.focus();
+          }
+        }
+      } else if (e.key === 'Tab') {
+        if (isModalOpen && modalEl) {
+          trapModalFocus(modalEl, e);
+        } else if (isGalleryModalOpen && modalGaleriEl) {
+          trapModalFocus(modalGaleriEl, e);
+        }
+      } else if (isGalleryModalOpen) {
+        if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          currentGalleryModalIndex = (currentGalleryModalIndex - 1 + galeriKegiatan.length) % galeriKegiatan.length;
+          renderGalleryModalData(currentGalleryModalIndex);
+        } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          currentGalleryModalIndex = (currentGalleryModalIndex + 1) % galeriKegiatan.length;
+          renderGalleryModalData(currentGalleryModalIndex);
+        }
+      } else if (isModalOpen) {
+        if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          currentModalIndex = (currentModalIndex - 1 + anggota.length) % anggota.length;
+          renderModalData(currentModalIndex);
+        } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          currentModalIndex = (currentModalIndex + 1) % anggota.length;
+          renderModalData(currentModalIndex);
+        }
+      }
+    });
+
+    // =========================================================
+    // G. MENU HAMBURGER MOBILE
+    // =========================================================
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+    if (menuToggle && mobileNav) {
+      menuToggle.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', !isExpanded);
+        mobileNav.classList.toggle('hidden');
+
+        if (!isExpanded) {
+          menuToggle.setAttribute('aria-label', 'Tutup menu navigasi');
+          menuToggle.innerHTML = '<i data-lucide="x" class="w-5 h-5"></i>';
+        } else {
+          menuToggle.setAttribute('aria-label', 'Buka menu navigasi');
+          menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
+        }
+        if (window.lucide && lucide.createIcons) lucide.createIcons();
+      });
+
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          mobileNav.classList.add('hidden');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          menuToggle.setAttribute('aria-label', 'Buka menu navigasi');
+          menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
+          if (window.lucide && lucide.createIcons) lucide.createIcons();
+        });
+      });
+
+      // Klik di luar menu mobile untuk menutup drawer
+      document.addEventListener('click', function (e) {
+        if (!mobileNav.classList.contains('hidden')) {
+          if (!mobileNav.contains(e.target) && !menuToggle.contains(e.target)) {
+            mobileNav.classList.add('hidden');
+            menuToggle.setAttribute('aria-expanded', 'false');
+            menuToggle.setAttribute('aria-label', 'Buka menu navigasi');
+            menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
+            if (window.lucide && lucide.createIcons) lucide.createIcons();
+          }
+        }
+      });
+
+      // Keyboard Escape untuk menutup drawer mobile
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !mobileNav.classList.contains('hidden')) {
+          mobileNav.classList.add('hidden');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          menuToggle.setAttribute('aria-label', 'Buka menu navigasi');
+          menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
+          if (window.lucide && lucide.createIcons) lucide.createIcons();
+          menuToggle.focus();
+        }
+      });
+    }
+
+    // Inisialisasi awal render komponen grid
+    renderTeamGrid();
+    renderGalleryGrid();
+
+    // Dukungan deep-link membuka detail anggota secara langsung (misal: ?member=8)
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('member')) {
+      const mIdx = parseInt(urlParams.get('member'), 10);
+      if (!isNaN(mIdx) && mIdx >= 0 && mIdx < anggota.length) {
+        setTimeout(() => openMemberModal(mIdx), 150);
+      }
+    }
+  </script>
+
+  <!-- =========================================================
+       8. JAVASCRIPT: GLYPH PORTAL ENGINE (21st.dev Vanilla Architecture)
+       Scroll-driven live-type camera zoom through giant word "kegiatan"
+       ========================================================= -->
+  <script id="glyph-portal-engine">
+    function initGlyphPortal() {
+      const section = document.getElementById("kegiatan");
+      if (!section) return;
+
+      const clipId = "gp-kegiatan-clip";
+      const pin = section.querySelector("[data-gp-pin]");
+      const field = section.querySelector("[data-gp-field]");
+      const art = section.querySelector("[data-gp-art]");
+      const clip = section.querySelector("#" + clipId);
+      const glyph = section.querySelector("[data-gp-glyph]");
+      const content = section.querySelector("#kegiatan-content");
+
+      if (!pin || !field || !art || !clip || !glyph) return;
+
+      const text = (glyph.textContent || "kegiatan").trim().normalize("NFC") || "kegiatan";
+      const scrollLength = 2.2;
+      const length = Math.min(8, Math.max(1, scrollLength));
+      const fontFamily = '"Plus Jakarta Sans", "Outfit", -apple-system, sans-serif';
+      const weight = 700;
+
+      const clamp = (n, a = 0, b = 1) => Math.min(b, Math.max(a, n));
+      const smooth = (a, b, n) => {
+        const t = clamp((n - a) / (b - a));
+        return t * t * (3 - 2 * t);
+      };
+
+      const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const canvas = document.createElement("canvas");
+      const context = canvas.getContext("2d", { willReadFrequently: true });
+
+      let disposed = false, raf = 0, dirty = true, active = true, ready = false;
+      const mountedAt = performance.now();
+      let browserFrameSeen = false;
+      let W = 1, H = 1, travel = 1, startScale = 1, endScale = 1;
+      let center = { x: 0, y: 0 }, target = { x: 0, y: 0, radius: 10 };
+      let lastProgress = -1;
+      let bounds = { x: 0, y: 0, width: 1, height: 1 };
+      let fontDirty = true;
+
+      glyph.style.fontFamily = fontFamily;
+      glyph.style.fontWeight = String(weight);
+
+      function readInk() {
+        // Temporarily remove transform to measure native SVG coordinates
+        const prevTransform = glyph.getAttribute("transform");
+        glyph.removeAttribute("transform");
+
+        const iIndex = text.indexOf('i');
+        const safeIdx = iIndex >= 0 ? iIndex : 3;
+
+        let measured = false;
+
+        // 1. Primary Method: Native SVG DOM Character Geometry (SVG 1.1 / SVG 2 standard)
+        // Provides pixel-perfect ground-truth coordinates of the letter 'i' directly inside the SVG text element
+        try {
+          if (typeof glyph.getStartPositionOfChar === 'function' && typeof glyph.getExtentOfChar === 'function') {
+            const start = glyph.getStartPositionOfChar(safeIdx);
+            const ext = glyph.getExtentOfChar(safeIdx);
+            let endX = start.x + ext.width;
+            try {
+              if (typeof glyph.getEndPositionOfChar === 'function') {
+                const end = glyph.getEndPositionOfChar(safeIdx);
+                if (end && typeof end.x === 'number') endX = end.x;
+              }
+            } catch (_) { }
+
+            // Exact horizontal center of 'i' in SVG coordinates (dot is vertically centered above stem)
+            const charCenterX = (start.x + endX) / 2;
+            const bbox = glyph.getBBox();
+
+            bounds = {
+              x: bbox.x,
+              y: bbox.y,
+              width: bbox.width,
+              height: bbox.height
+            };
+            center = {
+              x: bbox.x + bbox.width / 2,
+              y: bbox.y + bbox.height / 2
+            };
+
+            // Plus Jakarta Sans / Outfit (weight: 700, 100px):
+            // Dot center is at y = -61.0 relative to text baseline (0), with radius ~12px
+            target = {
+              x: charCenterX,
+              y: -61.0,
+              radius: Math.max(6, ext.width / 2),
+              index: safeIdx
+            };
+            measured = true;
+          }
+        } catch (err) {
+          console.warn("[GlyphPortal] SVG char geometry fallback:", err);
+        }
+
+        // 2. High-Accuracy Fallback Method (Canvas 2D with exact font and letterSpacing)
+        if (!measured) {
+          const font = getComputedStyle(glyph);
+          const resolvedFont = (font.fontWeight || weight) + " 100px " + (font.fontFamily || fontFamily);
+          if (context) {
+            context.font = resolvedFont;
+            if ('letterSpacing' in context) {
+              context.letterSpacing = font.letterSpacing || "-0.02em";
+            }
+            const metrics = context.measureText(text);
+            bounds = {
+              x: -metrics.actualBoundingBoxLeft,
+              y: -metrics.actualBoundingBoxAscent,
+              width: metrics.actualBoundingBoxLeft + metrics.actualBoundingBoxRight,
+              height: metrics.actualBoundingBoxAscent + metrics.actualBoundingBoxDescent
+            };
+            if (!bounds.width || !bounds.height) {
+              bounds.width = metrics.width || 394;
+              bounds.height = 126;
+              bounds.x = 0;
+              bounds.y = -104;
+            }
+            center = { x: bounds.x + bounds.width / 2, y: bounds.y + bounds.height / 2 };
+          } else {
+            bounds = { x: 0, y: -104, width: 394, height: 126 };
+            center = { x: 197, y: -41 };
+          }
+
+          // Calibrated exact dot metrics for Plus Jakarta Sans 700 at 100px:
+          target = {
+            x: 173.85,
+            y: -61.0,
+            radius: 12.0,
+            index: safeIdx
+          };
+        }
+
+        if (prevTransform) glyph.setAttribute("transform", prevTransform);
+        return true;
+      }
+
+      function position() {
+        const origin = 0;
+        const rect = section.getBoundingClientRect();
+        return clamp((origin - rect.top) / travel);
+      }
+
+      function paint(progress) {
+        const isStatic = motion.matches || !target;
+        const p = isStatic ? 0 : progress;
+        const t = clamp(p / 0.78);
+        const eased = t < 0.5 ? 4 * t ** 3 : 1 - (-2 * t + 2) ** 3 / 2;
+        const scale = Math.exp(Math.log(startScale) + Math.log(endScale / startScale) * eased);
+        const blend = endScale === startScale ? 0 : (1 / scale - 1 / startScale) / (1 / endScale - 1 / startScale);
+
+        const cx = center.x + (target.x - center.x) * blend;
+        const cy = center.y + (target.y - center.y) * blend;
+        const roll = -4 * smooth(0.06, 0.5, t) * (1 - smooth(0.62, 0.92, t));
+
+        // Exact camera transformation: centers word at t=0, zooms through dot of 'i' at t=1
+        const transformStr = 'translate(' + (W / 2).toFixed(2) + ' ' + (H * 0.46 + H * 0.04 * eased).toFixed(2) + ') ' +
+          'scale(' + scale.toFixed(4) + ') ' +
+          'rotate(' + roll.toFixed(2) + ') ' +
+          'translate(' + (-cx).toFixed(2) + ' ' + (-cy).toFixed(2) + ')';
+
+        glyph.setAttribute("transform", transformStr);
+        clip.removeAttribute("transform");
+
+        // Remove clip when viewport is completely filled with ink or deep inside the portal
+        field.style.clipPath = t >= 0.88 ? "none" : 'url(#' + clipId + ')';
+        if (field.style.webkitClipPath !== undefined) {
+          field.style.webkitClipPath = t >= 0.88 ? "none" : 'url(#' + clipId + ')';
+        }
+
+        // Smooth scroll-driven background transition to brand forest green (#0F231A) as camera enters the dot of 'i'
+        if (isStatic) {
+          pin.style.backgroundColor = "var(--gp-field)";
+        } else {
+          // Smooth easing from paper white #FCFDFC (rgb 252, 253, 252) to forest green #0F231A (rgb 15, 35, 26)
+          const bgT = smooth(0.18, 0.78, t);
+          const r = Math.round(252 + (15 - 252) * bgT);
+          const g = Math.round(253 + (35 - 253) * bgT);
+          const b = Math.round(252 + (26 - 252) * bgT);
+          pin.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
+        }
+
+        // Smooth reveal of cards as portal opens
+        const revealVal = isStatic ? 1 : smooth(0.76, 0.92, p);
+        section.style.setProperty("--gp-reveal", String(revealVal));
+        section.style.setProperty("--gp-field-scale", String(1 + 0.16 * smooth(0, 0.82, p)));
+        section.dataset.gpEntered = String(p >= 0.88);
+        section.dataset.gpProgress = p.toFixed(5);
+
+        if (p !== lastProgress) {
+          lastProgress = p;
+        }
+      }
+
+      function layout() {
+        if (!section.clientWidth) return;
+        W = pin.clientWidth || window.innerWidth;
+        const viewportEl = section.querySelector("[data-gp-viewport]");
+        const smallViewport = viewportEl ? viewportEl.offsetHeight : window.innerHeight;
+        const viewportHeight = Math.max(1, Math.min(window.innerHeight, smallViewport || window.innerHeight));
+        H = motion.matches ? Math.min(viewportHeight * 0.75, 480) : viewportHeight;
+        section.style.setProperty("--gp-height", H + 'px');
+        section.style.setProperty("--gp-length", String(length));
+        travel = H * length;
+        art.setAttribute("viewBox", '0 0 ' + W + ' ' + H);
+
+        if (fontDirty) {
+          ready = readInk();
+          fontDirty = false;
+        }
+        if (!ready) return;
+
+        const wordHeight = H * 0.38;
+        startScale = Math.min((W * 0.84) / bounds.width, wordHeight / bounds.height);
+        endScale = Math.max(startScale, (Math.hypot(W, H) / (target.radius * 1.25)));
+
+        section.dataset.gpReady = "true";
+        section.dataset.gpMotion = !motion.matches && target ? "on" : "off";
+      }
+
+      function frame(time) {
+        raf = 0;
+        if (disposed) return;
+        if (time !== undefined && !browserFrameSeen) {
+          browserFrameSeen = true;
+          dirty = true;
+        }
+        if (dirty) {
+          dirty = false;
+          layout();
+        }
+        if (ready) paint(position());
+      }
+
+      function schedule() {
+        if (!raf && active) raf = requestAnimationFrame(frame);
+      }
+
+      function resize() {
+        cancelAnimationFrame(raf);
+        dirty = true;
+        frame();
+      }
+
+      function scroll() {
+        schedule();
+      }
+
+      const observer = new ResizeObserver(resize);
+      observer.observe(section);
+
+      const visibility = new IntersectionObserver(([entry]) => {
+        active = entry.isIntersecting;
+        if (active) {
+          dirty = true;
+          schedule();
+        } else if (raf) {
+          cancelAnimationFrame(raf);
+          raf = 0;
+        }
+      }, { rootMargin: "100% 0px" });
+      visibility.observe(section);
+
+      window.glyphPortalScroll = scroll;
+      window.glyphPortalPaint = paint;
+      window.addEventListener("scroll", scroll, { passive: true });
+      if (window.lenis) {
+        window.lenis.on("scroll", scroll);
+      }
+      window.addEventListener("resize", resize);
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", resize);
+      }
+      motion.addEventListener("change", resize);
+
+      pin.addEventListener("click", () => {
+        if (position() < 0.75) {
+          const targetScroll = section.offsetTop + travel * 0.92;
+          if (window.lenis) {
+            window.lenis.scrollTo(targetScroll, { duration: 1.2 });
+          } else {
+            window.scrollTo({ top: targetScroll, behavior: "smooth" });
+          }
+        }
+      });
+
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(() => {
+          fontDirty = true;
+          layout();
+          schedule();
+        });
+      }
+
+      layout();
+      frame(performance.now());
+      schedule();
+    }
+
+    window.initGlyphPortal = initGlyphPortal;
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initGlyphPortal);
+    } else {
+      initGlyphPortal();
+    }
+  </script>
+
+  <!-- =========================================================
+       9. JAVASCRIPT: LOGIKA PETA TUNGGAL TRIMURTI, SRANDAKAN, BANTUL
+       MapLibre GL JS v4.7.1 + Lazy Loading + Fallback SVG Maket
+       ========================================================= -->
+  <script>
+    const PETA_CONFIG = {
+      TITIK_TRIMURTI: [110.2780, -7.9350],
+      MARKERS: [
+        {
+          id: 0,
+          nama: 'Posko Utama PLK UNY',
+          keterangan: 'Pusat Koordinasi Mahasiswa PLK UNY Kalurahan Trimurti',
+          desa: 'Kembanggede, Trimurti, Srandakan',
+          coords: [110.2780, -7.9350],
+          color: '#162F24'
+        }
+      ],
+      PITCH_3D: 48,
+      BEARING_AWAL: -15,
+      MAX_PITCH: 60
+    };
+
+    // Data GeoJSON Wilayah Maket Diorama DIY (Bantul Fokus Ekstrusi)
+    const DIY_GEOJSON = { "type": "FeatureCollection", "features": [{ "type": "Feature", "id": "alas-maket", "properties": { "id": "alas-maket", "nama": "Alas Maket", "role": "baseboard" }, "geometry": { "type": "Polygon", "coordinates": [[[110.86349, -8.31767], [109.97443, -8.31767], [109.96103, -8.31501], [109.94968, -8.30742], [109.94209, -8.29607], [109.93943, -8.28267], [109.93943, -7.52356], [109.94209, -7.51016], [109.94968, -7.49881], [109.96103, -7.49122], [109.97443, -7.48856], [110.86349, -7.48856], [110.87689, -7.49122], [110.88824, -7.49881], [110.89583, -7.51016], [110.89849, -7.52356], [110.89849, -8.28267], [110.89583, -8.29607], [110.88824, -8.30742], [110.87689, -8.31501], [110.86349, -8.31767]]] } }, { "type": "Feature", "id": "bayangan-bantul", "properties": { "id": "bayangan-bantul", "nama": "Bayangan Bantul", "role": "shadow" }, "geometry": { "type": "Polygon", "coordinates": [[[110.2959, -7.79449], [110.29456, -7.79674], [110.29847, -7.79887], [110.29889, -7.80235], [110.2981, -7.80594], [110.29488, -7.8087], [110.29496, -7.8114], [110.29007, -7.81492], [110.2918, -7.81751], [110.2918, -7.82228], [110.2901, -7.82616], [110.29315, -7.82695], [110.29562, -7.83121], [110.29746, -7.84377], [110.30215, -7.84394], [110.30444, -7.84089], [110.30806, -7.84213], [110.3093, -7.83931], [110.3078, -7.8372], [110.3117, -7.83718], [110.31275, -7.83593], [110.31594, -7.83814], [110.31705, -7.83158], [110.32, -7.82884], [110.3248, -7.8335], [110.32614, -7.83338], [110.32699, -7.82877], [110.32452, -7.82724], [110.3256, -7.82452], [110.32444, -7.82123], [110.32604, -7.82003], [110.32518, -7.81859], [110.32615, -7.81619], [110.32846, -7.81723], [110.33026, -7.81459], [110.3341, -7.8157], [110.33638, -7.81483], [110.34027, -7.81644], [110.34021, -7.81423], [110.34229, -7.81233], [110.34152, -7.80936], [110.34286, -7.80788], [110.34752, -7.80755], [110.34902, -7.80231], [110.35348, -7.80138], [110.35638, -7.7945], [110.35572, -7.79195], [110.35768, -7.78961], [110.35904, -7.7795], [110.3592, -7.7902], [110.3562, -7.80866], [110.3526, -7.81633], [110.35411, -7.82223], [110.35997, -7.8239], [110.3588, -7.83032], [110.36038, -7.83261], [110.35961, -7.83486], [110.36801, -7.8361], [110.37578, -7.83561], [110.37765, -7.8371], [110.37943, -7.83467], [110.38317, -7.83446], [110.3835, -7.84067], [110.38757, -7.84176], [110.39014, -7.83865], [110.39392, -7.83992], [110.39472, -7.84232], [110.39184, -7.84417], [110.39592, -7.84498], [110.3967, -7.84995], [110.39949, -7.84992], [110.40056, -7.84605], [110.40506, -7.84645], [110.40566, -7.84204], [110.4068, -7.8434], [110.40929, -7.84332], [110.41014, -7.84194], [110.41275, -7.84307], [110.41509, -7.83966], [110.41475, -7.83127], [110.41347, -7.83061], [110.41335, -7.82844], [110.41144, -7.82761], [110.41229, -7.81146], [110.40812, -7.81033], [110.40586, -7.80147], [110.40704, -7.79608], [110.40814, -7.80091], [110.41053, -7.80249], [110.41221, -7.79641], [110.4206, -7.79955], [110.42124, -7.79708], [110.42283, -7.79636], [110.42283, -7.7933], [110.42428, -7.7933], [110.42502, -7.79658], [110.42896, -7.7964], [110.42871, -7.80297], [110.43082, -7.80534], [110.4289, -7.81601], [110.42998, -7.82149], [110.42912, -7.82588], [110.4308, -7.82762], [110.42932, -7.83], [110.43382, -7.83276], [110.43594, -7.83226], [110.43501, -7.83802], [110.43862, -7.84004], [110.43849, -7.84741], [110.44474, -7.84638], [110.44433, -7.84259], [110.44607, -7.8414], [110.44677, -7.83839], [110.45011, -7.83752], [110.45439, -7.83832], [110.45367, -7.83397], [110.46182, -7.83458], [110.46338, -7.8309], [110.46522, -7.83138], [110.46862, -7.82993], [110.46996, -7.83254], [110.4715, -7.83129], [110.47351, -7.8318], [110.4744, -7.83714], [110.47676, -7.83799], [110.48012, -7.8329], [110.48427, -7.83359], [110.48549, -7.83548], [110.48675, -7.83435], [110.48899, -7.83471], [110.49102, -7.8277], [110.49317, -7.82821], [110.49303, -7.83108], [110.50118, -7.83279], [110.51055, -7.83231], [110.51423, -7.8336], [110.51768, -7.83196], [110.51941, -7.83852], [110.52284, -7.83827], [110.52366, -7.8402], [110.52791, -7.84092], [110.52896, -7.84249], [110.52494, -7.8457], [110.50679, -7.84591], [110.50346, -7.84733], [110.49794, -7.8455], [110.49596, -7.84801], [110.49133, -7.84908], [110.49009, -7.85253], [110.4819, -7.86296], [110.4809, -7.86933], [110.47877, -7.87011], [110.47556, -7.87536], [110.47636, -7.88025], [110.48092, -7.88404], [110.47862, -7.88611], [110.48484, -7.89745], [110.48478, -7.8997], [110.49243, -7.89863], [110.50146, -7.90177], [110.50373, -7.90118], [110.50395, -7.90591], [110.50626, -7.91], [110.50423, -7.92374], [110.49972, -7.93491], [110.50157, -7.94127], [110.50066, -7.94664], [110.49677, -7.94765], [110.49752, -7.95128], [110.49662, -7.95285], [110.4914, -7.9501], [110.48451, -7.95124], [110.48588, -7.95883], [110.4806, -7.96271], [110.48394, -7.97346], [110.48067, -7.97594], [110.48228, -7.97812], [110.47807, -7.97781], [110.47649, -7.97903], [110.47375, -7.9772], [110.47738, -7.97641], [110.48069, -7.97195], [110.47479, -7.96776], [110.47728, -7.96479], [110.47567, -7.96242], [110.46547, -7.96592], [110.46539, -7.97381], [110.46396, -7.97487], [110.46073, -7.96995], [110.46124, -7.96515], [110.46352, -7.96388], [110.46486, -7.96031], [110.46182, -7.95592], [110.45848, -7.9549], [110.45165, -7.95998], [110.45269, -7.96662], [110.45162, -7.9748], [110.44508, -7.9748], [110.44157, -7.97236], [110.43674, -7.97841], [110.43088, -7.98144], [110.42275, -7.97941], [110.41789, -7.97997], [110.41197, -7.97691], [110.40507, -7.97786], [110.40461, -7.98305], [110.40654, -7.98624], [110.40518, -7.98875], [110.39015, -7.98998], [110.37607, -7.98141], [110.37272, -7.99129], [110.3673, -7.98932], [110.35892, -7.98318], [110.35922, -7.98727], [110.3626, -7.99005], [110.35823, -7.99815], [110.36116, -7.99989], [110.36325, -7.99864], [110.36337, -8.0001], [110.35983, -8.00347], [110.34886, -8.00271], [110.34237, -8.0051], [110.33933, -8.0074], [110.33762, -8.01269], [110.33754, -8.01758], [110.3415, -8.02497], [110.34109, -8.02691], [110.34486, -8.03058], [110.34692, -8.03538], [110.31625, -8.02563], [110.2819, -8.01694], [110.21701, -7.99254], [110.22436, -7.98835], [110.2344, -7.9776], [110.23669, -7.97267], [110.24148, -7.96932], [110.25784, -7.93746], [110.26596, -7.93358], [110.27132, -7.93786], [110.27924, -7.93748], [110.28389, -7.91874], [110.2843, -7.90943], [110.28254, -7.89956], [110.26978, -7.88151], [110.26703, -7.87495], [110.24733, -7.86119], [110.24241, -7.8538], [110.23281, -7.84845], [110.23125, -7.84596], [110.23624, -7.84374], [110.24114, -7.83894], [110.24389, -7.83154], [110.24342, -7.82433], [110.25001, -7.81623], [110.25372, -7.81477], [110.2574, -7.8156], [110.2581, -7.81373], [110.26221, -7.81139], [110.26359, -7.80639], [110.26496, -7.80686], [110.26407, -7.80965], [110.26626, -7.81023], [110.27291, -7.80426], [110.27691, -7.80569], [110.27977, -7.80314], [110.28297, -7.80322], [110.28553, -7.80136], [110.2889, -7.79517], [110.29294, -7.79619], [110.2959, -7.79449]]] } }, { "type": "Feature", "id": "Bantul", "properties": { "id": "Bantul", "nama": "Bantul", "jenis": "Kabupaten", "ibuKota": "Bantul", "baseColor": "#162F24" }, "geometry": { "type": "Polygon", "coordinates": [[[110.2869, -7.78549], [110.28556, -7.78774], [110.28947, -7.78987], [110.28989, -7.79335], [110.2891, -7.79694], [110.28588, -7.7997], [110.28596, -7.8024], [110.28107, -7.80592], [110.2828, -7.80851], [110.2828, -7.81328], [110.2811, -7.81716], [110.28415, -7.81795], [110.28662, -7.82221], [110.28846, -7.83477], [110.29315, -7.83494], [110.29544, -7.83189], [110.29906, -7.83313], [110.3003, -7.83031], [110.2988, -7.8282], [110.3027, -7.82818], [110.30375, -7.82693], [110.30694, -7.82914], [110.30805, -7.82258], [110.311, -7.81984], [110.3158, -7.8245], [110.31714, -7.82438], [110.31799, -7.81977], [110.31552, -7.81824], [110.3166, -7.81552], [110.31544, -7.81223], [110.31704, -7.81103], [110.31618, -7.80959], [110.31715, -7.80719], [110.31946, -7.80823], [110.32126, -7.80559], [110.3251, -7.8067], [110.32738, -7.80583], [110.33127, -7.80744], [110.33121, -7.80523], [110.33329, -7.80333], [110.33252, -7.80036], [110.33386, -7.79888], [110.33852, -7.79855], [110.34002, -7.79331], [110.34448, -7.79238], [110.34738, -7.7855], [110.34672, -7.78295], [110.34868, -7.78061], [110.35004, -7.7705], [110.3502, -7.7812], [110.3472, -7.79966], [110.3436, -7.80733], [110.34511, -7.81323], [110.35097, -7.8149], [110.3498, -7.82132], [110.35138, -7.82361], [110.35061, -7.82586], [110.35901, -7.8271], [110.36678, -7.82661], [110.36865, -7.8281], [110.37043, -7.82567], [110.37417, -7.82546], [110.3745, -7.83167], [110.37857, -7.83276], [110.38114, -7.82965], [110.38492, -7.83092], [110.38572, -7.83332], [110.38284, -7.83517], [110.38692, -7.83598], [110.3877, -7.84095], [110.39049, -7.84092], [110.39156, -7.83705], [110.39606, -7.83745], [110.39666, -7.83304], [110.3978, -7.8344], [110.40029, -7.83432], [110.40114, -7.83294], [110.40375, -7.83407], [110.40609, -7.83066], [110.40575, -7.82227], [110.40447, -7.82161], [110.40435, -7.81944], [110.40244, -7.81861], [110.40329, -7.80246], [110.39912, -7.80133], [110.39686, -7.79247], [110.39804, -7.78708], [110.39914, -7.79191], [110.40153, -7.79349], [110.40321, -7.78741], [110.4116, -7.79055], [110.41224, -7.78808], [110.41383, -7.78736], [110.41383, -7.7843], [110.41528, -7.7843], [110.41602, -7.78758], [110.41996, -7.7874], [110.41971, -7.79397], [110.42182, -7.79634], [110.4199, -7.80701], [110.42098, -7.81249], [110.42012, -7.81688], [110.4218, -7.81862], [110.42032, -7.821], [110.42482, -7.82376], [110.42694, -7.82326], [110.42601, -7.82902], [110.42962, -7.83104], [110.42949, -7.83841], [110.43574, -7.83738], [110.43533, -7.83359], [110.43707, -7.8324], [110.43777, -7.82939], [110.44111, -7.82852], [110.44539, -7.82932], [110.44467, -7.82497], [110.45282, -7.82558], [110.45438, -7.8219], [110.45622, -7.82238], [110.45962, -7.82093], [110.46096, -7.82354], [110.4625, -7.82229], [110.46451, -7.8228], [110.4654, -7.82814], [110.46776, -7.82899], [110.47112, -7.8239], [110.47527, -7.82459], [110.47649, -7.82648], [110.47775, -7.82535], [110.47999, -7.82571], [110.48202, -7.8187], [110.48417, -7.81921], [110.48403, -7.82208], [110.49218, -7.82379], [110.50155, -7.82331], [110.50523, -7.8246], [110.50868, -7.82296], [110.51041, -7.82952], [110.51384, -7.82927], [110.51466, -7.8312], [110.51891, -7.83192], [110.51996, -7.83349], [110.51594, -7.8367], [110.49779, -7.83691], [110.49446, -7.83833], [110.48894, -7.8365], [110.48696, -7.83901], [110.48233, -7.84008], [110.48109, -7.84353], [110.4729, -7.85396], [110.4719, -7.86033], [110.46977, -7.86111], [110.46656, -7.86636], [110.46736, -7.87125], [110.47192, -7.87504], [110.46962, -7.87711], [110.47584, -7.88845], [110.47578, -7.8907], [110.48343, -7.88963], [110.49246, -7.89277], [110.49473, -7.89218], [110.49495, -7.89691], [110.49726, -7.901], [110.49523, -7.91474], [110.49072, -7.92591], [110.49257, -7.93227], [110.49166, -7.93764], [110.48777, -7.93865], [110.48852, -7.94228], [110.48762, -7.94385], [110.4824, -7.9411], [110.47551, -7.94224], [110.47688, -7.94983], [110.4716, -7.95371], [110.47494, -7.96446], [110.47167, -7.96694], [110.47328, -7.96912], [110.46907, -7.96881], [110.46749, -7.97003], [110.46475, -7.9682], [110.46838, -7.96741], [110.47169, -7.96295], [110.46579, -7.95876], [110.46828, -7.95579], [110.46667, -7.95342], [110.45647, -7.95692], [110.45639, -7.96481], [110.45496, -7.96587], [110.45173, -7.96095], [110.45224, -7.95615], [110.45452, -7.95488], [110.45586, -7.95131], [110.45282, -7.94692], [110.44948, -7.9459], [110.44265, -7.95098], [110.44369, -7.95762], [110.44262, -7.9658], [110.43608, -7.9658], [110.43257, -7.96336], [110.42774, -7.96941], [110.42188, -7.97244], [110.41375, -7.97041], [110.40889, -7.97097], [110.40297, -7.96791], [110.39607, -7.96886], [110.39561, -7.97405], [110.39754, -7.97724], [110.39618, -7.97975], [110.38115, -7.98098], [110.36707, -7.97241], [110.36372, -7.98229], [110.3583, -7.98032], [110.34992, -7.97418], [110.35022, -7.97827], [110.3536, -7.98105], [110.34923, -7.98915], [110.35216, -7.99089], [110.35425, -7.98964], [110.35437, -7.9911], [110.35083, -7.99447], [110.33986, -7.99371], [110.33337, -7.9961], [110.33033, -7.9984], [110.32862, -8.00369], [110.32854, -8.00858], [110.3325, -8.01597], [110.33209, -8.01791], [110.33586, -8.02158], [110.33792, -8.02638], [110.30725, -8.01663], [110.2729, -8.00794], [110.20801, -7.98354], [110.21536, -7.97935], [110.2254, -7.9686], [110.22769, -7.96367], [110.23248, -7.96032], [110.24884, -7.92846], [110.25696, -7.92458], [110.26232, -7.92886], [110.27024, -7.92848], [110.27489, -7.90974], [110.2753, -7.90043], [110.27354, -7.89056], [110.26078, -7.87251], [110.25803, -7.86595], [110.23833, -7.85219], [110.23341, -7.8448], [110.22381, -7.83945], [110.22225, -7.83696], [110.22724, -7.83474], [110.23214, -7.82994], [110.23489, -7.82254], [110.23442, -7.81533], [110.24101, -7.80723], [110.24472, -7.80577], [110.2484, -7.8066], [110.2491, -7.80473], [110.25321, -7.80239], [110.25459, -7.79739], [110.25596, -7.79786], [110.25507, -7.80065], [110.25726, -7.80123], [110.26391, -7.79526], [110.26791, -7.79669], [110.27077, -7.79414], [110.27397, -7.79422], [110.27653, -7.79236], [110.2799, -7.78617], [110.28394, -7.78719], [110.2869, -7.78549]]] } }] };
+
+    const petaState = {
+      mapInstance: null,
+      mapLibreLoaded: false,
+      markerInstances: [],
+      is3D: true
+    };
+
+    // Render SVG Fallback Maket Arsitektural (Fokus Kalurahan Trimurti & Posko PLK Tunggal)
+    function renderSvgFallback() {
+      const container = document.getElementById('peta-svg-container');
+      if (!container) return;
+
+      const W = 640, H = 480;
+      container.innerHTML = `
+        <svg viewBox="0 0 ${W} ${H}" class="w-full h-full object-contain" style="background-color: #F7FAF8;">
+          <defs>
+            <pattern id="peta-grid-pattern" width="24" height="24" patternUnits="userSpaceOnUse">
+              <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#E2EBE5" stroke-width="0.75" />
+            </pattern>
+            <filter id="peta-marker-shadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#162F24" flood-opacity="0.16" />
+            </filter>
+          </defs>
+          <rect width="${W}" height="${H}" fill="#F7FAF8" />
+          <rect width="${W}" height="${H}" fill="url(#peta-grid-pattern)" />
+          
+          <!-- Ilustrasi Aliran Kali Progo -->
+          <path d="M 120,-10 C 150,130 160,250 170,370 C 175,420 165,470 150,490" fill="none" stroke="#93C5FD" stroke-width="14" stroke-linecap="round" opacity="0.55" />
+          <text x="145" y="260" fill="#3B82F6" font-size="9" font-weight="600" opacity="0.7" transform="rotate(-75 145 260)">Kali Progo</text>
+
+          <!-- Kontur Wilayah Kalurahan Trimurti Srandakan -->
+          <path d="M 180,110 Q 360,90 470,140 L 450,330 Q 310,370 190,310 Z" fill="#E8F1EC" stroke="#254F3B" stroke-width="1.8" stroke-dasharray="4 2" />
+          <text x="320" y="200" text-anchor="middle" fill="#254F3B" font-size="10" font-weight="700" letter-spacing="1">WILAYAH KALURAHAN TRIMURTI</text>
+
+          <!-- Marker Posko Utama (Langsung ke Google Maps - Desain Pin Elegan Teks Murni) -->
+          <a href="https://maps.google.com/?q=-7.9350,110.2780" target="_blank" rel="noopener noreferrer" style="cursor: pointer;" aria-label="Buka Petunjuk Arah Google Maps Posko Utama PLK UNY">
+            <g transform="translate(320, 240)" filter="url(#peta-marker-shadow)">
+              <circle cx="0" cy="0" r="14" fill="#162F24" opacity="0.12" />
+              <circle cx="0" cy="0" r="5" fill="#162F24" />
+              <circle cx="0" cy="0" r="2" fill="#FAFCFA" />
+              <line x1="0" y1="0" x2="0" y2="-16" stroke="#162F24" stroke-width="2" />
+              <g transform="translate(-75, -44)">
+                <rect width="150" height="28" rx="14" fill="#162F24" stroke="#2D5A46" stroke-width="1" />
+                <text x="75" y="18" text-anchor="middle" fill="#FAFCFA" font-size="11" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">Posko Utama PLK UNY</text>
+              </g>
+            </g>
+          </a>
+          <text x="320" y="445" text-anchor="middle" fill="#64748B" font-size="10.5" font-weight="600" letter-spacing="0.5">KAPANEWON SRANDAKAN, KABUPATEN BANTUL, D.I. YOGYAKARTA</text>
+        </svg>
+      `;
+    }
+
+    // Inisialisasi MapLibre WebGL Peta Interaktif
+    function initMapLibre() {
+      const mapDiv = document.getElementById('peta-maplibre');
+      if (!mapDiv || petaState.mapInstance) return;
+
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const isMobile = window.innerWidth < 768;
+      const targetPitch = isMobile ? 35 : PETA_CONFIG.PITCH_3D;
+      const initialPitch = prefersReduced ? targetPitch : 0;
+      const initialBearing = prefersReduced ? PETA_CONFIG.BEARING_AWAL : 0;
+      const cameraCenter = PETA_CONFIG.TITIK_TRIMURTI;
+      const cameraZoom = isMobile ? 12.6 : 13.4;
+
+      const map = new maplibregl.Map({
+        container: 'peta-maplibre',
+        center: cameraCenter,
+        zoom: cameraZoom,
+        pitch: initialPitch,
+        bearing: initialBearing,
+        maxPitch: PETA_CONFIG.MAX_PITCH,
+        attributionControl: false,
+        scrollZoom: false, // Menghindari scroll-trap halaman
+        cooperativeGestures: false, // Bebas dari banner "Use Ctrl + scroll"
+        dragRotate: true,
+        touchZoomRotate: true,
+        doubleClickZoom: true,
+        style: {
+          version: 8,
+          name: 'Trimurti Srandakan Light Cartography',
+          sources: {
+            'osm-tiles': {
+              type: 'raster',
+              tiles: [
+                'https://a.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',
+                'https://b.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',
+                'https://c.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png'
+              ],
+              tileSize: 256,
+              attribution: '&copy; OpenStreetMap France | &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'
+            },
+            'diy-data': {
+              type: 'geojson',
+              data: DIY_GEOJSON,
+              promoteId: 'id'
+            }
+          },
+          layers: [
+            {
+              id: 'background',
+              type: 'background',
+              paint: { 'background-color': '#F7FAF8' }
+            },
+            {
+              id: 'osm-tiles-layer',
+              type: 'raster',
+              source: 'osm-tiles',
+              minzoom: 0,
+              maxzoom: 19
+            },
+            {
+              id: 'bantul-boundary',
+              type: 'line',
+              source: 'diy-data',
+              filter: ['==', ['get', 'nama'], 'Bantul'],
+              paint: {
+                'line-color': '#162F24',
+                'line-width': 2.5,
+                'line-dasharray': [4, 3],
+                'line-opacity': 0.75
+              }
+            },
+            {
+              id: 'bantul-fill-subtle',
+              type: 'fill',
+              source: 'diy-data',
+              filter: ['==', ['get', 'nama'], 'Bantul'],
+              paint: {
+                'fill-color': '#254F3B',
+                'fill-opacity': 0.04
+              }
+            }
+          ]
+        }
+      });
+
+      petaState.mapInstance = map;
+
+      map.on('load', () => {
+        petaState.mapLibreLoaded = true;
+        map.resize();
+        mapDiv.classList.remove('opacity-0');
+        mapDiv.classList.add('opacity-100');
+
+        // Render Real Marker Posko Utama PLK UNY di Trimurti (Langsung Buka Google Maps)
+        PETA_CONFIG.MARKERS.forEach(m => {
+          const el = document.createElement('div');
+          el.className = 'peta-marker-pin cursor-pointer group';
+          el.setAttribute('role', 'button');
+          el.setAttribute('tabindex', '0');
+          el.setAttribute('aria-label', `${m.nama} - Buka Petunjuk Arah di Google Maps`);
+          el.setAttribute('title', 'Buka Petunjuk Arah Google Maps');
+          el.innerHTML = `
+            <div class="peta-marker-badge transition-all transform group-hover:scale-105 shadow-md flex items-center justify-center px-3.5 py-1.5 rounded-full bg-brand-forest text-brand-surface border border-brand-forestHover text-[11px] font-bold">
+              <span class="tracking-wide">${m.nama}</span>
+            </div>
+            <div class="w-0.5 h-4 bg-brand-forest mx-auto"></div>
+            <div class="w-3.5 h-3.5 rounded-full border-2 border-brand-surface bg-brand-forest mx-auto shadow-sm"></div>
+          `;
+
+          const gmapsUrl = `https://maps.google.com/?q=${m.coords[1]},${m.coords[0]}`;
+
+          el.addEventListener('click', (e) => {
+            e.stopPropagation();
+            window.open(gmapsUrl, '_blank', 'noopener,noreferrer');
+          });
+
+          el.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              window.open(gmapsUrl, '_blank', 'noopener,noreferrer');
+            }
+          });
+
+          const marker = new maplibregl.Marker({ element: el, anchor: 'bottom' })
+            .setLngLat(m.coords)
+            .addTo(map);
+
+          petaState.markerInstances.push(marker);
+        });
+
+        // Intro Camera Animation
+        if (!prefersReduced) {
+          map.easeTo({
+            pitch: targetPitch,
+            bearing: PETA_CONFIG.BEARING_AWAL,
+            duration: 900
+          });
+        }
+
+        const compassArrow = document.getElementById('peta-compass-arrow');
+        map.on('rotate', () => {
+          const b = map.getBearing();
+          if (compassArrow) compassArrow.style.transform = `rotate(${-b}deg)`;
+        });
+      });
+
+      // Quick Marker Focus Function -> Langsung Buka Petunjuk Arah Google Maps
+      window.focusMarker = function (id) {
+        const target = PETA_CONFIG.MARKERS[id];
+        if (target) {
+          window.open(`https://maps.google.com/?q=${target.coords[1]},${target.coords[0]}`, '_blank', 'noopener,noreferrer');
+        }
+      };
+
+      // Toolbar Controls
+      const btnNorth = document.getElementById('peta-btn-north');
+      const btnZoomIn = document.getElementById('peta-btn-zoom-in');
+      const btnZoomOut = document.getElementById('peta-btn-zoom-out');
+      const btnToggle3D = document.getElementById('peta-btn-toggle-3d');
+      const labelToggle3D = document.getElementById('peta-label-toggle-3d');
+      const btnResetDIY = document.getElementById('peta-btn-reset-diy');
+
+      if (btnNorth) btnNorth.addEventListener('click', () => map.easeTo({ bearing: 0, duration: 400 }));
+      if (btnZoomIn) btnZoomIn.addEventListener('click', () => map.zoomIn({ duration: 300 }));
+      if (btnZoomOut) btnZoomOut.addEventListener('click', () => map.zoomOut({ duration: 300 }));
+
+      if (btnToggle3D) {
+        btnToggle3D.addEventListener('click', () => {
+          petaState.is3D = !petaState.is3D;
+          if (labelToggle3D) labelToggle3D.textContent = petaState.is3D ? '3D' : '2D';
+          map.easeTo({
+            center: cameraCenter,
+            pitch: petaState.is3D ? targetPitch : 0,
+            bearing: petaState.is3D ? PETA_CONFIG.BEARING_AWAL : 0,
+            duration: 600
+          });
+        });
+      }
+
+      if (btnResetDIY) {
+        btnResetDIY.addEventListener('click', () => {
+          map.easeTo({
+            center: cameraCenter,
+            zoom: cameraZoom,
+            pitch: petaState.is3D ? targetPitch : 0,
+            bearing: petaState.is3D ? PETA_CONFIG.BEARING_AWAL : 0,
+            duration: 600
+          });
+        });
+      }
+
+      // ResizeObserver untuk memastikan canvas map responsif saat viewport berubah
+      const mapWrapper = document.getElementById('peta-map-wrapper');
+      if (mapWrapper && window.ResizeObserver) {
+        const resizeObs = new ResizeObserver(() => {
+          if (petaState.mapInstance) {
+            petaState.mapInstance.resize();
+          }
+        });
+        resizeObs.observe(mapWrapper);
+      }
+    }
+
+    // Lazy Loading MapLibre Vendor (Prioritaskan Vendor Lokal DESIGN.md S11)
+    function loadMapLibreScripts(onLoaded) {
+      if (window.maplibregl) {
+        if (onLoaded) onLoaded();
+        return;
+      }
+
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'assets/vendor/maplibre/maplibre-gl.css';
+      link.onerror = () => {
+        link.href = 'https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css';
+      };
+      document.head.appendChild(link);
+
+      const script = document.createElement('script');
+      script.src = 'assets/vendor/maplibre/maplibre-gl.js';
+      script.async = true;
+      script.onload = () => {
+        if (onLoaded) onLoaded();
+      };
+      script.onerror = () => {
+        const fallbackScript = document.createElement('script');
+        fallbackScript.src = 'https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js';
+        fallbackScript.async = true;
+        fallbackScript.onload = () => {
+          if (onLoaded) onLoaded();
+        };
+        fallbackScript.onerror = () => {
+          console.warn('MapLibre vendor tidak dapat dimuat, fallback SVG aktif.');
+        };
+        document.head.appendChild(fallbackScript);
+      };
+      document.head.appendChild(script);
+    }
+
+    function initPetaSection() {
+      renderSvgFallback();
+      if (window.lucide && lucide.createIcons) lucide.createIcons();
+
+      const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+      const isSaveData = connection && connection.saveData;
+      const saveBanner = document.getElementById('peta-save-data-banner');
+      const btnLoad = document.getElementById('btn-load-peta-interactive');
+
+      if (isSaveData) {
+        if (saveBanner) saveBanner.classList.remove('hidden');
+        if (btnLoad) {
+          btnLoad.addEventListener('click', () => {
+            if (saveBanner) saveBanner.classList.add('hidden');
+            loadMapLibreScripts(initMapLibre);
+          });
+        }
+        return;
+      }
+
+      const section = document.getElementById('peta-lokasi');
+      if (section && 'IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              obs.unobserve(entry.target);
+              loadMapLibreScripts(initMapLibre);
+            }
+          });
+        }, { rootMargin: '400px' });
+        observer.observe(section);
+      } else {
+        loadMapLibreScripts(initMapLibre);
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initPetaSection);
+    } else {
+      initPetaSection();
+    }
+  </script>
+
+  <!-- =========================================================
+       10. VANILLA SCROLL MOTION ENGINE (Zero External Library)
+       ========================================================= -->
+  <script id="motion-engine">
+    (() => {
+      "use strict";
+      const s = window.matchMedia("(prefers-reduced-motion: reduce)");
+      let isReduced = s.matches;
+      s.addEventListener("change", e => { isReduced = e.matches; });
+
+      if (!("IntersectionObserver" in window)) return;
+
+      function tampilkanElemen(el) {
+        if (!el || el.classList.contains("tampil")) return;
+        el.classList.add("tampil");
+      }
+
+      document.documentElement.classList.add("animasiSiap");
+
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            obs.unobserve(entry.target);
+            tampilkanElemen(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -5% 0px" });
+
+      const targets = document.querySelectorAll(".gerakJudul, .gerakTeks, .gerakFoto, .gerakGaris, .gerakKartu");
+      targets.forEach(el => observer.observe(el));
+
+      // Header Scroll Sentinel
+      const sentinel = document.getElementById("header-sentinel");
+      const headerNav = document.getElementById("header-nav");
+      if (sentinel && headerNav) {
+        new IntersectionObserver(([e]) => {
+          headerNav.classList.toggle("headerKecil", !e.isIntersecting);
+        }).observe(sentinel);
+      }
+
+      // Active Nav Indicator Tracking & Deterministic Scrollspy
+      const desktopNav = document.getElementById("desktop-nav") || document.querySelector("header .header-inner nav");
+      const desktopLinks = desktopNav ? desktopNav.querySelectorAll('a[href^="#"]') : [];
+      const mobileLinks = document.querySelectorAll('#mobile-nav a[href^="#"]');
+      const indicator = document.getElementById("nav-indicator-line");
+      const sectionMap = [];
+
+      desktopLinks.forEach(a => {
+        const id = a.getAttribute("href").slice(1);
+        const sec = document.getElementById(id);
+        if (sec) sectionMap.push({ a, sec, id });
+      });
+
+      let isNavClickScrolling = false;
+      let clickTargetHref = null;
+      let navClickTimeout = null;
+
+      function updateIndicator(targetDesktop) {
+        if (!indicator || !desktopNav || !targetDesktop) return;
+        const rectA = targetDesktop.getBoundingClientRect();
+        const rectNav = desktopNav.getBoundingClientRect();
+        if (rectA.width > 0 && rectNav.width > 0) {
+          indicator.style.width = rectA.width + "px";
+          indicator.style.transform = "translateX(" + (rectA.left - rectNav.left) + "px)";
+          indicator.style.opacity = "1";
+        }
+      }
+
+      function setActiveNav(activeLink, isFromClick = false) {
+        if (!activeLink) return;
+        const href = activeLink.getAttribute("href");
+        if (!href) return;
+
+        let targetDesktop = activeLink;
+        if (!activeLink.closest('#desktop-nav')) {
+          targetDesktop = Array.from(desktopLinks).find(l => l.getAttribute("href") === href) || activeLink;
+        }
+
+        desktopLinks.forEach(l => {
+          l.classList.remove("text-emerald-400", "text-brand-forest", "font-bold", "active");
+          l.classList.add("text-gray-300");
+        });
+        if (targetDesktop && targetDesktop.classList) {
+          targetDesktop.classList.remove("text-gray-300");
+          targetDesktop.classList.add("text-emerald-400", "font-bold", "active");
+          updateIndicator(targetDesktop);
+        }
+
+        // Sinkronisasi status aktif menu mobile drawer
+        mobileLinks.forEach(mLink => {
+          const isActive = mLink.getAttribute("href") === href;
+          mLink.classList.toggle("text-emerald-400", isActive);
+          mLink.classList.toggle("font-bold", isActive);
+          mLink.classList.toggle("active", isActive);
+          mLink.classList.toggle("bg-emerald-950/60", isActive);
+        });
+
+        if (isFromClick) {
+          isNavClickScrolling = true;
+          clickTargetHref = href;
+          clearTimeout(navClickTimeout);
+          navClickTimeout = setTimeout(() => {
+            isNavClickScrolling = false;
+            clickTargetHref = null;
+          }, 2500);
+        }
+      }
+
+      window.setActiveNavGlobal = setActiveNav;
+      window.setNavClickLock = (val) => {
+        isNavClickScrolling = !!val;
+        if (!val) {
+          clickTargetHref = null;
+          clearTimeout(navClickTimeout);
+        }
+      };
+
+      // Reset click lock immediately when user manually scrolls
+      window.addEventListener("wheel", () => {
+        if (isNavClickScrolling) {
+          isNavClickScrolling = false;
+          clickTargetHref = null;
+          clearTimeout(navClickTimeout);
+        }
+      }, { passive: true });
+
+      window.addEventListener("touchmove", () => {
+        if (isNavClickScrolling) {
+          isNavClickScrolling = false;
+          clickTargetHref = null;
+          clearTimeout(navClickTimeout);
+        }
+      }, { passive: true });
+
+      function getActiveSectionLink(overrideScrollY) {
+        if (!sectionMap.length) return null;
+        const scrollY = typeof overrideScrollY === 'number' ? overrideScrollY : (window.pageYOffset || document.documentElement.scrollTop);
+        const viewportHeight = window.innerHeight;
+        const docHeight = document.documentElement.scrollHeight;
+        const maxScroll = docHeight - viewportHeight;
+
+        // 1. Di bagian paling atas halaman (< 120px) -> selalu Beranda
+        if (scrollY < 120) {
+          return sectionMap[0].a;
+        }
+
+        // 2. Di bagian paling bawah halaman (mendekati footer/kontak) -> selalu Kontak
+        if (maxScroll > 0 && scrollY >= maxScroll - 40) {
+          return sectionMap[sectionMap.length - 1].a;
+        }
+
+        // 3. Garis baca (focal reading line): header ~68px, area pandang aktif ~140px dari atas viewport
+        const focalLine = scrollY + 140;
+
+        // Cari seksi yang mencakup garis baca saat ini
+        for (let i = 0; i < sectionMap.length; i++) {
+          const { a, sec } = sectionMap[i];
+          const top = sec.offsetTop;
+          const height = sec.offsetHeight;
+          if (focalLine >= top && focalLine < top + height) {
+            return a;
+          }
+        }
+
+        // Fallback: seksi terakhir yang posisinya <= focalLine
+        for (let i = sectionMap.length - 1; i >= 0; i--) {
+          const { a, sec } = sectionMap[i];
+          const top = sec.offsetTop;
+          if (top <= focalLine) {
+            return a;
+          }
+        }
+
+        return sectionMap[0].a;
+      }
+
+      window.getActiveSectionLink = getActiveSectionLink;
+
+      // Reading Progress Bar & Scroll Throttling via requestAnimationFrame
+      const bar = document.getElementById("progress-bar-baca");
+      let scrollRafTicking = false;
+
+      function handleThrottledScroll() {
+        const top = window.pageYOffset || document.documentElement.scrollTop;
+        const total = document.documentElement.scrollHeight - window.innerHeight;
+        if (bar && total > 0) {
+          bar.style.transform = "scaleX(" + Math.min(Math.max(top / total, 0), 1) + ")";
+        }
+        if (sectionMap.length && indicator) {
+          const active = getActiveSectionLink();
+          if (active) {
+            const activeHref = active.getAttribute("href");
+            if (isNavClickScrolling) {
+              if (activeHref === clickTargetHref) {
+                isNavClickScrolling = false;
+                clickTargetHref = null;
+                clearTimeout(navClickTimeout);
+              }
+            } else {
+              setActiveNav(active, false);
+            }
+          }
+        }
+        scrollRafTicking = false;
+      }
+
+      window.addEventListener("scroll", () => {
+        if (!scrollRafTicking) {
+          window.requestAnimationFrame(handleThrottledScroll);
+          scrollRafTicking = true;
+        }
+      }, { passive: true });
+      window.checkBottomNavScroll = handleThrottledScroll;
+
+      // Respon otomatis saat resize layar dan font siap
+      window.addEventListener("resize", () => {
+        const currentActive = desktopNav ? desktopNav.querySelector('a.active') : null;
+        if (currentActive) updateIndicator(currentActive);
+        if (!scrollRafTicking) {
+          window.requestAnimationFrame(handleThrottledScroll);
+          scrollRafTicking = true;
+        }
+      }, { passive: true });
+
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(() => {
+          const currentActive = desktopNav ? desktopNav.querySelector('a.active') : null;
+          if (currentActive) updateIndicator(currentActive);
+        });
+      }
+
+      // Inisialisasi awal
+      if (sectionMap[0]) {
+        setActiveNav(sectionMap[0].a, false);
+        handleThrottledScroll();
+      }
+
+      if (window.lucide && lucide.createIcons) lucide.createIcons();
+    })();
+  </script>
+
+  <!-- =========================================================
+       11. VELOCITY SCROLL & SMOOTH INERTIA ENGINE
+       Integrasi Lenis Smooth Scroll + Physics-Based Kinetic Marquee
+       ========================================================= -->
+  <script id="velocity-scroll-engine">
+    (() => {
+      "use strict";
+
+      const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      // -------------------------------------------------------------
+      // A. SMOOTH INERTIA / MOMENTUM SCROLL (Lenis Engine)
+      // -------------------------------------------------------------
+      let lenis = null;
+      let currentScrollVelocity = 0;
+      let targetScrollVelocity = 0;
+
+      if (!prefersReduced && typeof Lenis !== "undefined") {
+        try {
+          lenis = new Lenis({
+            duration: 1.15,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            orientation: "vertical",
+            gestureOrientation: "vertical",
+            smoothWheel: true,
+            wheelMultiplier: 0.95,
+            touchMultiplier: 1.2,
+            infinite: false
+          });
+          window.lenis = lenis;
+
+          lenis.on("scroll", (e) => {
+            targetScrollVelocity = e.velocity || 0;
+            if (window.checkBottomNavScroll) window.checkBottomNavScroll();
+            if (window.glyphPortalScroll) window.glyphPortalScroll();
+          });
+
+          function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+          }
+          requestAnimationFrame(raf);
+
+          const auditScroll = new URLSearchParams(window.location.search).get("audit_scroll");
+          if (auditScroll) {
+            const auditY = parseFloat(auditScroll);
+            if (!isNaN(auditY)) {
+              window.scrollTo(0, auditY);
+              lenis.scrollTo(auditY, { immediate: true });
+              window.dispatchEvent(new Event("scroll"));
+            }
+          } else if (window.location.hash) {
+            const hashTarget = document.querySelector(window.location.hash);
+            if (hashTarget) {
+              lenis.scrollTo(hashTarget, { offset: -68, immediate: true });
+              window.dispatchEvent(new Event("scroll"));
+            }
+          }
+
+          // Hook internal anchor clicks for buttery smooth scrolling
+          const scrollAnchors = document.querySelectorAll('header nav a[href^="#"], .mobile-nav-link, a[href^="#peta-lokasi"], a[href^="#program-kerja"], header a[href="#beranda"]');
+          scrollAnchors.forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+              const href = this.getAttribute("href");
+              if (href && href.length > 1) {
+                const target = document.querySelector(href);
+                if (target) {
+                  e.preventDefault();
+                  if (window.setActiveNavGlobal) {
+                    window.setActiveNavGlobal(this, true);
+                  }
+                  lenis.scrollTo(target, {
+                    offset: -68,
+                    duration: 1.1,
+                    onComplete: () => {
+                      if (window.setNavClickLock) {
+                        window.setNavClickLock(false);
+                      }
+                      if (window.setActiveNavGlobal) {
+                        window.setActiveNavGlobal(this, false);
+                      }
+                    }
+                  });
+                }
+              }
+            });
+          });
+        } catch (err) {
+          console.warn("Lenis init fallback to native scroll", err);
+        }
+      } else {
+        // Fallback smooth scroll jika reduced motion aktif atau Lenis tidak tersedia
+        const fallbackAnchors = document.querySelectorAll('header nav a[href^="#"], .mobile-nav-link, a[href^="#peta-lokasi"], a[href^="#program-kerja"], header a[href="#beranda"]');
+        fallbackAnchors.forEach(anchor => {
+          anchor.addEventListener("click", function (e) {
+            const href = this.getAttribute("href");
+            if (href && href.length > 1) {
+              const target = document.querySelector(href);
+              if (target) {
+                e.preventDefault();
+                if (window.setActiveNavGlobal) {
+                  window.setActiveNavGlobal(this, true);
+                }
+                const targetTop = target.getBoundingClientRect().top + (window.pageYOffset || document.documentElement.scrollTop) - 68;
+                window.scrollTo({ top: Math.max(0, targetTop), behavior: prefersReduced ? "auto" : "smooth" });
+              }
+            }
+          });
+        });
+      }
+    })();
+  </script>
+
+  <!-- =========================================================
+       12. JAVASCRIPT: MACOS GLASSMORPHISM DESKTOP CURSOR ENGINE
+       Smooth lerp motion, interactive magnetic expand, dark/light theme aware
+       ========================================================= -->
+  <script id="mac-cursor-engine">
+    (() => {
+      "use strict";
+
+      const isDesktopPointer = () => window.matchMedia("(pointer: fine) and (min-width: 1025px)").matches;
+      const isReduced = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      const cursorEl = document.getElementById("mac-cursor");
+      if (!cursorEl) return;
+
+      if (!isDesktopPointer() || isReduced()) {
+        cursorEl.style.display = "none";
+        return;
+      }
+
+      document.body.classList.add("has-custom-cursor");
+
+      let mouseX = -100;
+      let mouseY = -100;
+      let cursorX = -100;
+      let cursorY = -100;
+      let isVisible = false;
+      let rafId = null;
+
+      // Accelerated Lerp factor for instant, zero-delay tracking
+      const LERP_FACTOR = 0.75;
+
+      function renderCursor() {
+        if (!isVisible) {
+          rafId = null;
+          return;
+        }
+
+        const dx = mouseX - cursorX;
+        const dy = mouseY - cursorY;
+
+        cursorX += dx * LERP_FACTOR;
+        cursorY += dy * LERP_FACTOR;
+
+        cursorEl.style.setProperty('--cursor-x', `${cursorX.toFixed(1)}px`);
+        cursorEl.style.setProperty('--cursor-y', `${cursorY.toFixed(1)}px`);
+
+        if (Math.abs(dx) > 0.25 || Math.abs(dy) > 0.25) {
+          rafId = requestAnimationFrame(renderCursor);
+        } else {
+          cursorX = mouseX;
+          cursorY = mouseY;
+          cursorEl.style.setProperty('--cursor-x', `${cursorX}px`);
+          cursorEl.style.setProperty('--cursor-y', `${cursorY}px`);
+          rafId = null;
+        }
+      }
+
+      function scheduleRender() {
+        if (!rafId && isVisible) {
+          rafId = requestAnimationFrame(renderCursor);
+        }
+      }
+
+      window.addEventListener("mousemove", (e) => {
+        if (!isDesktopPointer()) return;
+
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+
+        if (!isVisible) {
+          isVisible = true;
+          cursorX = mouseX;
+          cursorY = mouseY;
+          cursorEl.style.setProperty('--cursor-x', `${cursorX}px`);
+          cursorEl.style.setProperty('--cursor-y', `${cursorY}px`);
+          cursorEl.style.opacity = "1";
+        }
+
+        scheduleRender();
+
+        const target = e.target;
+        if (!target) return;
+
+        // 1. Text input detection
+        const isTextInput = target.matches('input, textarea, [contenteditable="true"]');
+        cursorEl.classList.toggle("is-text", isTextInput);
+
+        if (!isTextInput) {
+          // 2. Interactive element hover detection
+          const interactive = target.closest('a, button, [role="button"], [role="tab"], summary, select, .touch-target, .sq-card, .sq-arrow-btn, .gallery-filter-btn, .team-card, .cursor-pointer, [tabindex="0"]');
+          cursorEl.classList.toggle("is-hovering", !!interactive);
+        } else {
+          cursorEl.classList.remove("is-hovering");
+        }
+
+        // 3. Dark background detection
+        const onDark = target.closest('.hero-container, header#header-nav, #mobile-nav, footer, .bg-grain-ambient, .light-modal-backdrop, [data-gp-art]');
+        cursorEl.classList.toggle("is-on-dark", !!onDark);
+      }, { passive: true });
+
+      window.addEventListener("mousedown", () => {
+        if (isVisible) cursorEl.classList.add("is-active");
+      });
+
+      window.addEventListener("mouseup", () => {
+        if (isVisible) cursorEl.classList.remove("is-active");
+      });
+
+      document.addEventListener("mouseleave", () => {
+        isVisible = false;
+        cursorEl.style.opacity = "0";
+      });
+
+      document.addEventListener("mouseenter", (e) => {
+        if (isDesktopPointer()) {
+          isVisible = true;
+          mouseX = e.clientX;
+          mouseY = e.clientY;
+          cursorX = mouseX;
+          cursorY = mouseY;
+          cursorEl.style.setProperty('--cursor-x', `${cursorX}px`);
+          cursorEl.style.setProperty('--cursor-y', `${cursorY}px`);
+          cursorEl.style.opacity = "1";
+          scheduleRender();
+        }
+      });
+
+      window.addEventListener("resize", () => {
+        const desktop = isDesktopPointer() && !isReduced();
+        document.body.classList.toggle("has-custom-cursor", desktop);
+        if (!desktop) {
+          isVisible = false;
+          cursorEl.style.opacity = "0";
+        }
+      }, { passive: true });
+    })();
+  </script>
+
+</body>
+
+</html>

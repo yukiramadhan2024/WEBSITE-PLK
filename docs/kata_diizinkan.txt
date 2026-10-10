@@ -1,0 +1,7 @@
+# DAFTAR KATA DIIZINKAN (PENGECUALIAN RESMI)
+# Sesuai DESIGN.md Bagian 8 & Bagian 14
+# Berisi istilah resmi, nama dokumen, atau fakta bidang yang dikecualikan dari larangan jika disertai rincian konkret
+
+# Saat ini seluruh teks publik pada antarmuka WEBSITE PLK UNY Mengabdi
+# telah berhasil dibersihkan dari seluruh kata klise dan kata terlarang tanpa pengecualian.
+# Daftar ini disediakan sebagai referensi bila kelak terdapat nama program resmi dari kementerian/kampus.
